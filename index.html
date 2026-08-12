@@ -3,154 +3,42 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Caterina Mauri — Professor of Linguistics at the University of Bologna. Research on linguistic diversity, spoken language, typology and pragmatics.">
-  <meta name="theme-color" content="#f2eee5">
+  <meta name="description" content="Caterina Mauri — Linguist at the University of Bologna.">
+  <meta name="theme-color" content="#fbfaf7">
   <title>Caterina Mauri — Linguist</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="sobrio.css">
+  <script src="site.js" defer></script>
 </head>
-<body>
-  <header class="site-header">
-    <a class="wordmark" href="#top" aria-label="Caterina Mauri, home">CM<span>.</span></a>
-    <nav aria-label="Main navigation">
-      <a href="#research" data-en="Research" data-it="Ricerca">Research</a>
-      <a href="#projects" data-en="Projects" data-it="Progetti">Projects</a>
-      <a href="#publications" data-en="Publications" data-it="Pubblicazioni">Publications</a>
-      <a href="#contact" data-en="Contact" data-it="Contatti">Contact</a>
-    </nav>
-    <button class="lang-switch" type="button" aria-label="Passa all'italiano">IT</button>
-  </header>
-
-  <main id="top">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-kicker reveal">
-        <span class="eyebrow" data-en="Linguist · Professor · Researcher" data-it="Linguista · Professoressa · Ricercatrice">Linguist · Professor · Researcher</span>
-        <span class="issue">Bologna, Italy <i></i> 2026</span>
+<body class="sober index-only">
+  <main>
+    <section class="home-index" aria-labelledby="hero-title">
+      <svg class="index-rays" viewBox="0 0 1000 700" aria-hidden="true" focusable="false">
+        <path d="M500 350 180 90M500 350 390 65M500 350 610 65M500 350 820 90M500 350 930 275M500 350 820 610M500 350 610 650M500 350 390 650M500 350 180 610M500 350 70 275"/>
+      </svg>
+      <div class="index-center">
+        <img src="assets/caterina-mauri-unibo.jpg" alt="Caterina Mauri" width="112" height="112">
+        <h1 id="hero-title">Caterina Mauri</h1>
+        <p>Linguistics · University of Bologna</p>
       </div>
-      <div class="hero-grid">
-        <div class="hero-copy reveal">
-          <h1 id="hero-title">Caterina<br><em>Mauri</em></h1>
-          <p class="lead" data-en="I study how languages vary, change, and take shape in interaction." data-it="Studio come le lingue variano, cambiano e prendono forma nell’interazione.">I study how languages vary, change, and take shape in interaction.</p>
-        </div>
-        <aside class="hero-note reveal">
-          <p data-en="Associate Professor of Linguistics at the University of Bologna. My work brings together linguistic typology, diachrony, pragmatics and spoken-language corpora." data-it="Professoressa associata di Linguistica all’Università di Bologna. La mia ricerca integra tipologia linguistica, diacronia, pragmatica e corpora di lingua parlata.">Associate Professor of Linguistics at the University of Bologna. My work brings together linguistic typology, diachrony, pragmatics and spoken-language corpora.</p>
-          <a class="arrow-link" href="assets/Caterina-Mauri-CV.docx" download data-en="Download full CV" data-it="Scarica il CV completo">Download full CV <span>↘</span></a>
-        </aside>
-      </div>
-      <div class="hero-mark" aria-hidden="true"><span>language</span><span>diversity</span><span>interaction</span></div>
-    </section>
-
-    <section class="intro ruled" id="research">
-      <div class="section-index">01 / <span data-en="Profile" data-it="Profilo">Profile</span></div>
-      <div class="intro-body reveal">
-        <h2 data-en="Language is never one thing." data-it="La lingua non è mai una cosa sola.">Language is never one thing.</h2>
-        <div class="columns">
-          <p data-en="My research explores linguistic diversity across languages, across time and within communities of speakers. I am especially interested in the ways people build categories, connect ideas and negotiate meaning in real interaction." data-it="La mia ricerca esplora la diversità linguistica tra lingue, nel tempo e all’interno delle comunità di parlanti. Mi interessano in particolare i modi in cui costruiamo categorie, connettiamo idee e negoziamo significati nell’interazione reale.">My research explores linguistic diversity across languages, across time and within communities of speakers. I am especially interested in the ways people build categories, connect ideas and negotiate meaning in real interaction.</p>
-          <p data-en="I combine cross-linguistic comparison with corpus-based discourse analysis, diachronic investigation and psycholinguistic methods: different kinds of evidence for a more complete account of language." data-it="Combino la comparazione interlinguistica con l’analisi del discorso basata su corpora, l’indagine diacronica e i metodi psicolinguistici: evidenze diverse per una comprensione più completa del linguaggio.">I combine cross-linguistic comparison with corpus-based discourse analysis, diachronic investigation and psycholinguistic methods: different kinds of evidence for a more complete account of language.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="topics ruled" aria-labelledby="topics-title">
-      <div class="section-index">02 / <span data-en="Research areas" data-it="Aree di ricerca">Research areas</span></div>
-      <div class="topic-list" id="topics-title">
-        <article class="topic reveal">
-          <span>01</span><h3 data-en="Linguistic diversity" data-it="Diversità linguistica">Linguistic diversity</h3>
-          <p data-en="Typology and variation across the world’s languages." data-it="Tipologia e variazione nelle lingue del mondo.">Typology and variation across the world’s languages.</p>
-        </article>
-        <article class="topic reveal">
-          <span>02</span><h3 data-en="Spoken interaction" data-it="Interazione parlata">Spoken interaction</h3>
-          <p data-en="Corpora, annotation and the grammar of language in use." data-it="Corpora, annotazione e grammatica della lingua in uso.">Corpora, annotation and the grammar of language in use.</p>
-        </article>
-        <article class="topic reveal">
-          <span>03</span><h3 data-en="Categories & cognition" data-it="Categorie e cognizione">Categories & cognition</h3>
-          <p data-en="How context and language shape ad hoc categories." data-it="Come il contesto e la lingua costruiscono categorie ad hoc.">How context and language shape ad hoc categories.</p>
-        </article>
-        <article class="topic reveal">
-          <span>04</span><h3 data-en="Language change" data-it="Mutamento linguistico">Language change</h3>
-          <p data-en="Diachrony, grammaticalization, connectives and discourse." data-it="Diacronia, grammaticalizzazione, connettivi e discorso.">Diachrony, grammaticalization, connectives and discourse.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="projects ruled" id="projects">
-      <div class="section-index">03 / <span data-en="Selected projects" data-it="Progetti selezionati">Selected projects</span></div>
-      <div class="projects-grid">
-        <article class="project project-featured reveal">
-          <div class="project-meta"><span>2023—</span><span>Principal Investigator</span></div>
-          <h2>DiverSIta</h2>
-          <p class="project-subtitle">Diversity in Spoken Italian</p>
-          <p data-en="A national research project documenting and analysing the many forms of diversity in spoken Italian." data-it="Un progetto nazionale che documenta e analizza le molte forme della diversità nell’italiano parlato.">A national research project documenting and analysing the many forms of diversity in spoken Italian.</p>
-          <a class="arrow-link light" href="https://site.unibo.it/diversita-italiano-parlato/en" target="_blank" rel="noopener" data-en="Visit the project" data-it="Visita il progetto">Visit the project <span>↗</span></a>
-        </article>
-        <article class="project reveal">
-          <div class="project-meta"><span>Corpus</span><span>Coordinator</span></div>
-          <h2>KIParla</h2>
-          <p data-en="A continuously growing, open-access corpus of spoken Italian, designed for the study of language in interaction." data-it="Un corpus aperto e in continua crescita dell’italiano parlato, progettato per studiare la lingua nell’interazione.">A continuously growing, open-access corpus of spoken Italian, designed for the study of language in interaction.</p>
-          <a class="arrow-link" href="https://kiparla.it/" target="_blank" rel="noopener" data-en="Explore the corpus" data-it="Esplora il corpus">Explore the corpus <span>↗</span></a>
-        </article>
-        <article class="project reveal">
-          <div class="project-meta"><span>2015—2019</span><span>Principal Investigator</span></div>
-          <h2>LEAdhoC</h2>
-          <p data-en="Linguistic expression of ad hoc categories: how languages make flexible, context-bound groupings visible." data-it="L’espressione linguistica delle categorie ad hoc: come le lingue rendono visibili raggruppamenti flessibili e legati al contesto.">Linguistic expression of ad hoc categories: how languages make flexible, context-bound groupings visible.</p>
-          <a class="arrow-link" href="https://www.leadhoc.org/" target="_blank" rel="noopener" data-en="Visit the project" data-it="Visita il progetto">Visit the project <span>↗</span></a>
-        </article>
-      </div>
-    </section>
-
-    <section class="publications ruled" id="publications">
-      <div class="section-index">04 / <span data-en="Selected publications" data-it="Pubblicazioni selezionate">Selected publications</span></div>
-      <div class="publication-wrap">
-        <div class="publication-heading reveal">
-          <h2 data-en="Recent work" data-it="Lavori recenti">Recent work</h2>
-          <p data-en="Selected publications on spoken language, typology and discourse." data-it="Una selezione di pubblicazioni su lingua parlata, tipologia e discorso.">Selected publications on spoken language, typology and discourse.</p>
-        </div>
-        <ol class="publication-list">
-          <li class="reveal"><span class="year">2026</span><div><h3>Reuse by Design: A Pivot-Based Architecture for the KIParla Corpus of Spoken Italian</h3><p>with Ludovica Pannitto · <em>Journal of Open Humanities Data</em></p></div></li>
-          <li class="reveal"><span class="year">2026</span><div><h3>Subjunctive/indicative alternation with <em>verba putandi</em> in spoken Italian</h3><p>with Silvia Ballarè · <em>Folia Linguistica</em></p></div></li>
-          <li class="reveal"><span class="year">2025</span><div><h3>Object encoding in spoken language data and antipassives</h3><p>with Silvia Ballarè and Andrea Sansò · <em>Linguistic Typology at the Crossroads</em></p></div></li>
-          <li class="reveal"><span class="year">2025</span><div><h3>Il progetto DiverSIta. Documentare la diversità nell’italiano parlato</h3><p>with Eleonora Zucchini, Eugenio Goria and Beatrice Bernasconi</p></div></li>
-        </ol>
-        <a class="arrow-link all-publications" href="https://www.unibo.it/sitoweb/caterina.mauri/pubblicazioni" target="_blank" rel="noopener" data-en="View complete publication list" data-it="Vedi tutte le pubblicazioni">View complete publication list <span>↗</span></a>
-      </div>
-    </section>
-
-    <section class="career ruled">
-      <div class="section-index">05 / <span data-en="Academic path" data-it="Percorso accademico">Academic path</span></div>
-      <div class="career-grid reveal">
-        <div class="career-intro">
-          <h2 data-en="Across languages, disciplines and places." data-it="Tra lingue, discipline e luoghi.">Across languages, disciplines and places.</h2>
-        </div>
-        <div class="timeline">
-          <div><time>2016—now</time><p data-en="Associate Professor of Linguistics · University of Bologna" data-it="Professoressa associata di Linguistica · Università di Bologna">Associate Professor of Linguistics · University of Bologna</p></div>
-          <div><time>2023</time><p data-en="National Scientific Qualification as Full Professor" data-it="Abilitazione Scientifica Nazionale a Professoressa ordinaria">National Scientific Qualification as Full Professor</p></div>
-          <div><time>2010—2016</time><p data-en="Assistant Professor of Linguistics · University of Pavia" data-it="Ricercatrice di Linguistica · Università di Pavia">Assistant Professor of Linguistics · University of Pavia</p></div>
-          <div><time>2003—2006</time><p data-en="PhD in Linguistics · University of Pavia" data-it="Dottorato in Linguistica · Università di Pavia">PhD in Linguistics · University of Pavia</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact" id="contact">
-      <p class="contact-kicker" data-en="Ideas, questions, collaborations" data-it="Idee, domande, collaborazioni">Ideas, questions, collaborations</p>
-      <h2 data-en="Let’s talk about language." data-it="Parliamo di lingua.">Let’s talk about language.</h2>
-      <a class="email" href="mailto:caterina.mauri@unibo.it">caterina.mauri@unibo.it <span>↗</span></a>
-      <div class="contact-details">
-        <p>Department of Modern Languages,<br>Literatures, and Cultures<br>Via Cartoleria 5 · Bologna</p>
-        <div class="social-links">
-          <a href="https://orcid.org/0000-0002-8226-7846" target="_blank" rel="me noopener">ORCID ↗</a>
-          <a href="https://www.unibo.it/sitoweb/caterina.mauri/" target="_blank" rel="noopener">UNIBO ↗</a>
-          <a href="assets/Caterina-Mauri-CV.docx" download>CV ↓</a>
-        </div>
-      </div>
+      <nav class="constellation" aria-label="Explore the website">
+        <a class="node node-1" href="research.html">Research</a>
+        <a class="node node-2" href="projects.html">Projects</a>
+        <a class="node node-3" href="resources.html">Resources</a>
+        <a class="node node-4" href="editorial.html">Editorial work</a>
+        <a class="node node-5" href="service.html">Academic service</a>
+        <a class="node node-6" href="publications.html">Publications</a>
+        <a class="node node-7" href="path.html">Academic path</a>
+        <a class="node node-8" href="didattica.html">Teaching</a>
+        <a class="node node-9" href="engagement.html">Public engagement</a>
+        <a class="node node-10" href="contact.html">Contact</a>
+      </nav>
+      
     </section>
   </main>
-
-  <footer>
-    <span>© <span id="year"></span> Caterina Mauri</span>
-    <span data-en="Linguistics · University of Bologna" data-it="Linguistica · Università di Bologna">Linguistics · University of Bologna</span>
-  </footer>
 </body>
 </html>
