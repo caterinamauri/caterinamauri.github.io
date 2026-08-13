@@ -1,6 +1,6 @@
 {
   "source": "https://www.unibo.it/sitoweb/caterina.mauri/pubblicazioni",
-  "count": 114,
+  "count": 110,
   "publications": [
     {
       "title": "A diachronic view on non-verbal predication",
@@ -153,16 +153,6 @@
       "link_type": "doi"
     },
     {
-      "title": "‘Or’ cycles",
-      "authors": "Ariel, Mira; Mauri, Caterina",
-      "year": 2025,
-      "citation": "Ariel, Mira; Mauri, Caterina, ‘Or’ cycles, in: Cyclic Change in Grammar and Discourse, Oxford, Oxford University Press, 2025, pp. 220 - 246 [capitolo di libro]",
-      "url": "https://doi.org/10.1093/9780198940661.003.0010",
-      "open_access": false,
-      "type": "chapters",
-      "link_type": "doi"
-    },
-    {
       "title": "Presentazione",
       "authors": "Ballarè, Silvia; Mauri, Caterina",
       "year": 2025,
@@ -203,23 +193,13 @@
       "link_type": "doi"
     },
     {
-      "title": "Corpus KIPasti",
-      "authors": "Mauri, Caterina; Ballarè, Silvia; Zucchini, Eleonora",
-      "year": 2024,
-      "citation": "Mauri, Caterina; Ballarè, Silvia; Zucchini, Eleonora, Corpus KIPasti, 2024. [banche dati]",
-      "url": "https://doi.org/10.60760/unibo/kipasti",
+      "title": "‘Or’ cycles",
+      "authors": "Ariel, Mira; Mauri, Caterina",
+      "year": 2025,
+      "citation": "Ariel, Mira; Mauri, Caterina, ‘Or’ cycles, in: Cyclic Change in Grammar and Discourse, Oxford, Oxford University Press, 2025, pp. 220 - 246 [capitolo di libro]",
+      "url": "https://doi.org/10.1093/9780198940661.003.0010",
       "open_access": false,
-      "type": "resources",
-      "link_type": "doi"
-    },
-    {
-      "title": "Corpus ParlaBO",
-      "authors": "Mauri, Caterina; Ballarè, Silvia; Zucchini, Eleonora",
-      "year": 2024,
-      "citation": "Mauri, Caterina; Ballarè, Silvia; Zucchini, Eleonora, Corpus ParlaBO, 2024. [banche dati]",
-      "url": "https://doi.org/10.60760/unibo/parlabo",
-      "open_access": false,
-      "type": "resources",
+      "type": "chapters",
       "link_type": "doi"
     },
     {
@@ -283,16 +263,6 @@
       "link_type": "iris"
     },
     {
-      "title": "Diversità e inclusione. Quando le parole sono importanti",
-      "authors": "Fusari, Sabrina; Ivancic, Barbara; Mauri, Caterina",
-      "year": 2022,
-      "citation": "Fusari, Sabrina; Ivancic, Barbara; Mauri, Caterina (a cura di): Elvira Mujcic, Giovanni Labriola, Caterina Mauri, Francesca Masini, Claudia Borghetti, Marianna Bolognesi, Ines Peta, Nahid Norozi, Jane Helen Johnson, Mariangela Picciuolo, Serena Baiesi, Marco Prandoni, Silvia Albertazzi, Lorenzo Mari, Michele Morselli, Carlotta Farese, Gilberta Golinelli, Claudia Roberta Combei, Antonella Luporini, Ana Pano Alaman, Monica Turci, Rita Monticelli, Paola Scrolavezza, Eva-Maria Thüne, Roberto Vecchi, Alessandro Zironi, Diversità e inclusione. Quando le parole sono importanti, Milano, Meltemi Press srl, 2022, pp. 260 . [curatela]",
-      "url": "https://cris.unibo.it/handle/11585/919088",
-      "open_access": false,
-      "type": "edited",
-      "link_type": "iris"
-    },
-    {
       "title": "Diversity, discourse, diachrony: A converging evidence methodology for grammar emergence",
       "authors": "Mauri Caterina; Masini Francesca",
       "year": 2022,
@@ -301,6 +271,16 @@
       "open_access": false,
       "type": "chapters",
       "link_type": "doi"
+    },
+    {
+      "title": "Diversità e inclusione. Quando le parole sono importanti",
+      "authors": "Fusari, Sabrina; Ivancic, Barbara; Mauri, Caterina",
+      "year": 2022,
+      "citation": "Fusari, Sabrina; Ivancic, Barbara; Mauri, Caterina (a cura di): Elvira Mujcic, Giovanni Labriola, Caterina Mauri, Francesca Masini, Claudia Borghetti, Marianna Bolognesi, Ines Peta, Nahid Norozi, Jane Helen Johnson, Mariangela Picciuolo, Serena Baiesi, Marco Prandoni, Silvia Albertazzi, Lorenzo Mari, Michele Morselli, Carlotta Farese, Gilberta Golinelli, Claudia Roberta Combei, Antonella Luporini, Ana Pano Alaman, Monica Turci, Rita Monticelli, Paola Scrolavezza, Eva-Maria Thüne, Roberto Vecchi, Alessandro Zironi, Diversità e inclusione. Quando le parole sono importanti, Milano, Meltemi Press srl, 2022, pp. 260 . [curatela]",
+      "url": "https://cris.unibo.it/handle/11585/919088",
+      "open_access": false,
+      "type": "edited",
+      "link_type": "iris"
     },
     {
       "title": "Il corpus KIParla",
@@ -541,26 +521,6 @@
       "open_access": false,
       "type": "chapters",
       "link_type": "iris"
-    },
-    {
-      "title": "Corpus KIP",
-      "authors": "Mauri, Caterina; Ballarè, Silvia; Goria, Eugenio",
-      "year": 2019,
-      "citation": "Mauri, Caterina; Ballarè, Silvia; Goria, Eugenio, Corpus KIP, 2019. [banche dati]",
-      "url": "https://doi.org/10.60760/unibo/kip",
-      "open_access": false,
-      "type": "resources",
-      "link_type": "doi"
-    },
-    {
-      "title": "Corpus KIParla",
-      "authors": "Mauri, Caterina; Ballarè, Silvia; Goria, Eugenio; Cerruti, Massimo",
-      "year": 2019,
-      "citation": "Mauri, Caterina; Ballarè, Silvia; Goria, Eugenio; Cerruti, Massimo, Corpus KIParla, 2019. [banche dati]",
-      "url": "https://doi.org/10.60760/unibo/kiparla",
-      "open_access": false,
-      "type": "resources",
-      "link_type": "doi"
     },
     {
       "title": "Il corpus KIParla. Tra linguistica dei corpora e sociolinguistica dell’italiano",
@@ -1063,16 +1023,6 @@
       "link_type": "iris"
     },
     {
-      "title": "recensione di M. Haspelmath (ed.), Coordinating Constructions, Amsterdam, Philadeplhia: John Benjamins (2004)",
-      "authors": "Mauri Caterina",
-      "year": 2004,
-      "citation": "Mauri Caterina, Recensione a: recensione di M. Haspelmath (ed.), Coordinating Constructions, Amsterdam, Philadeplhia: John Benjamins (2004), «ARCHIVIO GLOTTOLOGICO ITALIANO», 2008, XCIII, pp. 110 - 123 [recensione]",
-      "url": "https://cris.unibo.it/handle/11585/542479",
-      "open_access": false,
-      "type": "other",
-      "link_type": "iris"
-    },
-    {
       "title": "The irreality of alternatives: towards a typology of disjunction",
       "authors": "Mauri Caterina",
       "year": 2008,
@@ -1090,6 +1040,16 @@
       "url": "https://cris.unibo.it/handle/11585/542433",
       "open_access": false,
       "type": "articles",
+      "link_type": "iris"
+    },
+    {
+      "title": "recensione di M. Haspelmath (ed.), Coordinating Constructions, Amsterdam, Philadeplhia: John Benjamins (2004)",
+      "authors": "Mauri Caterina",
+      "year": 2004,
+      "citation": "Mauri Caterina, Recensione a: recensione di M. Haspelmath (ed.), Coordinating Constructions, Amsterdam, Philadeplhia: John Benjamins (2004), «ARCHIVIO GLOTTOLOGICO ITALIANO», 2008, XCIII, pp. 110 - 123 [recensione]",
+      "url": "https://cris.unibo.it/handle/11585/542479",
+      "open_access": false,
+      "type": "other",
       "link_type": "iris"
     },
     {

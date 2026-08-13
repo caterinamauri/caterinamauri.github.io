@@ -14,30 +14,6 @@ body.sober {
 .sober nav { gap: clamp(10px, 1.25vw, 20px); }
 .sober nav a { font-family: var(--sans); font-size: 10px; letter-spacing: .06em; }
 
-.sober .home-index { position: relative; min-height: calc(100svh - 78px); max-width: 1260px; margin: 0 auto; overflow: hidden; }
-.sober .index-rays { position: absolute; inset: 50% auto auto 50%; width: min(1000px, 92vw); height: min(650px, 72vh); transform: translate(-50%, -50%); }
-.sober .index-rays path { fill: none; stroke: var(--line); stroke-width: 1; vector-effect: non-scaling-stroke; }
-.sober .index-center { position: absolute; top: 50%; left: 50%; z-index: 2; width: 310px; padding: 26px; transform: translate(-50%, -50%); text-align: center; background: var(--paper); }
-.sober .index-center img { width: 112px; height: 112px; border-radius: 50%; object-fit: cover; }
-.sober .index-center h1 { margin: 18px 0 7px; font: 400 clamp(38px, 4.2vw, 58px)/.95 var(--serif); letter-spacing: -.04em; }
-.sober .index-center p { margin: 0; color: var(--muted); font-size: 11px; }
-.sober .constellation { position: absolute; inset: 0; display: block; }
-.sober .constellation .node { position: absolute; z-index: 3; padding: 9px 12px; transform: translate(-50%, -50%); border: 1px solid var(--line); background: var(--paper); color: var(--ink); font: 500 11px/1 var(--sans); letter-spacing: .02em; text-transform: none; white-space: nowrap; }
-.sober .constellation .node::after { display: none; }
-.sober .constellation .node:hover { border-color: var(--blue); color: var(--blue); }
-.sober .node-1 { left: 18%; top: 13%; }
-.sober .node-2 { left: 39%; top: 9%; }
-.sober .node-3 { left: 61%; top: 9%; }
-.sober .node-4 { left: 82%; top: 13%; }
-.sober .node-5 { left: 93%; top: 39%; }
-.sober .node-6 { left: 82%; top: 87%; }
-.sober .node-7 { left: 61%; top: 93%; }
-.sober .node-8 { left: 39%; top: 93%; }
-.sober .node-9 { left: 18%; top: 87%; }
-.sober .node-10 { left: 7%; top: 39%; }
-.sober .index-cv { position: absolute; right: max(4vw, 32px); bottom: 24px; color: var(--muted); font: 10px var(--sans); text-decoration: none; text-transform: uppercase; letter-spacing: .07em; }
-.sober .index-language { position: absolute; top: 24px; right: max(4vw, 32px); }
-
 .sober .ruled { grid-template-columns: 225px minmax(0, 1fr); gap: 48px; max-width: 1260px; margin: 0 auto; padding: 78px max(4vw, 32px); }
 .sober .section-index { color: var(--ink); text-transform: none; letter-spacing: 0; }
 .sober .section-index small { display: block; margin-bottom: 12px; color: var(--blue); font: 10px var(--mono); letter-spacing: .1em; }
@@ -114,13 +90,6 @@ body.sober {
 
 @media (max-width: 800px) {
   .sober .site-header { padding: 0 5vw; }
-  .sober .home-index { min-height: auto; padding: 62px 5vw 48px; }
-  .sober .index-rays { display: none; }
-  .sober .index-center { position: static; width: auto; padding: 0 0 40px; transform: none; }
-  .sober .index-center img { width: 96px; height: 96px; }
-  .sober .constellation { position: static; display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
-  .sober .constellation .node { position: static; padding: 18px 12px; transform: none; border: 0; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); text-align: center; white-space: normal; }
-  .sober .index-cv { position: static; display: block; margin-top: 30px; text-align: center; }
   .sober .projects-grid { grid-template-columns: 1fr; }
   .sober .resource-card { grid-template-columns: 70px 1fr; gap: 20px; }
   .sober .service-list { grid-template-columns: 1fr; }

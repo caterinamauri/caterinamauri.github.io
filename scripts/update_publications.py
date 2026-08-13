@@ -5,12 +5,14 @@ from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
+import argparse
 import json
 import re
 import urllib.request
 
 BASE_URL = "https://www.unibo.it/sitoweb/caterina.mauri/pubblicazioni"
 OUTPUT = Path(__file__).resolve().parents[1] / "data" / "publications.json"
+RESOURCES_OUTPUT = Path(__file__).resolve().parents[1] / "data" / "resources.json"
 
 
 class PublicationParser(HTMLParser):
@@ -136,32 +138,80 @@ def fetch_page(page):
         return response.read().decode("utf-8")
 
 
-def main():
-    publications = []
-    seen = set()
-    for page in range(1, 21):
-        parser = PublicationParser()
-        parser.feed(fetch_page(page))
-        fresh = [item for item in parser.items if item["url"] not in seen]
-        if not fresh:
-            break
-        publications.extend(fresh)
-        seen.update(item["url"] for item in fresh)
+def write_archives(publications):
+    iris_resources = [item for item in publications if item["type"] == "resources"]
+    scholarly_publications = [item for item in publications if item["type"] != "resources"]
 
-    if not publications:
-        raise RuntimeError("No publications found; keeping the existing archive is safer.")
-
-    with ThreadPoolExecutor(max_workers=6) as executor:
-        publications = list(executor.map(enrich_link, publications))
+    # KIParla Forest is an official external resource but is not currently
+    # catalogued as a database item in the Unibo publication profile.
+    resources = iris_resources + [{
+        "title": "KIParla Forest",
+        "authors": "Pannitto, Ludovica; Zucchini, Eleonora; Bosco, Cristina; Mauri, Caterina; Sanguinetti, Manuela; Cocco, Esther",
+        "year": 2025,
+        "citation": "A Universal Dependencies treebank of spoken Italian in interaction, based on KIParla.",
+        "url": "https://universaldependencies.org/treebanks/it_kiparlaforest/index.html",
+        "open_access": True,
+        "type": "resources",
+        "link_type": "official_resource",
+        "source": "Universal Dependencies",
+        "link_label": "Open resource ↗",
+    }, {
+        "title": "Gest-IT",
+        "authors": "Pannitto, Ludovica; Albanesi, Lorenzo; Marion, Laura; Martines, Federica Maria; Caruso, Carmelo; Bianchini, Claudia S.; Masini, Francesca; Mauri, Caterina",
+        "year": 2024,
+        "citation": "A pilot multimodal corpus combining orthographic, prosodic and gestural annotation of conversations involving sighted people and people with visual impairment.",
+        "url": "https://ceur-ws.org/Vol-3878/80_main_long.pdf",
+        "open_access": True,
+        "type": "resources",
+        "link_type": "related_publication",
+        "source": "Gest-IT / CLiC-it 2024",
+        "link_label": "Read project paper ↗",
+    }]
+    resources.sort(key=lambda item: (item.get("year") or 0, item.get("title", "")), reverse=True)
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "source": BASE_URL,
-        "count": len(publications),
-        "publications": publications,
+        "count": len(scholarly_publications),
+        "publications": scholarly_publications,
     }
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Saved {len(publications)} publications to {OUTPUT}")
+    resources_payload = {
+        "source": BASE_URL,
+        "count": len(resources),
+        "resources": resources,
+    }
+    RESOURCES_OUTPUT.write_text(json.dumps(resources_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Saved {len(scholarly_publications)} publications to {OUTPUT}")
+    print(f"Saved {len(resources)} resources to {RESOURCES_OUTPUT}")
+
+
+def main():
+    arguments = argparse.ArgumentParser()
+    arguments.add_argument("--from-cache", action="store_true", help="Split the existing synchronized archive without fetching Unibo")
+    options = arguments.parse_args()
+
+    if options.from_cache:
+        publications = json.loads(OUTPUT.read_text(encoding="utf-8"))["publications"]
+    else:
+        publications = []
+        seen = set()
+        for page in range(1, 21):
+            parser = PublicationParser()
+            parser.feed(fetch_page(page))
+            fresh = [item for item in parser.items if item["url"] not in seen]
+            if not fresh:
+                break
+            publications.extend(fresh)
+            seen.update(item["url"] for item in fresh)
+
+        if not publications:
+            raise RuntimeError("No publications found; keeping the existing archive is safer.")
+
+        with ThreadPoolExecutor(max_workers=6) as executor:
+            publications = list(executor.map(enrich_link, publications))
+
+    write_archives(publications)
 
 
 if __name__ == "__main__":
