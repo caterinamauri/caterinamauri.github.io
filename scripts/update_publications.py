@@ -8,9 +8,16 @@ from concurrent.futures import ThreadPoolExecutor
 import argparse
 import json
 import re
+import ssl
 import urllib.request
 
-BASE_URL = "https://www.unibo.it/sitoweb/caterina.mauri/pubblicazioni"
+try:
+    import certifi
+    SSL_CONTEXT = ssl.create_default_context(cafile=certifi.where())
+except ImportError:
+    SSL_CONTEXT = ssl.create_default_context()
+
+BASE_URL = "https://www.unibo.it/sitoweb/caterina.mauri/publications"
 OUTPUT = Path(__file__).resolve().parents[1] / "data" / "publications.json"
 RESOURCES_OUTPUT = Path(__file__).resolve().parents[1] / "data" / "resources.json"
 
@@ -56,7 +63,7 @@ class PublicationParser(HTMLParser):
                     "authors": authors,
                     "year": int(year_match.group()) if year_match else None,
                     "citation": citation,
-                    "url": self.current["url"],
+                    "url": english_iris_url(self.current["url"]),
                     "open_access": self.current["open_access"],
                     "type": publication_type(citation),
                     "link_type": "iris",
@@ -75,6 +82,14 @@ class PublicationParser(HTMLParser):
 
 def clean(value):
     return re.sub(r"\s+", " ", unescape(value)).strip()
+
+
+def english_iris_url(url):
+    """Ask the IRIS/DSpace interface for English when it remains the fallback."""
+    if "cris.unibo.it/handle/" not in url or "locale-attribute=" in url:
+        return url
+    separator = "&" if "?" in url else "?"
+    return f"{url}{separator}locale-attribute=en"
 
 
 class ItemMetadataParser(HTMLParser):
@@ -97,7 +112,7 @@ def enrich_link(item):
     """Prefer a DOI, then an open-access PDF, keeping IRIS as a safe fallback."""
     try:
         request = urllib.request.Request(item["url"], headers={"User-Agent": "CaterinaMauriWebsite/1.0"})
-        with urllib.request.urlopen(request, timeout=20) as response:
+        with urllib.request.urlopen(request, timeout=20, context=SSL_CONTEXT) as response:
             parser = ItemMetadataParser()
             parser.feed(response.read().decode("utf-8", errors="replace"))
         doi = parser.metadata.get("citation_doi")
@@ -116,17 +131,17 @@ def enrich_link(item):
 def publication_type(citation):
     match = re.search(r"\[([^\]]+)\]\s*(?:Open Access)?$", citation, re.IGNORECASE)
     raw = match.group(1).lower() if match else ""
-    if "curatela" in raw:
+    if any(label in raw for label in ("curatela", "editorship")):
         return "edited"
-    if "articolo" in raw:
+    if any(label in raw for label in ("articolo", "article")):
         return "articles"
-    if any(word in raw for word in ("capitolo", "introduzione", "prefazione")):
+    if any(word in raw for word in ("capitolo", "introduzione", "prefazione", "chapter", "essay", "introduction")):
         return "chapters"
-    if any(word in raw for word in ("atti", "contributo")):
+    if any(word in raw for word in ("atti", "contributo", "conference proceedings")):
         return "proceedings"
-    if any(word in raw for word in ("banc", "dataset")):
+    if any(word in raw for word in ("banc", "dataset", "database")):
         return "resources"
-    if any(word in raw for word in ("libro", "monografia")):
+    if any(word in raw for word in ("libro", "monografia", "book", "monograph")):
         return "books"
     return "other"
 
@@ -134,7 +149,7 @@ def publication_type(citation):
 def fetch_page(page):
     url = BASE_URL if page == 1 else f"{BASE_URL}?page={page}"
     request = urllib.request.Request(url, headers={"User-Agent": "CaterinaMauriWebsite/1.0"})
-    with urllib.request.urlopen(request, timeout=30) as response:
+    with urllib.request.urlopen(request, timeout=30, context=SSL_CONTEXT) as response:
         return response.read().decode("utf-8")
 
 
@@ -143,8 +158,8 @@ def write_archives(publications):
     scholarly_publications = [item for item in publications if item["type"] != "resources"]
 
     # KIParla Forest is an official external resource but is not currently
-    # catalogued as a database item in the Unibo publication profile.
-    resources = iris_resources + [{
+    # represented in IRIS with its Universal Dependencies access point.
+    supplements = [{
         "title": "KIParla Forest",
         "authors": "Pannitto, Ludovica; Zucchini, Eleonora; Bosco, Cristina; Mauri, Caterina; Sanguinetti, Manuela; Cocco, Esther",
         "year": 2025,
@@ -167,6 +182,18 @@ def write_archives(publications):
         "source": "Gest-IT / CLiC-it 2024",
         "link_label": "Read project paper ↗",
     }]
+    resources = list(iris_resources)
+    for supplement in supplements:
+        matching_iris = next(
+            (item for item in resources if item.get("title", "").casefold().startswith(supplement["title"].casefold())),
+            None,
+        )
+        if matching_iris:
+            matching_iris["secondary_url"] = supplement["url"]
+            matching_iris["secondary_link_label"] = "Universal Dependencies ↗"
+            matching_iris["secondary_source"] = supplement["source"]
+        else:
+            resources.append(supplement)
     resources.sort(key=lambda item: (item.get("year") or 0, item.get("title", "")), reverse=True)
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)

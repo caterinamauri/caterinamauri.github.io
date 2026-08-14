@@ -19,14 +19,17 @@ function renderResources() {
   resourceCount.textContent = `${matches.length} ${matches.length === 1 ? 'resource' : 'resources'}`;
   resourceList.innerHTML = matches.map((item) => {
     const source = item.source || (item.link_type === 'official_resource' ? 'Universal Dependencies' : 'Unibo IRIS');
-    const linkLabel = item.link_label || 'Open resource ↗';
+    const linkLabel = item.link_label || (item.link_type === 'iris' ? 'IRIS record ↗' : 'Open resource ↗');
+    const secondaryLink = item.secondary_url
+      ? `<a href="${item.secondary_url}" target="_blank" rel="noopener">${escapeResourceHtml(item.secondary_link_label || 'Official resource ↗')}</a>`
+      : '';
     return `
     <li>
       <span class="resource-year">${item.year || '—'}</span>
       <div class="resource-entry">
         <h2><a href="${item.url}" target="_blank" rel="noopener">${escapeResourceHtml(item.title)}</a></h2>
         <p>${escapeResourceHtml(item.citation)}</p>
-        <div class="resource-entry-meta"><span>${escapeResourceHtml(source)}</span><a href="${item.url}" target="_blank" rel="noopener">${escapeResourceHtml(linkLabel)}</a></div>
+        <div class="resource-entry-meta"><span>${escapeResourceHtml(source)}</span><div class="resource-entry-links"><a href="${item.url}" target="_blank" rel="noopener">${escapeResourceHtml(linkLabel)}</a>${secondaryLink}</div></div>
       </div>
     </li>`;
   }).join('') || '<li class="loading">No resources found.</li>';
