@@ -1,5 +1,4 @@
 document.documentElement.lang = 'en';
-document.querySelector('#year').textContent = new Date().getFullYear();
 
 fetch('data/teaching.json')
   .then((response) => response.json())

@@ -14,7 +14,41 @@ function apaAuthors(value) {
   if (people.length < 2) return people[0] || '';
   return `${people.slice(0, -1).join('; ')} & ${people.at(-1)}`;
 }
+function joinedNames(people) {
+  if (!people?.length) return '';
+  if (people.length === 1) return people[0];
+  return `${people.slice(0, -1).join(', ')} & ${people.at(-1)}`;
+}
+function chapterSource(item) {
+  if (item.type !== 'chapters' || !item.container_title) return '';
+  const editorText = item.editors?.length ? `${joinedNames(item.editors)} (${item.editors.length === 1 ? 'Ed.' : 'Eds.'}), ` : '';
+  const publicationText = [item.publisher_place, item.publisher].filter(Boolean).join(': ');
+  const pages = item.pages ? `, pp. ${String(item.pages).replace(/\s*-\s*/g, '–')}` : '';
+  return `In ${editorText}${item.container_title}${publicationText ? `. ${publicationText}` : ''}${pages}.`;
+}
+function publicationSourceHtml(item) {
+  if (item.type === 'chapters' && item.container_title) {
+    const editorText = item.editors?.length ? `${joinedNames(item.editors)} (${item.editors.length === 1 ? 'Ed.' : 'Eds.'}), ` : '';
+    const publicationText = [item.publisher_place, item.publisher].filter(Boolean).join(': ');
+    const pages = item.pages ? `, pp. ${String(item.pages).replace(/\s*-\s*/g, '–')}` : '';
+    return `In ${escapeHtml(editorText)}<em>${escapeHtml(item.container_title)}</em>${publicationText ? `. ${escapeHtml(publicationText)}` : ''}${escapeHtml(pages)}.`;
+  }
+  if (item.type === 'proceedings') {
+    const source = conciseSource(item);
+    const sourceWithEditors = source.match(/^(In\s+)((?:[A-Z]\.[^,]+,\s*){2})([^,]+)(,.*)$/);
+    if (sourceWithEditors) {
+      return `${escapeHtml(sourceWithEditors[1] + sourceWithEditors[2])}<em>${escapeHtml(sourceWithEditors[3])}</em>${escapeHtml(sourceWithEditors[4])}`;
+    }
+    const sourceParts = source.match(/^(In\s+)([^,]+)(,.*)$/);
+    if (sourceParts) {
+      return `${escapeHtml(sourceParts[1])}<em>${escapeHtml(sourceParts[2])}</em>${escapeHtml(sourceParts[3])}`;
+    }
+  }
+  return escapeHtml(conciseSource(item));
+}
 function conciseSource(item) {
+  const structuredChapter = chapterSource(item);
+  if (structuredChapter) return structuredChapter;
   let source = String(item.citation || '');
   const titlePosition = source.toLocaleLowerCase().indexOf(String(item.title || '').toLocaleLowerCase());
   if (titlePosition >= 0) source = source.slice(titlePosition + item.title.length);
@@ -38,7 +72,7 @@ function renderPublications() {
   const query = search.value.trim().toLowerCase();
   const matches = publications.filter((item) => (!year.value || String(item.year) === year.value) && (!activePublicationType || item.type === activePublicationType) && (!query || `${item.title} ${item.authors} ${item.citation}`.toLowerCase().includes(query)));
   count.textContent = `${matches.length} publications`;
-  list.innerHTML = matches.slice(0, visiblePublications).map((item) => `<li><div class="apa-entry"><p class="apa-authors">${escapeHtml(apaAuthors(item.authors))} (${item.year || 'n.d.'}).</p><h3><a href="${item.url}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a>${item.open_access ? '<span class="oa">Open access</span>' : ''}</h3><p class="apa-source">${escapeHtml(conciseSource(item))}</p></div></li>`).join('') || '<li class="loading">No results.</li>';
+  list.innerHTML = matches.slice(0, visiblePublications).map((item) => `<li><div class="apa-entry"><p class="apa-authors">${escapeHtml(apaAuthors(item.authors))} (${item.year || 'n.d.'}).</p><h3><a href="${item.url}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a>${item.open_access ? '<span class="oa">Open access</span>' : ''}</h3><p class="apa-source">${publicationSourceHtml(item)}</p></div></li>`).join('') || '<li class="loading">No results.</li>';
   more.hidden = visiblePublications >= matches.length;
 }
 fetch('data/publications.json').then((response) => response.json()).then((data) => { publications = data.publications; [...new Set(publications.map((item) => item.year).filter(Boolean))].sort((a,b) => b-a).forEach((value) => year.add(new Option(value,value))); renderPublications(); }).catch(() => { list.innerHTML = '<li class="loading">Publication archive unavailable.</li>'; more.hidden = true; });

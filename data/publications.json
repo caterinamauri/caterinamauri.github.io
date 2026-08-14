@@ -10,7 +10,16 @@
       "url": "https://doi.org/10.1515/9783110730982-002",
       "open_access": false,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "editors": [
+        "Pier Marco Bertinetto",
+        "Luca Ciucci",
+        "Denis Creissels"
+      ],
+      "container_title": "Non-verbal Predication in the World’s Languages: A Typological Survey. Volume 1: Eurasia, North America, South America",
+      "publisher": "De Gruyter Mouton",
+      "publisher_place": "Berlin and Boston",
+      "pages": "57-86"
     },
     {
       "title": "Coconstructions in Spoken Data: UD Annotation Guidelines and First Results",
@@ -30,7 +39,14 @@
       "url": "https://doi.org/10.1163/9789004744196_009",
       "open_access": true,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "editors": [
+        "Patrícia Amaral"
+      ],
+      "container_title": "Other: Ambiguity, Constraints, and Change",
+      "publisher": "BRILL",
+      "publisher_place": "",
+      "pages": "229-266"
     },
     {
       "title": "Is Semi-Automatic Transcription Useful in Corpus Creation? Preliminary Considerations on the KIParla Corpus",
@@ -130,7 +146,15 @@
       "url": "https://doi.org/10.6092/unibo/amsacta/8647",
       "open_access": false,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "editors": [
+        "Silvia Ballarè",
+        "Caterina Mauri"
+      ],
+      "container_title": "",
+      "publisher": "CLUB – Circolo Linguistico dell'Università di Bologna",
+      "publisher_place": "",
+      "pages": ""
     },
     {
       "title": "Introducing KIParla Forest: seeds for a UD annotation of interactional syntax.",
@@ -160,7 +184,15 @@
       "url": "https://doi.org/10.6092/unibo/amsacta/8647",
       "open_access": true,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "editors": [
+        "Silvia Ballarè",
+        "Caterina Mauri"
+      ],
+      "container_title": "",
+      "publisher": "CLUB – Circolo Linguistico dell'Università di Bologna",
+      "publisher_place": "",
+      "pages": ""
     },
     {
       "title": "Replicability all the way up: commentary on “Replication and methodological robustness in quantitative typology” by Becker and Guzmán Naranjo",
@@ -180,7 +212,12 @@
       "url": "https://doi.org/10.1515/9783111386683-007",
       "open_access": true,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "editors": [],
+      "container_title": "Expressing Surprise at the Crossroads",
+      "publisher": "De Gruyter",
+      "publisher_place": "",
+      "pages": "143-178"
     },
     {
       "title": "To understand in interaction: the rise of epistemic and evidential constructions based on \"capire\" in spoken Italian",
@@ -190,7 +227,12 @@
       "url": "https://doi.org/10.1515/9783111516233-002",
       "open_access": true,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "editors": [],
+      "container_title": "Expanding the Boundaries of Epistemicity",
+      "publisher": "De Gruyter",
+      "publisher_place": "",
+      "pages": "31-68"
     },
     {
       "title": "‘Or’ cycles",
@@ -220,7 +262,12 @@
       "url": "https://doi.org/10.1515/9783110791433-005",
       "open_access": true,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "editors": [],
+      "container_title": "Indexicality",
+      "publisher": "De Gruyter",
+      "publisher_place": "",
+      "pages": "171-196"
     },
     {
       "title": "Counterfactual conditionals: Linguistic variation in Italian and beyond",
@@ -230,7 +277,12 @@
       "url": "https://doi.org/10.1515/9783110781168-006",
       "open_access": true,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "editors": [],
+      "container_title": "Sociolinguistic and Typological Perspectives on Language Variation",
+      "publisher": "De Gruyter",
+      "publisher_place": "",
+      "pages": "155-196"
     },
     {
       "title": "Esaustività e non esaustività esplicita nel discorso: dentro e oltre l'italiano",
@@ -270,7 +322,14 @@
       "url": "https://doi.org/10.3726/b19221",
       "open_access": false,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "editors": [
+        "Miriam Voghera"
+      ],
+      "container_title": "",
+      "publisher": "Peter Lang Verlag",
+      "publisher_place": "",
+      "pages": ""
     },
     {
       "title": "Diversità e inclusione. Quando le parole sono importanti",
@@ -380,7 +439,12 @@
       "url": "https://doi.org/10.1075/slcs.220.02mau",
       "open_access": true,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "editors": [],
+      "container_title": "Studies in Language Companion Series",
+      "publisher": "John Benjamins Publishing Company",
+      "publisher_place": "",
+      "pages": "9-34"
     },
     {
       "title": "Building Categories in Interaction: Linguistic resources at work",
@@ -400,7 +464,12 @@
       "url": "https://doi.org/10.1075/slcs.220.01fio",
       "open_access": false,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "editors": [],
+      "container_title": "Studies in Language Companion Series",
+      "publisher": "John Benjamins Publishing Company",
+      "publisher_place": "",
+      "pages": "1-8"
     },
     {
       "title": "Senza e la connessione anticircostanziale: tra variazione tipologica e usi discorsivi",
@@ -690,7 +759,12 @@
       "url": "https://doi.org/10.1093/obo/9780199772810-0207",
       "open_access": false,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "editors": [],
+      "container_title": "Oxford Bibliographies in Linguistics",
+      "publisher": "Oxford University PressNew York, NY",
+      "publisher_place": "",
+      "pages": ""
     },
     {
       "title": "Dubitative corrective constructions in Italian: their use and rise in discourse",
@@ -750,7 +824,12 @@
       "url": "https://doi.org/10.1093/oxfordhb/9780199591435.013.9",
       "open_access": false,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "editors": [],
+      "container_title": "The Oxford Handbook of Modality and Mood",
+      "publisher": "Oxford University Press",
+      "publisher_place": "",
+      "pages": "166-195"
     },
     {
       "title": "LES ÉTUDES TYPOLOGIQUES EN ITALIE",

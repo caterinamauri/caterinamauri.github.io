@@ -21,6 +21,20 @@ BASE_URL = "https://www.unibo.it/sitoweb/caterina.mauri/publications"
 OUTPUT = Path(__file__).resolve().parents[1] / "data" / "publications.json"
 RESOURCES_OUTPUT = Path(__file__).resolve().parents[1] / "data" / "resources.json"
 
+CHAPTER_METADATA_OVERRIDES = {
+    "10.1515/9783110730982-002": {
+        "editors": ["Pier Marco Bertinetto", "Luca Ciucci", "Denis Creissels"],
+        "container_title": "Non-verbal Predication in the World’s Languages: A Typological Survey. Volume 1: Eurasia, North America, South America",
+        "publisher": "De Gruyter Mouton",
+        "publisher_place": "Berlin and Boston",
+        "pages": "57-86",
+    },
+    "10.1163/9789004744196_009": {
+        "editors": ["Patrícia Amaral"],
+        "container_title": "Other: Ambiguity, Constraints, and Change",
+    },
+}
+
 
 class PublicationParser(HTMLParser):
     def __init__(self):
@@ -120,11 +134,52 @@ def enrich_link(item):
         if doi:
             item["url"] = f"https://doi.org/{doi}"
             item["link_type"] = "doi"
+            enrich_chapter_metadata(item, doi)
         elif item["open_access"] and pdf_url:
             item["url"] = pdf_url
             item["link_type"] = "open_access_pdf"
     except Exception as error:
         print(f"Keeping IRIS fallback for {item['url']}: {error}")
+    return item
+
+
+def enrich_chapter_metadata(item, doi=None):
+    """Add volume editors and container metadata from DOI CSL for book chapters."""
+    if item.get("type") != "chapters":
+        return item
+    doi = doi or (item.get("url", "").removeprefix("https://doi.org/") if "doi.org/" in item.get("url", "") else "")
+    if not doi:
+        return item
+    override = CHAPTER_METADATA_OVERRIDES.get(doi.lower())
+    if override:
+        item.update(override)
+    try:
+        request = urllib.request.Request(
+            f"https://doi.org/{doi}",
+            headers={
+                "Accept": "application/vnd.citationstyles.csl+json",
+                "User-Agent": "CaterinaMauriWebsite/1.0",
+            },
+        )
+        with urllib.request.urlopen(request, timeout=20, context=SSL_CONTEXT) as response:
+            metadata = json.loads(response.read().decode("utf-8"))
+        editors = []
+        for person in metadata.get("editor", []):
+            full_name = clean(" ".join(part for part in (person.get("given", ""), person.get("family", "")) if part))
+            if full_name:
+                editors.append(full_name)
+        container = metadata.get("container-title", "")
+        if isinstance(container, list):
+            container = container[0] if container else ""
+        item["editors"] = editors
+        item["container_title"] = clean(re.sub(r"<[^>]+>", "", container))
+        item["publisher"] = clean(metadata.get("publisher", ""))
+        item["publisher_place"] = clean(metadata.get("publisher-place", ""))
+        item["pages"] = clean(metadata.get("page", ""))
+        if override:
+            item.update(override)
+    except Exception as error:
+        print(f"Could not enrich chapter metadata for {doi}: {error}")
     return item
 
 
@@ -153,7 +208,7 @@ def fetch_page(page):
         return response.read().decode("utf-8")
 
 
-def write_archives(publications):
+def write_archives(publications, preserve_resources=False):
     iris_resources = [item for item in publications if item["type"] == "resources"]
     scholarly_publications = [item for item in publications if item["type"] != "resources"]
 
@@ -208,9 +263,11 @@ def write_archives(publications):
         "count": len(resources),
         "resources": resources,
     }
-    RESOURCES_OUTPUT.write_text(json.dumps(resources_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    if not preserve_resources:
+        RESOURCES_OUTPUT.write_text(json.dumps(resources_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Saved {len(scholarly_publications)} publications to {OUTPUT}")
-    print(f"Saved {len(resources)} resources to {RESOURCES_OUTPUT}")
+    if not preserve_resources:
+        print(f"Saved {len(resources)} resources to {RESOURCES_OUTPUT}")
 
 
 def main():
@@ -220,6 +277,8 @@ def main():
 
     if options.from_cache:
         publications = json.loads(OUTPUT.read_text(encoding="utf-8"))["publications"]
+        with ThreadPoolExecutor(max_workers=6) as executor:
+            publications = list(executor.map(enrich_chapter_metadata, publications))
     else:
         publications = []
         seen = set()
@@ -238,7 +297,7 @@ def main():
         with ThreadPoolExecutor(max_workers=6) as executor:
             publications = list(executor.map(enrich_link, publications))
 
-    write_archives(publications)
+    write_archives(publications, preserve_resources=options.from_cache)
 
 
 if __name__ == "__main__":
