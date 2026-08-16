@@ -87,6 +87,8 @@
 .network-links { display: grid; gap: 10px; }
 .cv-download { display: flex; align-items: center; justify-content: space-between; gap: 35px; margin: 20px 0 75px; padding: 38px 0; border-top: 2px solid var(--blue); border-bottom: 1px solid var(--line); }
 .page-hero + .cv-download { margin-top: 0; padding-top: 0; border-top: 0; }
+.cv-download-primary { margin-bottom: 0; border-bottom: 0; }
+.cv-download-secondary { margin-top: 0; }
 .cv-download p { margin: 0; color: var(--muted); font-size: 13px; }
 .cv-download-button { padding: 16px 20px; background: var(--blue); color: white; font: 500 13px var(--sans); text-decoration: none; text-transform: uppercase; letter-spacing: .04em; }
 .cv-overview { display: grid; grid-template-columns: repeat(3,1fr); border-top: 1px solid var(--line); }

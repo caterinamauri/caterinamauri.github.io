@@ -173,11 +173,11 @@ body.sober.content-page main { padding-top: 64px; padding-bottom: 78px; }
   }
   .sober .wordmark { order: 1; font-size: 24px; }
   .sober .sidebar-profile { order: 2; display: grid; grid-template-columns: auto 1fr; align-items: center; column-gap: 20px; margin: 26px 0 24px; }
-  .sober .sidebar-portrait { display: block; width: 128px; }
+  .sober .sidebar-portrait { display: block; width: 152px; }
   .sober .sidebar-portrait img {
     display: block;
-    width: 128px;
-    height: 128px;
+    width: 152px;
+    height: 152px;
     object-fit: cover;
     border-radius: 46% 54% 43% 57% / 55% 42% 58% 45%;
     box-shadow: 8px 8px 0 rgba(143,69,54,.11);
@@ -222,7 +222,7 @@ body.sober.content-page main { padding-top: 64px; padding-bottom: 78px; }
   body.sober { --sidebar-width: 240px; }
   .sober .site-header { padding-right: 24px; padding-left: 24px; }
   .sober .sidebar-portrait,
-  .sober .sidebar-portrait img { width: 104px; height: 104px; }
+  .sober .sidebar-portrait img { width: 118px; height: 118px; }
   .sober .sidebar-profile { margin: 20px 0; }
   .sober .site-header nav a { padding: 5px 0; font-size: 11px; }
   .sober .sidebar-contacts { padding-top: 15px; }

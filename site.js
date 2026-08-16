@@ -7,7 +7,7 @@ if (siteHeader && !siteHeader.querySelector('.sidebar-profile')) {
   profile.className = 'sidebar-profile';
   profile.innerHTML = `
     <a class="sidebar-portrait" href="index.html" aria-label="Caterina Mauri — home">
-      <img src="${siteIsItalian ? '../' : ''}assets/caterina-mauri-senti-kiparla.jpg" alt="" width="128" height="128">
+      <img src="${siteIsItalian ? '../' : ''}assets/caterina-mauri-senti-kiparla.jpg" alt="" width="152" height="152">
     </a>
     <p>${siteIsItalian ? 'Professoressa associata di Linguistica<br>Università di Bologna' : 'Associate Professor of Linguistics<br>University of Bologna'}</p>
   `;
@@ -27,7 +27,7 @@ document.querySelectorAll('.site-header nav').forEach((nav) => {
   if (!nav.querySelector('a[href="talks.html"]')) {
     const talksLink = document.createElement('a');
     talksLink.href = 'talks.html';
-    talksLink.textContent = siteIsItalian ? 'Conferenze' : 'Talks';
+    talksLink.textContent = siteIsItalian ? 'Interventi' : 'Talks';
     const publicationsLink = nav.querySelector('a[href="publications.html"]');
     if (publicationsLink) publicationsLink.insertAdjacentElement('afterend', talksLink);
     else nav.appendChild(talksLink);
