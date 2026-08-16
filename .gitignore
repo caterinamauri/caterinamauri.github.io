@@ -1,0 +1,14 @@
+# Private CV sources and generated extended versions
+assets/*.docx
+assets/*_extended.pdf
+
+# Private master data and source exports
+private/
+import/
+working/
+*.xls
+*.xlsx
+
+# Local temporary files
+.DS_Store
+~$*
