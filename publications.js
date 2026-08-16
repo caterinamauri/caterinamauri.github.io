@@ -1,4 +1,7 @@
 let publications = [];
+const publicationsAreItalian = document.documentElement.lang === 'it';
+const publicationsScriptUrl = document.querySelector('script[src*="publications.js"]')?.src || window.location.href;
+const publicationsDataUrl = new URL('data/publications.json', publicationsScriptUrl);
 let visiblePublications = 12;
 let activePublicationType = '';
 const list = document.querySelector('#publication-list');
@@ -71,11 +74,11 @@ function renderPublications() {
   if (!publications.length) return;
   const query = search.value.trim().toLowerCase();
   const matches = publications.filter((item) => (!year.value || String(item.year) === year.value) && (!activePublicationType || item.type === activePublicationType) && (!query || `${item.title} ${item.authors} ${item.citation}`.toLowerCase().includes(query)));
-  count.textContent = `${matches.length} publications`;
-  list.innerHTML = matches.slice(0, visiblePublications).map((item) => `<li><div class="apa-entry"><p class="apa-authors">${escapeHtml(apaAuthors(item.authors))} (${item.year || 'n.d.'}).</p><h3><a href="${item.url}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a>${item.open_access ? '<span class="oa">Open access</span>' : ''}</h3><p class="apa-source">${publicationSourceHtml(item)}</p></div></li>`).join('') || '<li class="loading">No results.</li>';
+  count.textContent = `${matches.length} ${publicationsAreItalian ? 'pubblicazioni' : 'publications'}`;
+  list.innerHTML = matches.slice(0, visiblePublications).map((item) => `<li><div class="apa-entry"><p class="apa-authors">${escapeHtml(apaAuthors(item.authors))} (${item.year || 'n.d.'}).</p><h3><a href="${item.url}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a>${item.open_access ? `<span class="oa">${publicationsAreItalian ? 'Accesso aperto' : 'Open access'}</span>` : ''}</h3><p class="apa-source">${publicationSourceHtml(item)}</p></div></li>`).join('') || `<li class="loading">${publicationsAreItalian ? 'Nessun risultato.' : 'No results.'}</li>`;
   more.hidden = visiblePublications >= matches.length;
 }
-fetch('data/publications.json').then((response) => response.json()).then((data) => { publications = data.publications; [...new Set(publications.map((item) => item.year).filter(Boolean))].sort((a,b) => b-a).forEach((value) => year.add(new Option(value,value))); renderPublications(); }).catch(() => { list.innerHTML = '<li class="loading">Publication archive unavailable.</li>'; more.hidden = true; });
+fetch(publicationsDataUrl, { cache: 'no-store' }).then((response) => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); }).then((data) => { publications = data.publications; [...new Set(publications.map((item) => item.year).filter(Boolean))].sort((a,b) => b-a).forEach((value) => year.add(new Option(value,value))); renderPublications(); }).catch(() => { list.innerHTML = `<li class="loading">${publicationsAreItalian ? 'Archivio delle pubblicazioni non disponibile.' : 'Publication archive unavailable.'}</li>`; more.hidden = true; });
 [search, year].forEach((control) => control.addEventListener('input', () => { visiblePublications = 12; renderPublications(); }));
 typeButtons.forEach((button) => button.addEventListener('click', () => { activePublicationType = button.dataset.type; typeButtons.forEach((item) => item.classList.toggle('active', item === button)); visiblePublications = 12; renderPublications(); }));
 more.addEventListener('click', () => { visiblePublications += 12; renderPublications(); });

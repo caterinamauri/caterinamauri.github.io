@@ -1,0 +1,908 @@
+{
+  "talks": [
+    {
+      "year": 2026,
+      "type": "invited",
+      "title": "KIParla Corpus",
+      "citation": "KIParla Corpus. Plenary talk at the International Conference Global, aréal, local: oral spontané à travers différentes cultures scientifiques en Europe francophone, germanophone, anglophone et italophone, University of Toulouse, France.",
+      "event": "Global, aréal, local: oral spontané à travers différentes cultures scientifiques en Europe francophone, germanophone, anglophone et italophone",
+      "forthcoming": true
+    },
+    {
+      "year": 2026,
+      "type": "invited",
+      "title": "Mirative responses: rejection and confirmation in common ground management",
+      "citation": "Mirative responses: rejection and confirmation in common ground management. Invited talk at the International Conference “Mitigation and Mirativity in CG Management”, University of Tübingen, Germany.",
+      "event": "Mitigation and Mirativity in CG Management",
+      "forthcoming": true
+    },
+    {
+      "year": 2026,
+      "type": "selected",
+      "title": "Coconstructions in spoken Universal Dependencies: guidelines and first results.",
+      "citation": "Forthcoming. Ludovica Pannitto, Kaja Dobrovoljc, Sylvain Kahane, Elena Battaglia, Bruno Guillaume, Caterina Mauri, and Eleonora Zucchini. “Coconstructions in spoken Universal Dependencies: guidelines and first results.” 4th UniDive General Meeting, House of the Romanian Academy, Bucharest, Romania, 27–28 August 2026.",
+      "event": "4th UniDive General Meeting",
+      "forthcoming": true
+    },
+    {
+      "year": 2026,
+      "type": "selected",
+      "title": "Complexity in Joint Corpus Representations, Under-specified Simultaneity, and the Case of KIParla.",
+      "citation": "Forthcoming. “Complexity in Joint Corpus Representations, Under-specified Simultaneity, and the Case of KIParla.” KONVENS 2026.",
+      "event": "KONVENS 2026",
+      "forthcoming": true
+    },
+    {
+      "year": 2026,
+      "type": "selected",
+      "title": "Stra-Parla: documenting spoken Italian in plurilingual communities.",
+      "citation": "Forthcoming. “Stra-Parla: documenting spoken Italian in plurilingual communities.” Learner Corpus Research 2026.",
+      "event": "Learner Corpus Research 2026",
+      "forthcoming": true
+    },
+    {
+      "year": 2026,
+      "type": "invited",
+      "title": "Layers of cooperation: The interactional architecture of spoken language",
+      "citation": "Layers of cooperation: The interactional architecture of spoken language. Three-lectures course in the Spring School Speech Matters II, Lake Como School of Advanced Studies.",
+      "event": "",
+      "forthcoming": false
+    },
+    {
+      "year": 2026,
+      "type": "invited",
+      "title": "Mettere in scena la comprensione: Dario Fo e la comunicazione oltre le parole",
+      "citation": "Mettere in scena la comprensione: Dario Fo e la comunicazione oltre le parole. Giornata di studi per le celebrazioni per il centenario della nascita di Dario Fo. University of Bologna.",
+      "event": "",
+      "forthcoming": false
+    },
+    {
+      "year": 2026,
+      "type": "invited",
+      "title": "Building KIParla: methodological choices, challenges, and data sharing practices, with Silvia Ballarè",
+      "citation": "Building KIParla: methodological choices, challenges, and data sharing practices, with Silvia Ballarè. University of Munich.",
+      "event": "",
+      "forthcoming": false
+    },
+    {
+      "year": 2026,
+      "type": "invited",
+      "title": "KIParla: una risorsa modulare per lo studio dell’italiano parlato, Conversazioni Linguistiche, University of Trento.",
+      "citation": "KIParla: una risorsa modulare per lo studio dell’italiano parlato, Conversazioni Linguistiche, University of Trento.",
+      "event": "",
+      "forthcoming": false
+    },
+    {
+      "year": 2026,
+      "type": "invited",
+      "title": "Building KIParla: methodological choices, challenges, and data sharing practices, with Silvia Ballarè",
+      "citation": "Building KIParla: methodological choices, challenges, and data sharing practices, with Silvia Ballarè. Workshop on “RACCONTA. Narrative competences and literacy development between internal variation and plurilingualism”, University of Bologna.",
+      "event": "RACCONTA. Narrative competences and literacy development between internal variation and plurilingualism",
+      "forthcoming": false
+    },
+    {
+      "year": 2026,
+      "type": "invited",
+      "title": "The addressee as co-constructor of meaning",
+      "citation": "The addressee as co-constructor of meaning. Online Seminar Series ‘From the perspective of the addressee’, University of Salerno and Lille.",
+      "event": "From the perspective of the addressee",
+      "forthcoming": false
+    },
+    {
+      "year": 2026,
+      "type": "selected",
+      "title": "Aggregate derivation across languages: A typological survey.",
+      "citation": "Caterina Mauri and Andrea Sansò. “Aggregate derivation across languages: A typological survey.” 16th International Conference of the Association for Linguistic Typology (ALT 16), Université Lumière Lyon 2, Lyon, France, 1–3 July 2026.",
+      "event": "16th International Conference of the Association for Linguistic Typology (ALT 16)",
+      "forthcoming": false
+    },
+    {
+      "year": 2026,
+      "type": "selected",
+      "title": "Coconstructions in Spoken Data: UD Annotation Guidelines and First Results.",
+      "citation": "Ludovica Pannitto, Kaja Dobrovoljc, Sylvain Kahane, Elena Battaglia, Bruno Guillaume, Caterina Mauri, and Eleonora Zucchini. “Coconstructions in Spoken Data: UD Annotation Guidelines and First Results.” 9th Workshop on Universal Dependencies (UDW 2026), 15th Language Resources and Evaluation Conference, Palma, Mallorca, Spain, 16 May 2026.",
+      "event": "9th Workshop on Universal Dependencies (UDW 2026), 15th Language Resources and Evaluation Conference",
+      "forthcoming": false
+    },
+    {
+      "year": 2026,
+      "type": "selected",
+      "title": "Say again? The limits of Whisper with conversation: A case study on the KIParla corpus.",
+      "citation": "Martina Simonotti, Ludovica Pannitto, Caterina Mauri, Adriano Ferraresi, and Gabriele Carioli. “Say again? The limits of Whisper with conversation: A case study on the KIParla corpus.” SPEAKABLE Workshop, 15th Language Resources and Evaluation Conference, Palma, Mallorca, Spain, 11 May 2026.",
+      "event": "SPEAKABLE Workshop, 15th Language Resources and Evaluation Conference",
+      "forthcoming": false
+    },
+    {
+      "year": 2026,
+      "type": "selected",
+      "title": "Is Semi-Automatic Transcription Useful in Corpus Creation? Preliminary Considerations on the KIParla Corpus.",
+      "citation": "Martina Simonotti, Ludovica Pannitto, Eleonora Zucchini, Silvia Ballarè, and Caterina Mauri. “Is Semi-Automatic Transcription Useful in Corpus Creation? Preliminary Considerations on the KIParla Corpus.” 15th Language Resources and Evaluation Conference (LREC 2026), Palma, Mallorca, Spain, 11–16 May 2026.",
+      "event": "15th Language Resources and Evaluation Conference (LREC 2026)",
+      "forthcoming": false
+    },
+    {
+      "year": 2026,
+      "type": "selected",
+      "title": "Esemplificare in interazione: risorse discorsive tra parlanti L1 e L2 di italiano.",
+      "citation": "Caterina Mauri and Eleonora Zucchini. “Esemplificare in interazione: risorse discorsive tra parlanti L1 e L2 di italiano.” 26th International Congress of the Italian Association of Applied Linguistics (AItLA), Teaching Hub, Forlì, Italy, 12–13 February 2026.",
+      "event": "26th International Congress of the Italian Association of Applied Linguistics (AItLA)",
+      "forthcoming": false
+    },
+    {
+      "year": 2025,
+      "type": "invited",
+      "title": "Oral and written needs: how literacy shapes the world’s grammars",
+      "citation": "Oral and written needs: how literacy shapes the world’s grammars. Plenary talk. Doctoral Conference, Corso in Culture Letterarie e Filologiche, University of Bologna.",
+      "event": "",
+      "forthcoming": false
+    },
+    {
+      "year": 2025,
+      "type": "invited",
+      "title": "Il corpus KIParla",
+      "citation": "Il corpus KIParla. Language tips, Università del Piemonte Orientale.",
+      "event": "",
+      "forthcoming": false
+    },
+    {
+      "year": 2025,
+      "type": "invited",
+      "title": "Cooperative meaning-making in linguistic interaction",
+      "citation": "Cooperative meaning-making in linguistic interaction. Workshop \"Conversational Dynamics: How Abstraction and Abstractness Ebb and Flow in Interaction\". University of Bologna.",
+      "event": "Conversational Dynamics: How Abstraction and Abstractness Ebb and Flow in Interaction",
+      "forthcoming": false
+    },
+    {
+      "year": 2025,
+      "type": "selected",
+      "title": "Constructing social categories in interaction: evidence from Stra-ParlaBO.",
+      "citation": "Claudia Borghetti and Caterina Mauri. “Constructing social categories in interaction: evidence from Stra-ParlaBO.” TALKING DATA: Methodological and Theoretical Challenges Raised by Spoken Interaction Data, University of Bologna, Bologna, Italy, 8–10 October 2025.",
+      "event": "TALKING DATA: Methodological and Theoretical Challenges Raised by Spoken Interaction Data",
+      "forthcoming": false
+    },
+    {
+      "year": 2025,
+      "type": "selected",
+      "title": "Valori pragmatici e funzioni discorsive della negazione correlativa nella diacronia dell’italiano.",
+      "citation": "Chiara Gianollo and Caterina Mauri. “Valori pragmatici e funzioni discorsive della negazione correlativa nella diacronia dell’italiano.” Pragmatica storica e diacronica dell’italiano: interazione tra parlanti, interazione tra categorie (DIADIta), University of Genoa, Genoa, Italy, 25–26 September 2025.",
+      "event": "Pragmatica storica e diacronica dell’italiano: interazione tra parlanti, interazione tra categorie (DIADIta)",
+      "forthcoming": false
+    },
+    {
+      "year": 2025,
+      "type": "selected",
+      "title": "Transcribing internal diversity: challenges and solutions from the KIParla Corpus.",
+      "citation": "Silvia Ballarè, Caterina Mauri, and Eleonora Zucchini. “Transcribing internal diversity: challenges and solutions from the KIParla Corpus.” 2nd Annual Meeting Langues & Langage à la croisée des Disciplines, Lille, France, 1–3 September 2025.",
+      "event": "2nd Annual Meeting Langues & Langage à la croisée des Disciplines",
+      "forthcoming": false
+    },
+    {
+      "year": 2025,
+      "type": "selected",
+      "title": "Reanalysis paths to alternativity connectives.",
+      "citation": "Caterina Mauri and Mira Ariel. “Reanalysis paths to alternativity connectives.” 58th Annual Meeting of the Societas Linguistica Europaea, Université Bordeaux Montaigne, Bordeaux, France, 26–29 August 2025.",
+      "event": "58th Annual Meeting of the Societas Linguistica Europaea",
+      "forthcoming": false
+    },
+    {
+      "year": 2025,
+      "type": "selected",
+      "title": "Mirative rejection: When mistaken beliefs trigger surprise.",
+      "citation": "Caterina Mauri and Antonia Russo. “Mirative rejection: When mistaken beliefs trigger surprise.” 58th Annual Meeting of the Societas Linguistica Europaea, Université Bordeaux Montaigne, Bordeaux, France, 26–29 August 2025.",
+      "event": "58th Annual Meeting of the Societas Linguistica Europaea",
+      "forthcoming": false
+    },
+    {
+      "year": 2025,
+      "type": "selected",
+      "title": "The pragmatic values of connective negation in contemporary Italian.",
+      "citation": "Chiara Gianollo and Caterina Mauri. “The pragmatic values of connective negation in contemporary Italian.” 58th Annual Meeting of the Societas Linguistica Europaea, Université Bordeaux Montaigne, Bordeaux, France, 26–29 August 2025.",
+      "event": "58th Annual Meeting of the Societas Linguistica Europaea",
+      "forthcoming": false
+    },
+    {
+      "year": 2025,
+      "type": "selected",
+      "title": "Introducing KIParla Forest: seeds for a UD annotation of interactional syntax.",
+      "citation": "Ludovica Pannitto, Eleonora Zucchini, Silvia Ballarè, Cristina Bosco, Caterina Mauri, and Manuela Sanguinetti. “Introducing KIParla Forest: seeds for a UD annotation of interactional syntax.” 8th International Conference on Dependency Linguistics (Depling, SyntaxFest 2025), Ljubljana, Slovenia, 26–29 August 2025.",
+      "event": "8th International Conference on Dependency Linguistics (Depling, SyntaxFest 2025)",
+      "forthcoming": false
+    },
+    {
+      "year": 2025,
+      "type": "selected",
+      "title": "How literacy shapes grammar: quantitative insights and methodological challenges of a typological approach.",
+      "citation": "Caterina Mauri, Andrea Sansò, Silvia Ballarè, and Ludovica Pannitto. “How literacy shapes grammar: quantitative insights and methodological challenges of a typological approach.” Transalpine Typology Meeting (TTM25), University of Pavia, Pavia, Italy, 2–3 July 2025.",
+      "event": "Transalpine Typology Meeting (TTM25)",
+      "forthcoming": false
+    },
+    {
+      "year": 2024,
+      "type": "invited",
+      "title": "Diversità nell’italiano parlato: documentare un patrimonio in costante evoluzione",
+      "citation": "Diversità nell’italiano parlato: documentare un patrimonio in costante evoluzione. Plenary talk at the Conference ‘Italiano parlato e chi parla italiano. Teoria, pratica e casi di studio’.",
+      "event": "Italiano parlato e chi parla italiano. Teoria, pratica e casi di studio",
+      "forthcoming": false
+    },
+    {
+      "year": 2024,
+      "type": "invited",
+      "title": "KIParla corpus of spoken Italian: design, usage and future challenges, Université de Neuchatel.",
+      "citation": "KIParla corpus of spoken Italian: design, usage and future challenges, Université de Neuchatel.",
+      "event": "",
+      "forthcoming": false
+    },
+    {
+      "year": 2024,
+      "type": "selected",
+      "title": "Did somebody say ‘Gest-IT’? A pilot exploration of multimodal data management.",
+      "citation": "Ludovica Pannitto, Lorenzo Albanesi, Laura Marion, Federica Maria Martines, Carmelo Caruso, Claudia Savina Bianchini, Francesca Masini, and Caterina Mauri. “Did somebody say ‘Gest-IT’? A pilot exploration of multimodal data management.” 10th Italian Conference on Computational Linguistics (CLiC-it 2024), Pisa, Italy, 4–6 December 2024.",
+      "event": "10th Italian Conference on Computational Linguistics (CLiC-it 2024)",
+      "forthcoming": false
+    },
+    {
+      "year": 2024,
+      "type": "selected",
+      "title": "Documentare la diversità linguistica: una nuova risorsa per l’italiano parlato da persone con esperienza di migrazione internazionale.",
+      "citation": "Eleonora Zucchini, Silvia Ballarè, Eugenio Goria, and Caterina Mauri. “Documentare la diversità linguistica: una nuova risorsa per l’italiano parlato da persone con esperienza di migrazione internazionale.” 16th Conference of the Association for the History of the Italian Language (ASLI), Trieste, Italy, 12–14 September 2024.",
+      "event": "16th Conference of the Association for the History of the Italian Language (ASLI)",
+      "forthcoming": false
+    },
+    {
+      "year": 2024,
+      "type": "selected",
+      "title": "The evolution of per cui in Italian: from oblique relative to conclusive connective.",
+      "citation": "Caterina Mauri and Silvia Ballarè. “The evolution of per cui in Italian: from oblique relative to conclusive connective.” 57th Annual Meeting of the Societas Linguistica Europaea, University of Helsinki, Helsinki, Finland, 21–24 August 2024.",
+      "event": "57th Annual Meeting of the Societas Linguistica Europaea",
+      "forthcoming": false
+    },
+    {
+      "year": 2024,
+      "type": "selected",
+      "title": "The KIParla corpus of spoken Italian.",
+      "citation": "Caterina Mauri, Silvia Ballarè, Beatrice Bernasconi, Eugenio Goria, and Eleonora Zucchini. “The KIParla corpus of spoken Italian.” LingCor: Workshop on Spoken Corpus Linguistics, Vienna, Austria, 25–26 July 2024.",
+      "event": "LingCor: Workshop on Spoken Corpus Linguistics",
+      "forthcoming": false
+    },
+    {
+      "year": 2024,
+      "type": "selected",
+      "title": "When language change starts from above: variation in the use of [preposition + cui] in spoken Italian.",
+      "citation": "Silvia Ballarè and Caterina Mauri. “When language change starts from above: variation in the use of [preposition + cui] in spoken Italian.” 12th International Conference on Language Variation in Europe (ICLaVE 12), Vienna, Austria, 8–11 July 2024.",
+      "event": "12th International Conference on Language Variation in Europe (ICLaVE 12)",
+      "forthcoming": false
+    },
+    {
+      "year": 2024,
+      "type": "selected",
+      "title": "Il corpus KIParla: una risorsa per la didattica dell’oralità.",
+      "citation": "Eleonora Zucchini, Silvia Ballarè, Claudia Borghetti, Paolo Della Putta, Eugenio Goria, and Caterina Mauri. “Il corpus KIParla: una risorsa per la didattica dell’oralità.” 9th Congress of the Italian Society of Language Teaching and Educational Linguistics (DILLE), Matera, Italy, 16–18 May 2024.",
+      "event": "9th Congress of the Italian Society of Language Teaching and Educational Linguistics (DILLE)",
+      "forthcoming": false
+    },
+    {
+      "year": 2024,
+      "type": "selected",
+      "title": "Temporal, aspectual, and modal evaluation of reference.",
+      "citation": "Caterina Mauri and Ludovica Pannitto. “Temporal, aspectual, and modal evaluation of reference.” Unlocking Evaluative Morphology: Conceptual and Methodological Challenges (EVALMO), Humboldt-Universität zu Berlin, Berlin, Germany, 14–15 March 2024.",
+      "event": "Unlocking Evaluative Morphology: Conceptual and Methodological Challenges (EVALMO)",
+      "forthcoming": false
+    },
+    {
+      "year": 2023,
+      "type": "invited",
+      "title": "“Kiparla Corpus - History, methodological choices, future challenges”, with Silvia Ballarè",
+      "citation": "“Kiparla Corpus - History, methodological choices, future challenges”, with Silvia Ballarè. CHORD talk in interaction, USI Lugano.",
+      "event": "Kiparla Corpus - History, methodological choices, future challenges",
+      "forthcoming": false
+    },
+    {
+      "year": 2023,
+      "type": "selected",
+      "title": "Understand in interaction: The rise of epistemic and evidential constructions based on capire in spoken Italian.",
+      "citation": "Silvia Ballarè and Caterina Mauri. “Understand in interaction: The rise of epistemic and evidential constructions based on capire in spoken Italian.” 56th Annual Meeting of the Societas Linguistica Europaea, National and Kapodistrian University of Athens, Athens, Greece, 29 August–1 September 2023.",
+      "event": "56th Annual Meeting of the Societas Linguistica Europaea",
+      "forthcoming": false
+    },
+    {
+      "year": 2023,
+      "type": "selected",
+      "title": "The mirative values of Italian altro che.",
+      "citation": "Caterina Mauri and Antonia Russo. “The mirative values of Italian altro che.” 56th Annual Meeting of the Societas Linguistica Europaea, National and Kapodistrian University of Athens, Athens, Greece, 29 August–1 September 2023.",
+      "event": "56th Annual Meeting of the Societas Linguistica Europaea",
+      "forthcoming": false
+    },
+    {
+      "year": 2023,
+      "type": "selected",
+      "title": "The or cycle.",
+      "citation": "Mira Ariel and Caterina Mauri. “The or cycle.” Colloquium on Cyclicity and the Theory of Language Change, Manchester, United Kingdom, July 2023.",
+      "event": "Colloquium on Cyclicity and the Theory of Language Change",
+      "forthcoming": false
+    },
+    {
+      "year": 2023,
+      "type": "selected",
+      "title": "Object encoding in spoken language data and antipassives.",
+      "citation": "Silvia Ballarè, Caterina Mauri, and Andrea Sansò. “Object encoding in spoken language data and antipassives.” GRelSpoC 2023: Grammatical Relations in Spoken Language Corpora, INALCO, Paris, France, 15–16 June 2023.",
+      "event": "GRelSpoC 2023: Grammatical Relations in Spoken Language Corpora",
+      "forthcoming": false
+    },
+    {
+      "year": 2023,
+      "type": "selected",
+      "title": "Object omission in naturally occurring data and antipassives.",
+      "citation": "Caterina Mauri and Andrea Sansò. “Object omission in naturally occurring data and antipassives.” Naturally Occurring Data in and beyond Linguistic Typology, University of Bologna, Bologna, Italy, 19–20 May 2023.",
+      "event": "Naturally Occurring Data in and beyond Linguistic Typology",
+      "forthcoming": false
+    },
+    {
+      "year": 2022,
+      "type": "invited",
+      "title": "Otherness: The linguistic expression of diversity in discourse and across languages”",
+      "citation": "\"Otherness: The linguistic expression of diversity in discourse and across languages”. Department of Linguistics, University of Stockholm.",
+      "event": "",
+      "forthcoming": false
+    },
+    {
+      "year": 2022,
+      "type": "invited",
+      "title": "Towards a typology of anticircumstantial clauses’",
+      "citation": "‘Towards a typology of anticircumstantial clauses’. International conference on ‘Negation in clause combining’, University of Helsinki.",
+      "event": "Towards a typology of anticircumstantial clauses",
+      "forthcoming": false
+    },
+    {
+      "year": 2022,
+      "type": "invited",
+      "title": "Esaustività e non-esaustività esplicita nel discorso: uno sguardo interlinguistico, tra funzioni testuali e percorsi diacronici’",
+      "citation": "‘Esaustività e non-esaustività esplicita nel discorso: uno sguardo interlinguistico, tra funzioni testuali e percorsi diacronici’. Invited talk at the conference ‘Forme della scrittura italiana contemporanea in prospettiva contrastiva. La componente testuale’. University of Basel.",
+      "event": "Esaustività e non-esaustività esplicita nel discorso: uno sguardo interlinguistico, tra funzioni testuali e percorsi diacronici",
+      "forthcoming": false
+    },
+    {
+      "year": 2022,
+      "type": "selected",
+      "title": "L’evidenzialità nel corpus KIParla: tra discorso e meta-discorso.",
+      "citation": "Maria Cristina Lo Baido and Caterina Mauri. “L’evidenzialità nel corpus KIParla: tra discorso e meta-discorso.” KNOWINT – Fonti di conoscenza nell’interazione orale, Università della Svizzera italiana, Lugano, Switzerland, 7–9 February 2022.",
+      "event": "KNOWINT – Fonti di conoscenza nell’interazione orale",
+      "forthcoming": false
+    },
+    {
+      "year": 2022,
+      "type": "selected",
+      "title": "Evidentiality between syntax and discourse: a case study from spoken Italian.",
+      "citation": "Silvia Ballarè and Caterina Mauri. “Evidentiality between syntax and discourse: a case study from spoken Italian.” KNOWINT – Fonti di conoscenza nell’interazione orale, Università della Svizzera italiana, Lugano, Switzerland, 7–9 February 2022.",
+      "event": "KNOWINT – Fonti di conoscenza nell’interazione orale",
+      "forthcoming": false
+    },
+    {
+      "year": 2021,
+      "type": "invited",
+      "title": "L’espressione dell’esaustività e della non esaustività in italiano: tra semantica e pragmatica’, Seminario permanente di linguistica italiana, University of Brno.",
+      "citation": "‘L’espressione dell’esaustività e della non esaustività in italiano: tra semantica e pragmatica’, Seminario permanente di linguistica italiana, University of Brno.",
+      "event": "L",
+      "forthcoming": false
+    },
+    {
+      "year": 2021,
+      "type": "selected",
+      "title": "Non è male come cosa: l’emergere di usi topicalizzanti e focalizzanti di come N nell’italiano parlato.",
+      "citation": "Alessandra Barotto and Caterina Mauri. “Non è male come cosa: l’emergere di usi topicalizzanti e focalizzanti di come N nell’italiano parlato.” 54th International Congress of the Italian Linguistic Society, University of Florence, online, 9 September 2021.",
+      "event": "54th International Congress of the Italian Linguistic Society",
+      "forthcoming": false
+    },
+    {
+      "year": 2021,
+      "type": "selected",
+      "title": "Il corpus KIParla.",
+      "citation": "Eugenio Goria, Massimo Cerruti, Silvia Ballarè, and Caterina Mauri. “Il corpus KIParla.” 54th International Congress of the Italian Linguistic Society, University of Florence, online, 8 September 2021.",
+      "event": "54th International Congress of the Italian Linguistic Society",
+      "forthcoming": false
+    },
+    {
+      "year": 2021,
+      "type": "selected",
+      "title": "Multi-layered indexicality: When proper names become categories.",
+      "citation": "Francesca Masini and Caterina Mauri. “Multi-layered indexicality: When proper names become categories.” 54th Annual Meeting of the Societas Linguistica Europaea, online, 3 September 2021.",
+      "event": "54th Annual Meeting of the Societas Linguistica Europaea",
+      "forthcoming": false
+    },
+    {
+      "year": 2021,
+      "type": "selected",
+      "title": "A socio-typological approach to conditionals: focus on counterfactuals.",
+      "citation": "Alessandra Barotto, Simone Mattiola, and Caterina Mauri. “A socio-typological approach to conditionals: focus on counterfactuals.” 54th Annual Meeting of the Societas Linguistica Europaea, online, 2 September 2021.",
+      "event": "54th Annual Meeting of the Societas Linguistica Europaea",
+      "forthcoming": false
+    },
+    {
+      "year": 2021,
+      "type": "selected",
+      "title": "Il posizionamento del sé nel discorso: una prospettiva interculturale.",
+      "citation": "Marianna Bolognesi, Claudia Borghetti, Francesca Masini, and Caterina Mauri. “Il posizionamento del sé nel discorso: una prospettiva interculturale.” Le parole sono importanti, University of Bologna, Bologna, Italy, 13–14 May 2021.",
+      "event": "Le parole sono importanti",
+      "forthcoming": false
+    },
+    {
+      "year": 2019,
+      "type": "invited",
+      "title": "Diversità tra le lingue e pragmatica’, invited talk at the conference ‘Diversità linguistica, inclusione e didattica delle lingue a scuola’, University of Bologna.",
+      "citation": "‘Diversità tra le lingue e pragmatica’, invited talk at the conference ‘Diversità linguistica, inclusione e didattica delle lingue a scuola’, University of Bologna.",
+      "event": "Diversità tra le lingue e pragmatica",
+      "forthcoming": false
+    },
+    {
+      "year": 2019,
+      "type": "invited",
+      "title": "Logical words and category constructions’",
+      "citation": "‘Logical words and category constructions’. Workshop ‘Logical words’, within the LOG-PRAG project coordinated by Jacques Moeschler, Université de Genève.",
+      "event": "Logical words and category constructions",
+      "forthcoming": false
+    },
+    {
+      "year": 2019,
+      "type": "selected",
+      "title": "KIParla corpus: a new resource for spoken Italian.",
+      "citation": "Eugenio Goria, Silvia Ballarè, Massimo Cerruti, Francesco Suriano, and Caterina Mauri. “KIParla corpus: a new resource for spoken Italian.” Poster presented at the 6th Italian Conference on Computational Linguistics, University of Bari, Bari, Italy, 13–15 November 2019.",
+      "event": "6th Italian Conference on Computational Linguistics",
+      "forthcoming": false
+    },
+    {
+      "year": 2019,
+      "type": "selected",
+      "title": "La creazione del corpus KIParla: criteri metodologici e prospettive future.",
+      "citation": "Silvia Ballarè and Caterina Mauri. “La creazione del corpus KIParla: criteri metodologici e prospettive future.” 53rd International Congress of the Italian Linguistic Society, University of Insubria, Como, Italy, 19–21 September 2019.",
+      "event": "53rd International Congress of the Italian Linguistic Society",
+      "forthcoming": false
+    },
+    {
+      "year": 2019,
+      "type": "selected",
+      "title": "Anticircumstantial clauses across languages.",
+      "citation": "Andrea Sansò and Caterina Mauri. “Anticircumstantial clauses across languages.” 13th Conference of the Association for Linguistic Typology, University of Pavia, Pavia, Italy, 4–6 September 2019.",
+      "event": "13th Conference of the Association for Linguistic Typology",
+      "forthcoming": false
+    },
+    {
+      "year": 2019,
+      "type": "selected",
+      "title": "The conceptual space of non-exhaustivity: a broad typological perspective.",
+      "citation": "Alessandra Barotto and Caterina Mauri. “The conceptual space of non-exhaustivity: a broad typological perspective.” 13th Conference of the Association for Linguistic Typology, University of Pavia, Pavia, Italy, 4–6 September 2019.",
+      "event": "13th Conference of the Association for Linguistic Typology",
+      "forthcoming": false
+    },
+    {
+      "year": 2019,
+      "type": "selected",
+      "title": "The discourse functions of exemplification.",
+      "citation": "Alessandra Barotto and Caterina Mauri. “The discourse functions of exemplification.” 6th International Conference on Discourse Markers in Romance Languages (DISROM6), University of Bergamo, Bergamo, Italy, 29 May 2019.",
+      "event": "6th International Conference on Discourse Markers in Romance Languages (DISROM6)",
+      "forthcoming": false
+    },
+    {
+      "year": 2018,
+      "type": "selected",
+      "title": "A typology of non-exhaustivity: focus on non-exhaustive connectives.",
+      "citation": "Alessandra Barotto and Caterina Mauri. “A typology of non-exhaustivity: focus on non-exhaustive connectives.” 8th International Conference on Syntax of the World’s Languages, INALCO, Paris, France, 3–5 September 2018.",
+      "event": "8th International Conference on Syntax of the World’s Languages",
+      "forthcoming": false
+    },
+    {
+      "year": 2018,
+      "type": "selected",
+      "title": "Beyond collectives: a cross-linguistic approach to aggregate derivation.",
+      "citation": "Andrea Sansò and Caterina Mauri. “Beyond collectives: a cross-linguistic approach to aggregate derivation.” Poster presented at the 8th International Conference on Syntax of the World’s Languages, INALCO, Paris, France, 3–5 September 2018.",
+      "event": "8th International Conference on Syntax of the World’s Languages",
+      "forthcoming": false
+    },
+    {
+      "year": 2018,
+      "type": "selected",
+      "title": "From similative to exemplification: Emerging constructions with come in spoken Italian.",
+      "citation": "Eugenio Goria and Caterina Mauri. “From similative to exemplification: Emerging constructions with come in spoken Italian.” 4th Usage-Based Linguistics Conference, Tel Aviv University, Tel Aviv, Israel, 4 July 2018.",
+      "event": "4th Usage-Based Linguistics Conference",
+      "forthcoming": false
+    },
+    {
+      "year": 2017,
+      "type": "invited",
+      "title": "Constructing lists for constructing categories: the LEAdhoC project’, BILS Seminars, University of Milan Bicocca.",
+      "citation": "‘Constructing lists for constructing categories: the LEAdhoC project’, BILS Seminars, University of Milan Bicocca.",
+      "event": "Constructing lists for constructing categories: the LEAdhoC project",
+      "forthcoming": false
+    },
+    {
+      "year": 2017,
+      "type": "selected",
+      "title": "Exemplar-based compounds: the case of Chinese.",
+      "citation": "Giorgio Francesco Arcodia and Caterina Mauri. “Exemplar-based compounds: the case of Chinese.” Second International Symposium on Chinese Theoretical and Applied Linguistics, University of Milano-Bicocca, Milan, Italy, 14–16 December 2017.",
+      "event": "Second International Symposium on Chinese Theoretical and Applied Linguistics",
+      "forthcoming": false
+    },
+    {
+      "year": 2017,
+      "type": "selected",
+      "title": "Building categories in interaction.",
+      "citation": "Caterina Mauri. “Building categories in interaction.” Building Categories in Interaction: A Multidisciplinary Approach to Categorization, University of Bologna, Bologna, Italy, 19–20 October 2017.",
+      "event": "Building Categories in Interaction: A Multidisciplinary Approach to Categorization",
+      "forthcoming": false
+    },
+    {
+      "year": 2017,
+      "type": "selected",
+      "title": "Questione di stile: l’espressione analitica della maniera indessicale.",
+      "citation": "Francesca Masini and Caterina Mauri. “Questione di stile: l’espressione analitica della maniera indessicale.” 51st International Congress of the Italian Linguistic Society, Naples, Italy, 28–30 September 2017.",
+      "event": "51st International Congress of the Italian Linguistic Society",
+      "forthcoming": false
+    },
+    {
+      "year": 2017,
+      "type": "selected",
+      "title": "Names & co. A diachronic typology of associative and similative plurals.",
+      "citation": "Andrea Sansò and Caterina Mauri. “Names & co. A diachronic typology of associative and similative plurals.” 50th Annual Meeting of the Societas Linguistica Europaea, University of Zurich, Zurich, Switzerland, 10–13 September 2017.",
+      "event": "50th Annual Meeting of the Societas Linguistica Europaea",
+      "forthcoming": false
+    },
+    {
+      "year": 2017,
+      "type": "selected",
+      "title": "The encoding of irrelevance in discourse: evidence from Italian and Sicilian.",
+      "citation": "Maria Cristina Lo Baido and Caterina Mauri. “The encoding of irrelevance in discourse: evidence from Italian and Sicilian.” 50th Annual Meeting of the Societas Linguistica Europaea, University of Zurich, Zurich, Switzerland, 10–13 September 2017.",
+      "event": "50th Annual Meeting of the Societas Linguistica Europaea",
+      "forthcoming": false
+    },
+    {
+      "year": 2017,
+      "type": "selected",
+      "title": "Constructing indexical categorization: focus on lists.",
+      "citation": "Eugenio Goria, Ilaria Fiorentini, and Caterina Mauri. “Constructing indexical categorization: focus on lists.” 15th International Pragmatics Conference, Belfast, United Kingdom, 16–21 July 2017.",
+      "event": "15th International Pragmatics Conference",
+      "forthcoming": false
+    },
+    {
+      "year": 2016,
+      "type": "invited",
+      "title": "Connectives beyond connecting: converging evidence in the analysis of disjunction’",
+      "citation": "‘Connectives beyond connecting: converging evidence in the analysis of disjunction’. 2nd Usage-based Linguistics Conference, Tel Aviv University. Plenary speaker.",
+      "event": "Connectives beyond connecting: converging evidence in the analysis of disjunction",
+      "forthcoming": false
+    },
+    {
+      "year": 2016,
+      "type": "selected",
+      "title": "Towards a diachronic typology of general extenders.",
+      "citation": "Andrea Sansò and Caterina Mauri. “Towards a diachronic typology of general extenders.” Tipologia, acquisizione, grammaticalizzazione, University of Pavia, Pavia, Italy, 14–15 October 2016.",
+      "event": "Tipologia, acquisizione, grammaticalizzazione",
+      "forthcoming": false
+    },
+    {
+      "year": 2016,
+      "type": "selected",
+      "title": "Constructing lists for constructing categories.",
+      "citation": "Alessandra Barotto and Caterina Mauri. “Constructing lists for constructing categories.” 50th International Congress of the Italian Linguistic Society, University of Milano-Bicocca, Milan, Italy, 22 September 2016.",
+      "event": "50th International Congress of the Italian Linguistic Society",
+      "forthcoming": false
+    },
+    {
+      "year": 2016,
+      "type": "selected",
+      "title": "How basic is alternative? A diachronic typology of disjunction.",
+      "citation": "Caterina Mauri. “How basic is alternative? A diachronic typology of disjunction.” Disjunction Days, ZAS, Berlin, Germany, 2–3 June 2016.",
+      "event": "Disjunction Days",
+      "forthcoming": false
+    },
+    {
+      "year": 2015,
+      "type": "selected",
+      "title": "Linguistic strategies for the on-line construction of categories.",
+      "citation": "Andrea Sansò and Caterina Mauri. “Linguistic strategies for the on-line construction of categories.” 49th International Congress of the Italian Linguistic Society, University of Malta, Malta, 24–26 September 2015.",
+      "event": "49th International Congress of the Italian Linguistic Society",
+      "forthcoming": false
+    },
+    {
+      "year": 2015,
+      "type": "selected",
+      "title": "Contextually dependent reference to sets and categories.",
+      "citation": "Andrea Sansò and Caterina Mauri. “Contextually dependent reference to sets and categories.” 14th International Pragmatics Conference, University of Antwerp, Antwerp, Belgium, 26–31 July 2015.",
+      "event": "14th International Pragmatics Conference",
+      "forthcoming": false
+    },
+    {
+      "year": 2014,
+      "type": "selected",
+      "title": "Exemplar-driven category building: a basic communicative function and its coding across languages.",
+      "citation": "Andrea Sansò and Caterina Mauri. “Exemplar-driven category building: a basic communicative function and its coding across languages.” 6th International Conference on Syntax of the World’s Languages, University of Pavia, Pavia, Italy, 9 September 2014.",
+      "event": "6th International Conference on Syntax of the World’s Languages",
+      "forthcoming": false
+    },
+    {
+      "year": 2013,
+      "type": "selected",
+      "title": "Parallel corpora and the cross-linguistic annotation of modality.",
+      "citation": "Malvina Nissim, Paola Pietrandrea, Andrea Sansò, and Caterina Mauri. “Parallel corpora and the cross-linguistic annotation of modality.” 46th Annual Meeting of the Societas Linguistica Europaea, Split, Croatia, 18–21 September 2013.",
+      "event": "46th Annual Meeting of the Societas Linguistica Europaea",
+      "forthcoming": false
+    },
+    {
+      "year": 2013,
+      "type": "selected",
+      "title": "Which units for modality annotation?",
+      "citation": "Malvina Nissim, Paola Pietrandrea, Andrea Sansò, and Caterina Mauri. “Which units for modality annotation?” Ninth Joint ACL–ISO Workshop on Interoperable Semantic Annotation (ISA-9), Potsdam, Germany, 19 March 2013.",
+      "event": "Ninth Joint ACL–ISO Workshop on Interoperable Semantic Annotation (ISA-9)",
+      "forthcoming": false
+    },
+    {
+      "year": 2012,
+      "type": "selected",
+      "title": "The role of lists and list markers in the coding of vagueness: a cross-linguistic analysis.",
+      "citation": "Francesca Masini, Lucia Tovena, Miriam Voghera, and Caterina Mauri. “The role of lists and list markers in the coding of vagueness: a cross-linguistic analysis.” 45th Annual Meeting of the Societas Linguistica Europaea, Stockholm, Sweden, 29 August–2 September 2012.",
+      "event": "45th Annual Meeting of the Societas Linguistica Europaea",
+      "forthcoming": false
+    },
+    {
+      "year": 2012,
+      "type": "selected",
+      "title": "Scalar connective operators: a focus on Italian pur di.",
+      "citation": "Anna Giacalone Ramat and Caterina Mauri. “Scalar connective operators: a focus on Italian pur di.” 45th Annual Meeting of the Societas Linguistica Europaea, Stockholm, Sweden, 29 August–2 September 2012.",
+      "event": "45th Annual Meeting of the Societas Linguistica Europaea",
+      "forthcoming": false
+    },
+    {
+      "year": 2012,
+      "type": "selected",
+      "title": "Sempre che and casomai: the grammaticalization of two conditional connectives in Italian.",
+      "citation": "Andrea Sansò and Caterina Mauri. “Sempre che and casomai: the grammaticalization of two conditional connectives in Italian.” New Reflections on Grammaticalization 5, 16–19 July 2012.",
+      "event": "New Reflections on Grammaticalization 5",
+      "forthcoming": false
+    },
+    {
+      "year": 2011,
+      "type": "invited",
+      "title": "Logical connectives in the world’s languages’",
+      "citation": "‘Logical connectives in the world’s languages’. Département de Linguistique, Université di Genève.",
+      "event": "Logical connectives in the world",
+      "forthcoming": false
+    },
+    {
+      "year": 2011,
+      "type": "selected",
+      "title": "Restricted indefiniteness: the case of Italian piuttosto che.",
+      "citation": "Anna Giacalone Ramat and Caterina Mauri. “Restricted indefiniteness: the case of Italian piuttosto che.” 44th Annual Meeting of the Societas Linguistica Europaea, Logroño, Spain, 8–11 September 2011.",
+      "event": "44th Annual Meeting of the Societas Linguistica Europaea",
+      "forthcoming": false
+    },
+    {
+      "year": 2011,
+      "type": "selected",
+      "title": "Go and come as sources of directive constructions.",
+      "citation": "Andrea Sansò and Caterina Mauri. “Go and come as sources of directive constructions.” 44th Annual Meeting of the Societas Linguistica Europaea, Logroño, Spain, 8–11 September 2011.",
+      "event": "44th Annual Meeting of the Societas Linguistica Europaea",
+      "forthcoming": false
+    },
+    {
+      "year": 2010,
+      "type": "selected",
+      "title": "Reality status and interclausal relations: synchronic and diachronic variation.",
+      "citation": "Andrea Sansò and Caterina Mauri. “Reality status and interclausal relations: synchronic and diachronic variation.” Second Transalpine Typology Meeting, University of Pavia, Pavia, Italy, 11–12 December 2010.",
+      "event": "Second Transalpine Typology Meeting",
+      "forthcoming": false
+    },
+    {
+      "year": 2010,
+      "type": "selected",
+      "title": "Interclausal relations and reality status: a typological survey (and bits of a diachronic puzzle).",
+      "citation": "Andrea Sansò and Caterina Mauri. “Interclausal relations and reality status: a typological survey (and bits of a diachronic puzzle).” 4th International Conference on Syntax of the World’s Languages, Lyon, France, 23–26 September 2010.",
+      "event": "4th International Conference on Syntax of the World’s Languages",
+      "forthcoming": false
+    },
+    {
+      "year": 2010,
+      "type": "selected",
+      "title": "The grammaticalization of coordinating interclausal connectives.",
+      "citation": "Anna Giacalone Ramat and Caterina Mauri. “The grammaticalization of coordinating interclausal connectives.” 43rd Annual Meeting of the Societas Linguistica Europaea, Vilnius University, Vilnius, Lithuania, 2–5 September 2010.",
+      "event": "43rd Annual Meeting of the Societas Linguistica Europaea",
+      "forthcoming": false
+    },
+    {
+      "year": 2009,
+      "type": "invited",
+      "title": "Coordination Relations in the Languages of Europe and Beyond",
+      "citation": "'Coordination Relations in the Languages of Europe and Beyond'. Plenary speaker at the 8° ALT Conference, University of Berkeley, 23-26/7/2009, as winner of the Greenberg Award 2009.",
+      "event": "",
+      "forthcoming": false
+    },
+    {
+      "year": 2009,
+      "type": "selected",
+      "title": "Gradualness in Grammaticalization.",
+      "citation": "Anna Giacalone Ramat and Caterina Mauri. “Gradualness in Grammaticalization.” 42nd Annual Meeting of the Societas Linguistica Europaea, Lisbon, Portugal, 9–12 December 2009.",
+      "event": "42nd Annual Meeting of the Societas Linguistica Europaea",
+      "forthcoming": false
+    },
+    {
+      "year": 2009,
+      "type": "selected",
+      "title": "The diachrony of (ir)realis markers.",
+      "citation": "Andrea Sansò and Caterina Mauri. “The diachrony of (ir)realis markers.” 19th International Conference on Historical Linguistics, Nijmegen, the Netherlands, 10–15 August 2009.",
+      "event": "19th International Conference on Historical Linguistics",
+      "forthcoming": false
+    },
+    {
+      "year": 2009,
+      "type": "selected",
+      "title": "The grammaticalization of interclausal connectives: the case of adversatives.",
+      "citation": "Anna Giacalone Ramat and Caterina Mauri. “The grammaticalization of interclausal connectives: the case of adversatives.” 19th International Conference on Historical Linguistics, Nijmegen, the Netherlands, 10–15 August 2009.",
+      "event": "19th International Conference on Historical Linguistics",
+      "forthcoming": false
+    },
+    {
+      "year": 2009,
+      "type": "selected",
+      "title": "Irrealis and clause linkage.",
+      "citation": "Andrea Sansò and Caterina Mauri. “Irrealis and clause linkage.” 8th Conference of the Association for Linguistic Typology, University of California, Berkeley, USA, 23–26 July 2009.",
+      "event": "8th Conference of the Association for Linguistic Typology",
+      "forthcoming": false
+    },
+    {
+      "year": 2009,
+      "type": "selected",
+      "title": "How basic is the notion of alternative? A diachronic typology of disjunction.",
+      "citation": "Caterina Mauri. “How basic is the notion of alternative? A diachronic typology of disjunction.” Transalpine Typology Meeting, University of Bern, Bern, Switzerland, 22–24 January 2009.",
+      "event": "Transalpine Typology Meeting",
+      "forthcoming": false
+    },
+    {
+      "year": 2008,
+      "type": "invited",
+      "title": "(with Andrea Sansò) ‘Typology and diachrony of (ir)realis: on overview of the IRR-TYP project’",
+      "citation": "(with Andrea Sansò) ‘Typology and diachrony of (ir)realis: on overview of the IRR-TYP project’. Universität Zürich, Zürich.",
+      "event": "Typology and diachrony of (ir)realis: on overview of the IRR-TYP project",
+      "forthcoming": false
+    },
+    {
+      "year": 2008,
+      "type": "invited",
+      "title": "(with Andrea Sansò) ‘The reality status of directives and its coding across languages’",
+      "citation": "(with Andrea Sansò) ‘The reality status of directives and its coding across languages’. Universität Zürich, Zürich.",
+      "event": "The reality status of directives and its coding across languages",
+      "forthcoming": false
+    },
+    {
+      "year": 2008,
+      "type": "invited",
+      "title": "(with Andrea Sansò) ‘The (ir)reality of directives”",
+      "citation": "(with Andrea Sansò) ‘The (ir)reality of directives”. Max Planck Institute for Evolutionary Anthropology, Leipzig.",
+      "event": "",
+      "forthcoming": false
+    },
+    {
+      "year": 2008,
+      "type": "selected",
+      "title": "I connettivi congiuntivi e avversativi dall’antico russo di Novgorod al russo moderno.",
+      "citation": "Gianguido Manzelli and Caterina Mauri. “I connettivi congiuntivi e avversativi dall’antico russo di Novgorod al russo moderno.” 2nd Conference on Slavic Linguistics, University of Padua, Padua, Italy, 14–15 November 2008.",
+      "event": "2nd Conference on Slavic Linguistics",
+      "forthcoming": false
+    },
+    {
+      "year": 2008,
+      "type": "selected",
+      "title": "The cross-linguistic coding of coordination relations.",
+      "citation": "Caterina Mauri. “The cross-linguistic coding of coordination relations.” 3rd International Conference on Syntax of the World’s Languages, Freie Universität Berlin, Berlin, Germany, 25–28 September 2008.",
+      "event": "3rd International Conference on Syntax of the World’s Languages",
+      "forthcoming": false
+    },
+    {
+      "year": 2008,
+      "type": "selected",
+      "title": "The reality status of directives and its coding across languages.",
+      "citation": "Andrea Sansò and Caterina Mauri. “The reality status of directives and its coding across languages.” 3rd International Conference on Syntax of the World’s Languages, Freie Universität Berlin, Berlin, Germany, 25–28 September 2008.",
+      "event": "3rd International Conference on Syntax of the World’s Languages",
+      "forthcoming": false
+    },
+    {
+      "year": 2008,
+      "type": "selected",
+      "title": "The reality status of directives and its coding across languages.",
+      "citation": "Andrea Sansò and Caterina Mauri. “The reality status of directives and its coding across languages.” 41st Annual Meeting of the Societas Linguistica Europaea, Forlì, Italy, 17–20 September 2008.",
+      "event": "41st Annual Meeting of the Societas Linguistica Europaea",
+      "forthcoming": false
+    },
+    {
+      "year": 2008,
+      "type": "selected",
+      "title": "The grammaticalization of directive modality.",
+      "citation": "Andrea Sansò and Caterina Mauri. “The grammaticalization of directive modality.” New Reflections on Grammaticalization 4, University of Leuven, Leuven, Belgium, 16–19 July 2008.",
+      "event": "New Reflections on Grammaticalization 4",
+      "forthcoming": false
+    },
+    {
+      "year": 2008,
+      "type": "selected",
+      "title": "Dalla continuità temporale al contrasto: la grammaticalizzazione di tuttavia come connettivo coordinativo.",
+      "citation": "Anna Giacalone Ramat and Caterina Mauri. “Dalla continuità temporale al contrasto: la grammaticalizzazione di tuttavia come connettivo coordinativo.” 10th International Congress of the International Society for Italian Linguistics and Philology (SILFI), University of Basel, Basel, Switzerland, 30 June–3 July 2008.",
+      "event": "10th International Congress of the International Society for Italian Linguistics and Philology (SILFI)",
+      "forthcoming": false
+    },
+    {
+      "year": 2008,
+      "type": "selected",
+      "title": "Paths of semantic change leading to contrast markers.",
+      "citation": "Anna Giacalone Ramat and Caterina Mauri. “Paths of semantic change leading to contrast markers.” Levels of Analysis in the History of Indo-European Languages, University of Trieste, Trieste, Italy, 22–24 May 2008.",
+      "event": "Levels of Analysis in the History of Indo-European Languages",
+      "forthcoming": false
+    },
+    {
+      "year": 2007,
+      "type": "selected",
+      "title": "The twofold conceptual space of coordination relations.",
+      "citation": "Caterina Mauri. “The twofold conceptual space of coordination relations.” Semantic Maps: Methods and Applications, CNRS, Villejuif, France, 29 September 2007.",
+      "event": "Semantic Maps: Methods and Applications",
+      "forthcoming": false
+    },
+    {
+      "year": 2007,
+      "type": "selected",
+      "title": "Person/number and modality: a two-way model of interaction between grammatical systems.",
+      "citation": "Andrea Sansò and Caterina Mauri. “Person/number and modality: a two-way model of interaction between grammatical systems.” 7th Conference of the Association for Linguistic Typology, Paris, France, 25–28 September 2007.",
+      "event": "7th Conference of the Association for Linguistic Typology",
+      "forthcoming": false
+    },
+    {
+      "year": 2007,
+      "type": "selected",
+      "title": "Le strategie congiuntive e avversative nelle lingue slave: uno studio diacronico comparativo.",
+      "citation": "Gianguido Manzelli and Caterina Mauri. “Le strategie congiuntive e avversative nelle lingue slave: uno studio diacronico comparativo.” 3rd Conference on Slavic Studies: Le lingue slave tra innovazione e conservazione: grammatica e semantica, University of Bergamo, Bergamo, Italy, 4–5 May 2007.",
+      "event": "3rd Conference on Slavic Studies: Le lingue slave tra innovazione e conservazione: grammatica e semantica",
+      "forthcoming": false
+    },
+    {
+      "year": 2006,
+      "type": "invited",
+      "title": "Le relazioni di coordinazione: costruzioni congiuntive, disgiuntive e avversative a confronto",
+      "citation": "'Le relazioni di coordinazione: costruzioni congiuntive, disgiuntive e avversative a confronto'. MorboConf, Dipartimento di Lingue e Letterature Straniere, Università di Bologna.",
+      "event": "",
+      "forthcoming": false
+    },
+    {
+      "year": 2006,
+      "type": "selected",
+      "title": "La variazione linguistica in Europa attraverso un database tipologico. L’esperienza del Pavia Typological Database.",
+      "citation": "Federica Da Milano, Andrea Sansò, and Caterina Mauri. “La variazione linguistica in Europa attraverso un database tipologico. L’esperienza del Pavia Typological Database.” Poster presented at the 40th International Congress of the Italian Linguistic Society, University of Eastern Piedmont, Vercelli, Italy, 21–23 September 2006.",
+      "event": "40th International Congress of the Italian Linguistic Society",
+      "forthcoming": false
+    },
+    {
+      "year": 2006,
+      "type": "selected",
+      "title": "Conjunctive and adversative constructions in the languages of Europe.",
+      "citation": "Caterina Mauri. “Conjunctive and adversative constructions in the languages of Europe.” Leipzig Students Conference in Linguistics, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany, 25–26 March 2006.",
+      "event": "Leipzig Students Conference in Linguistics",
+      "forthcoming": false
+    },
+    {
+      "year": 2006,
+      "type": "selected",
+      "title": "Costruzioni congiuntive, disgiuntive e avversative nelle lingue d’Europa.",
+      "citation": "Caterina Mauri. “Costruzioni congiuntive, disgiuntive e avversative nelle lingue d’Europa.” Final conference of the FIRB project Europa e Mediterraneo dal punto di vista linguistico: storia e prospettive, University of Siena, Siena, Italy, 17–18 February 2006.",
+      "event": "Europa e Mediterraneo dal punto di vista linguistico: storia e prospettive",
+      "forthcoming": false
+    },
+    {
+      "year": 2005,
+      "type": "invited",
+      "title": "Combination, alternative and contrast: conjunctive, disjunctive and adversative constructions in -and outside- Europe’",
+      "citation": "‘Combination, alternative and contrast: conjunctive, disjunctive and adversative constructions in -and outside- Europe’. Max Planck Institute for Evolutionary Anthropology, Leipzig.",
+      "event": "Combination, alternative and contrast: conjunctive, disjunctive and adversative constructions in -and outside- Europe",
+      "forthcoming": false
+    },
+    {
+      "year": 2004,
+      "type": "selected",
+      "title": "Semantically prototypical nouns used as modifiers and predicates: a cross-linguistic study.",
+      "citation": "Caterina Mauri. “Semantically prototypical nouns used as modifiers and predicates: a cross-linguistic study.” Word Structure and Lexical Systems: Models and Applications, University of Pavia, Pavia, Italy, 16 December 2004.",
+      "event": "Word Structure and Lexical Systems: Models and Applications",
+      "forthcoming": false
+    }
+  ]
+}

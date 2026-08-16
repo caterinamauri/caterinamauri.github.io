@@ -10,10 +10,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="sobrio.css">
-  <link rel="stylesheet" href="didattica.css">
+  <link rel="stylesheet" href="sobrio.css?v=7">
+  <link rel="stylesheet" href="didattica.css?v=7">
   <script src="site.js" defer></script>
-  <script src="didattica.js?v=2" defer></script>
+  <script src="didattica.js?v=3" defer></script>
 </head>
 <body class="sober teaching-page">
   <header class="site-header">
@@ -25,13 +25,13 @@
   <main>
     <header class="teaching-hero">
       <h1>Teaching &amp; supervision</h1>
-      <p>Courses in linguistics, pragmatics and linguistic diversity, alongside doctoral education and research supervision.</p>
-      <a class="arrow-link" href="https://www.unibo.it/sitoweb/caterina.mauri/didattica" target="_blank" rel="noopener">Current courses on Unibo</a>
+      <p>In teaching, I try to create a space where theoretical tools, data and questions can be tested together. Working with students, doctoral researchers and postdocs is an essential part of my own intellectual development: supporting their paths also means reconsidering my questions, learning from their perspectives and keeping my research open.</p>
+      <a class="arrow-link" href="https://www.unibo.it/sitoweb/caterina.mauri/didattica" target="_blank" rel="noopener">Courses on Unibo</a>
     </header>
 
     <section class="teaching-section">
       <div class="section-label"><span>01</span><h2>Current courses</h2></div>
-      <div><p class="academic-year" id="academic-year"></p><div class="course-list" id="current-courses"><p>Loading current courses…</p></div></div>
+      <div><nav class="year-tabs" id="teaching-years" aria-label="Teaching by academic year"></nav><div class="course-list" id="current-courses"><p>Loading courses…</p></div></div>
     </section>
 
     <section class="teaching-section phd-programme">
@@ -44,18 +44,32 @@
       </div>
     </section>
 
+    <section class="teaching-section doctoral-supervision">
+      <div class="section-label"><span>03</span><h2>Doctoral and degree supervision</h2></div>
+      <div>
+        <p class="supervision-intro">My doctoral supervision includes formal supervision and co-supervision, international mentoring, and appointment as a thesis reader—an ongoing advisory role involving sustained engagement with the dissertation.</p>
+        <div class="supervision-list">
+          <article><h3>Doctoral supervisor and co-supervisor</h3><p>Alessandra Barotto · Maria Cristina Lo Baido · Antonia Russo · Kristýna Lorenzová</p></article>
+          <article><h3>International doctoral mentor</h3><p>Elena Battaglia</p></article>
+          <article><h3>Appointed doctoral thesis reader</h3><p>Antonio Bianco · Sara Gemelli · Tanja Trebucchi · Jessica Katiuscia Ivani · Eugenio Goria · Luigi Talamo · Simone Mattiola</p></article>
+          <article><h3>BA and MA theses</h3><p>99 theses supervised or co-supervised: 54 BA and 36 MA theses at the University of Bologna; 9 MA theses at the University of Pavia.</p></article>
+        </div>
+        <p class="supervision-note">Thesis titles and further details are available in the <a href="cv.html">full CV</a>.</p>
+      </div>
+    </section>
+
     <section class="teaching-section postdocs pale">
-      <div class="section-label"><span>03</span><h2>Postdoctoral researchers</h2></div>
+      <div class="section-label"><span>04</span><h2>Postdoctoral research supervision</h2></div>
       <div>
         <p class="postdocs-intro">Researchers I have supervised at the University of Bologna, with the period of supervision and a link to their current institutional or professional profile.</p>
         <div class="postdoc-list">
-          <article><time>2016–2017</time><div><h3><a href="https://unipv.unifind.cineca.it/resource/person/694724?language=it-IT" target="_blank" rel="noopener">Ilaria Fiorentini <span>↗</span></a></h3><p>LEAdhoC · now Associate Professor at the University of Pavia</p></div></article>
-          <article><time>05/2016–02/2018</time><div><h3><a href="https://unifind.unito.it/individual?uri=http%3A%2F%2Firises.unito.it%2Fresource%2Fperson%2F132686" target="_blank" rel="noopener">Eugenio Goria <span>↗</span></a></h3><p>LEAdhoC · now Associate Professor at the University of Turin</p></div></article>
-          <article><time>10/2017–09/2021</time><div><h3><a href="https://uninsubria.unifind.cineca.it/resource/person/160735" target="_blank" rel="noopener">Alessandra Barotto <span>↗</span></a></h3><p>LEAdhoC · now tenure-track researcher at the University of Insubria</p></div></article>
-          <article><time>03/2024–2025</time><div><h3><a href="https://www.muni.cz/lide/256684-eleonora-zucchini" target="_blank" rel="noopener">Eleonora Zucchini <span>↗</span></a></h3><p>DiverSIta · now Assistant Professor at Masaryk University</p></div></article>
-          <article><time>2026–2027</time><div><h3><a href="https://www.unibo.it/sitoweb/giorgia.troiani/" target="_blank" rel="noopener">Giorgia Troiani <span>↗</span></a></h3><p>MSCA European Fellowship · SPEAK</p></div></article>
-          <article><time>2026–2027</time><div><h3><a href="https://www.unibo.it/it/ateneo/amministrazione-trasparente/consulenti-e-collaboratori/tabella-incarichi-attivi-di-collaborazione-e-di-consulenza-affidati-a-soggetti-esterni/last_years?format=cv&amp;id=43660" target="_blank" rel="noopener">Elena Battaglia <span>↗</span></a></h3><p>SNSF Postdoc.Mobility · Towards an incremental semantics</p></div></article>
-          <article class="forthcoming"><time>from 09/2026</time><div><h3><a href="https://www.researchgate.net/profile/Antonia-Russo-2" target="_blank" rel="noopener">Antonia Russo <span>↗</span></a></h3><p>Forthcoming postdoctoral appointment</p></div></article>
+          <article><time>05/2016–04/2017</time><div><h3><a href="https://unipv.unifind.cineca.it/resource/person/694724?language=it-IT" target="_blank" rel="noopener">Ilaria Fiorentini <span>↗</span></a></h3><p class="postdoc-meta"><span><strong>Programme</strong> LEAdhoC — Linguistic Expression of Ad Hoc Categories</span><span><strong>Research project</strong> <cite>General extenders in contemporary Italian: patterns of variation and ongoing changes</cite></span><span><strong>Current position</strong> Associate Professor of Linguistics, University of Pavia</span></p></div></article>
+          <article><time>05/2016–02/2018</time><div><h3><a href="https://unifind.unito.it/individual?uri=http%3A%2F%2Firises.unito.it%2Fresource%2Fperson%2F132686" target="_blank" rel="noopener">Eugenio Goria <span>↗</span></a></h3><p class="postdoc-meta"><span><strong>Programme</strong> LEAdhoC — Linguistic Expression of Ad Hoc Categories</span><span><strong>Research project</strong> <cite>Linguistic strategies for the online construction of categories in spoken Italian: corpus construction and analysis</cite></span><span><strong>Current position</strong> Associate Professor of Linguistics, University of Turin</span></p></div></article>
+          <article><time>10/2017–09/2021</time><div><h3><a href="https://uninsubria.unifind.cineca.it/resource/person/160735" target="_blank" rel="noopener">Alessandra Barotto <span>↗</span></a></h3><p class="postdoc-meta"><span><strong>Programme</strong> LEAdhoC — Linguistic Expression of Ad Hoc Categories</span><span><strong>Research project</strong> <cite>Linguistic and cognitive aspects of exemplification: a comparative perspective</cite></span><span><strong>Current position</strong> Tenure-track Researcher, University of Insubria</span></p></div></article>
+          <article><time>03/2024–12/2025</time><div><h3><a href="https://www.muni.cz/lide/256684-eleonora-zucchini" target="_blank" rel="noopener">Eleonora Zucchini <span>↗</span></a></h3><p class="postdoc-meta"><span><strong>Programme</strong> DiverSIta — Diversity in Spoken Italian</span><span><strong>Research project</strong> <cite>Non-native varieties of spoken Italian in interaction: recording, transcription and analysis of data collected in the Bologna area</cite></span><span><strong>Current position</strong> Assistant Professor, Masaryk University</span></p></div></article>
+          <article><time>01/2026–present</time><div><h3><a href="https://www.unibo.it/sitoweb/giorgia.troiani/" target="_blank" rel="noopener">Giorgia Troiani <span>↗</span></a></h3><p class="postdoc-meta"><span><strong>Programme</strong> MSCA European Postdoctoral Fellowship</span><span><strong>Research project</strong> <cite>SPEAK — Convergence of Syntactic, Prosodic, and Interactional Units in Conversation</cite></span><span><strong>Current position</strong> MSCA Postdoctoral Fellow, University of Bologna</span></p></div></article>
+          <article><time>01/2026–present</time><div><h3><a href="https://www.unibo.it/it/ateneo/amministrazione-trasparente/consulenti-e-collaboratori/tabella-incarichi-attivi-di-collaborazione-e-di-consulenza-affidati-a-soggetti-esterni/last_years?format=cv&amp;id=43660" target="_blank" rel="noopener">Elena Battaglia <span>↗</span></a></h3><p class="postdoc-meta"><span><strong>Programme</strong> SNSF Postdoc.Mobility</span><span><strong>Research project</strong> <cite>Towards an Incremental Semantics: A Linguistic Analysis of the Emergence of Categories in Spoken Interaction</cite></span><span><strong>Current position</strong> Postdoctoral Fellow, University of Bologna</span></p></div></article>
+          <article class="forthcoming"><time>from 09/2026</time><div><h3><a href="https://www.unibo.it/sitoweb/antonia.russo3/en" target="_blank" rel="noopener">Antonia Russo <span>↗</span></a></h3><p class="postdoc-meta"><span><strong>Programme</strong> Research appointment at LILEC</span><span><strong>Research project</strong> <cite>Beyond Yes and No: Semantic and Pragmatic Dimensions of Responses in Spoken Italian</cite></span><span><strong>Current position</strong> Research Fellow, University of Bologna</span></p></div></article>
         </div>
       </div>
     </section>

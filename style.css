@@ -49,6 +49,9 @@ h1 em { padding-left: 9vw; font-weight: 400; color: var(--blue); }
 .project-meta { display: flex; justify-content: space-between; color: inherit; opacity: .7; }
 .project h2 { margin: auto 0 12px; font: 400 clamp(48px, 6vw, 90px)/.9 var(--serif); letter-spacing: -.05em; }
 .project-subtitle { margin: 0 0 90px !important; font: italic 24px var(--serif) !important; }
+.project-funding { display: grid; gap: 5px; margin-top: 18px !important; color: var(--muted); font-size: 12px !important; line-height: 1.5 !important; }
+.project-funding span { display: block; }
+.project-funding strong { margin-right: .4em; color: var(--ink); font-weight: 600; }
 .project p { max-width: 460px; margin: 0 0 34px; font-size: 15px; line-height: 1.6; }
 .light { color: white; }
 

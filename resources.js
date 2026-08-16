@@ -1,4 +1,7 @@
 let resources = [];
+const resourcesAreItalian = document.documentElement.lang === 'it';
+const resourcesScriptUrl = document.querySelector('script[src*="resources.js"]')?.src || window.location.href;
+const resourcesDataUrl = new URL('data/resources.json', resourcesScriptUrl);
 const resourceList = document.querySelector('#resource-list');
 const resourceSearch = document.querySelector('#resource-search');
 const resourceYear = document.querySelector('#resource-year');
@@ -16,12 +19,14 @@ function renderResources() {
     (!resourceYear.value || String(item.year) === resourceYear.value)
     && (!query || `${item.title} ${item.authors} ${item.citation}`.toLowerCase().includes(query))
   );
-  resourceCount.textContent = `${matches.length} ${matches.length === 1 ? 'resource' : 'resources'}`;
+  resourceCount.textContent = `${matches.length} ${resourcesAreItalian ? (matches.length === 1 ? 'risorsa' : 'risorse') : (matches.length === 1 ? 'resource' : 'resources')}`;
   resourceList.innerHTML = matches.map((item) => {
     const source = item.source || (item.link_type === 'official_resource' ? 'Universal Dependencies' : 'Unibo IRIS');
-    const linkLabel = item.link_label || (item.link_type === 'iris' ? 'IRIS record ↗' : 'Open resource ↗');
+    const linkLabel = resourcesAreItalian
+      ? (item.link_type === 'iris' ? 'Scheda IRIS ↗' : 'Apri la risorsa ↗')
+      : (item.link_label || (item.link_type === 'iris' ? 'IRIS record ↗' : 'Open resource ↗'));
     const secondaryLink = item.secondary_url
-      ? `<a href="${item.secondary_url}" target="_blank" rel="noopener">${escapeResourceHtml(item.secondary_link_label || 'Official resource ↗')}</a>`
+      ? `<a href="${item.secondary_url}" target="_blank" rel="noopener">${escapeResourceHtml(resourcesAreItalian ? 'Risorsa ufficiale ↗' : (item.secondary_link_label || 'Official resource ↗'))}</a>`
       : '';
     return `
     <li>
@@ -35,7 +40,8 @@ function renderResources() {
   }).join('') || '<li class="loading">No resources found.</li>';
 }
 
-fetch('data/resources.json')
+fetch(resourcesDataUrl, { cache: 'no-store' })
+  .then((response) => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response; })
   .then((response) => response.json())
   .then((data) => {
     resources = data.resources;
@@ -45,7 +51,7 @@ fetch('data/resources.json')
     renderResources();
   })
   .catch(() => {
-    resourceList.innerHTML = '<li class="loading">The resource archive is temporarily unavailable.</li>';
+    resourceList.innerHTML = `<li class="loading">${resourcesAreItalian ? 'L’archivio delle risorse è temporaneamente non disponibile.' : 'The resource archive is temporarily unavailable.'}</li>`;
   });
 
 [resourceSearch, resourceYear].forEach((control) => control.addEventListener('input', renderResources));
