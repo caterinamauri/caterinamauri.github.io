@@ -44,17 +44,17 @@ function renderTalks() {
     && (!activeTalkType || item.type === activeTalkType)
     && (!query || `${item.title} ${item.citation}`.toLowerCase().includes(query))
   );
-  talkCount.textContent = `${matches.length} ${talksAreItalian ? (matches.length === 1 ? 'conferenza' : 'conferenze') : (matches.length === 1 ? 'talk' : 'talks')}`;
+  talkCount.textContent = `${matches.length} ${talksAreItalian ? (matches.length === 1 ? 'intervento' : 'interventi') : (matches.length === 1 ? 'talk' : 'talks')}`;
   talkList.innerHTML = matches.slice(0, visibleTalks).map((item) => `
     <li>
       <span class="talk-year">${item.year}</span>
       <article class="talk-entry">
-        <div class="talk-labels"><span>${item.type === 'selected' ? (talksAreItalian ? 'selezionata' : 'refereed') : (talksAreItalian ? 'su invito' : 'invited')}</span>${item.forthcoming ? `<span>${talksAreItalian ? 'prossimamente' : 'forthcoming'}</span>` : ''}</div>
+        <div class="talk-labels"><span>${item.type === 'selected' ? (talksAreItalian ? 'da call' : 'refereed') : (talksAreItalian ? 'su invito' : 'invited')}</span>${item.forthcoming ? `<span>${talksAreItalian ? 'prossimamente' : 'forthcoming'}</span>` : ''}</div>
         <h2>${escapeTalkHtml(item.title)}</h2>
         <p>${talkDetailsHtml(item)}</p>
       </article>
     </li>
-  `).join('') || `<li class="loading">${talksAreItalian ? 'Nessuna conferenza trovata.' : 'No talks found.'}</li>`;
+  `).join('') || `<li class="loading">${talksAreItalian ? 'Nessun intervento trovato.' : 'No talks found.'}</li>`;
   talkMore.hidden = matches.length <= visibleTalks;
 }
 
@@ -66,7 +66,7 @@ fetch(talksDataUrl, { cache: 'no-store' })
     [...new Set(talks.map((item) => item.year))].sort((a, b) => b - a).forEach((value) => talkYear.add(new Option(value, value)));
     renderTalks();
   })
-  .catch(() => { talkList.innerHTML = `<li class="loading">${talksAreItalian ? 'L’archivio delle conferenze è temporaneamente non disponibile.' : 'The talk archive is temporarily unavailable.'}</li>`; talkMore.hidden = true; });
+  .catch(() => { talkList.innerHTML = `<li class="loading">${talksAreItalian ? 'L’archivio degli interventi è temporaneamente non disponibile.' : 'The talk archive is temporarily unavailable.'}</li>`; talkMore.hidden = true; });
 
 [talkSearch, talkYear].forEach((control) => control.addEventListener('input', () => { visibleTalks = 18; renderTalks(); }));
 talkTypeButtons.forEach((button) => button.addEventListener('click', () => {

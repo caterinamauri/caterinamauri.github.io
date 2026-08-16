@@ -23,17 +23,6 @@ if (siteHeader && !siteHeader.querySelector('.sidebar-profile')) {
 }
 
 const currentFile = window.location.pathname.split('/').pop() || 'index.html';
-document.querySelectorAll('.site-header nav').forEach((nav) => {
-  if (!nav.querySelector('a[href="talks.html"]')) {
-    const talksLink = document.createElement('a');
-    talksLink.href = 'talks.html';
-    talksLink.textContent = siteIsItalian ? 'Interventi' : 'Talks';
-    const publicationsLink = nav.querySelector('a[href="publications.html"]');
-    if (publicationsLink) publicationsLink.insertAdjacentElement('afterend', talksLink);
-    else nav.appendChild(talksLink);
-  }
-});
-
 if (siteHeader && !siteHeader.querySelector('.language-switch')) {
   const languageSwitch = document.createElement('div');
   languageSwitch.className = 'language-switch';
