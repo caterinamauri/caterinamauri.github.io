@@ -9,6 +9,10 @@ working/
 *.xls
 *.xlsx
 
+# Academic service pages retained locally but not published
+service.html
+it/service.html
+
 # Local temporary files
 .DS_Store
 ~$*
