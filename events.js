@@ -11,10 +11,10 @@ let visibleEvents = 12;
 const activeEventTheme = new URLSearchParams(window.location.search).get('theme') || '';
 
 const eventThemeNames = {
-  interaction: ['Grammar and interaction', 'Grammatica e interazione'],
-  typology: ['Typology and linguistic diversity', 'Tipologia e diversità linguistica'],
-  categories: ['Categories in discourse', 'Categorie nel discorso'],
-  data: ['Data and variation', 'Dati e variazione']
+  interaction: ['Grammar, constructions and use', 'Grammatica, costruzioni e uso'],
+  typology: ['The world’s languages: typology and variation', 'Le lingue del mondo: tipologia e variazione'],
+  categories: ['Categories and meanings in discourse', 'Categorie e significati nel discorso'],
+  data: ['Linguistic data and resources', 'Dati e risorse linguistiche']
 };
 
 if (eventThemeNames[activeEventTheme]) {
