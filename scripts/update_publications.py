@@ -21,6 +21,18 @@ BASE_URL = "https://www.unibo.it/sitoweb/caterina.mauri/publications"
 OUTPUT = Path(__file__).resolve().parents[1] / "data" / "publications.json"
 RESOURCES_OUTPUT = Path(__file__).resolve().parents[1] / "data" / "resources.json"
 
+CURATED_METADATA_FIELDS = ("pages", "editors", "container_title", "publisher", "publisher_place")
+LINK_QUALITY = {
+    "": 0,
+    "citation_only": 0,
+    "iris": 1,
+    "open_access_pdf": 2,
+    "official_publication": 3,
+    "official_resource": 3,
+    "related_publication": 3,
+    "doi": 4,
+}
+
 CHAPTER_METADATA_OVERRIDES = {
     "10.1515/9783110730982-002": {
         "editors": ["Pier Marco Bertinetto", "Luca Ciucci", "Denis Creissels"],
@@ -168,6 +180,57 @@ def apply_official_link_policy(item):
     return item
 
 
+def item_key(item):
+    """Identify separate records even when IRIS reuses a title."""
+    return (item.get("title", "").casefold(), item.get("year"), item.get("type", ""))
+
+
+def preserve_curated_metadata(items, path, collection_key):
+    """Keep verified links and metadata when a fresh Unibo export is poorer."""
+    if not path.exists():
+        return items
+    try:
+        previous_items = json.loads(path.read_text(encoding="utf-8")).get(collection_key, [])
+    except (OSError, json.JSONDecodeError):
+        return items
+    previous_by_key = {item_key(item): item for item in previous_items}
+    for item in items:
+        previous = previous_by_key.get(item_key(item))
+        if not previous:
+            continue
+        for field in CURATED_METADATA_FIELDS:
+            if previous.get(field) and not item.get(field):
+                item[field] = previous[field]
+        if LINK_QUALITY.get(previous.get("link_type", ""), 0) > LINK_QUALITY.get(item.get("link_type", ""), 0):
+            item["url"] = previous.get("url", "")
+            item["link_type"] = previous.get("link_type", "")
+    return items
+
+
+def validate_archive(items, path, collection_key, label):
+    """Refuse to publish a truncated or structurally invalid synchronization."""
+    if not items:
+        raise RuntimeError(f"No {label} found; keeping the existing archive is safer.")
+    previous_count = 0
+    if path.exists():
+        try:
+            previous_count = len(json.loads(path.read_text(encoding="utf-8")).get(collection_key, []))
+        except (OSError, json.JSONDecodeError):
+            pass
+    if previous_count and len(items) < previous_count * 0.8:
+        raise RuntimeError(
+            f"Only {len(items)} {label} were found, compared with {previous_count} previously; "
+            "the source may be incomplete."
+        )
+    required = ("title", "authors", "year", "citation", "type")
+    invalid = [item.get("title", "<untitled>") for item in items if any(not item.get(field) for field in required)]
+    if invalid:
+        raise RuntimeError(f"Incomplete {label} records: {', '.join(invalid[:5])}")
+    malformed_links = [item.get("title", "<untitled>") for item in items if item.get("url") and not item["url"].startswith("https://")]
+    if malformed_links:
+        raise RuntimeError(f"Invalid {label} links: {', '.join(malformed_links[:5])}")
+
+
 class ItemMetadataParser(HTMLParser):
     """Read standard scholarly metadata exposed by an IRIS item page."""
 
@@ -272,12 +335,19 @@ def fetch_page(page):
 
 def write_archives(publications, preserve_resources=False):
     for item in publications:
-        if not item.get("pages"):
+        if item.get("type") != "resources" and not item.get("pages"):
             item["pages"] = extract_pages(item.get("citation", ""))
         apply_official_link_policy(item)
 
+    publications = preserve_curated_metadata(publications, OUTPUT, "publications")
+
     iris_resources = [item for item in publications if item["type"] == "resources"]
     scholarly_publications = [item for item in publications if item["type"] != "resources"]
+
+    for item in iris_resources:
+        if item.get("title", "").casefold() in {"corpus kiparla", "kiparla corpus"}:
+            item["title"] = "KIParla Corpus"
+            item["citation"] = item.get("citation", "").replace(", Corpus KIParla,", ", KIParla Corpus,")
 
     # KIParla Forest is an official external resource but is not currently
     # represented in IRIS with its Universal Dependencies access point.
@@ -311,12 +381,21 @@ def write_archives(publications, preserve_resources=False):
             None,
         )
         if matching_iris:
-            matching_iris["secondary_url"] = supplement["url"]
-            matching_iris["secondary_link_label"] = "Universal Dependencies ↗"
-            matching_iris["secondary_source"] = supplement["source"]
+            if matching_iris.get("url"):
+                matching_iris["secondary_url"] = supplement["url"]
+                matching_iris["secondary_link_label"] = "Universal Dependencies ↗"
+                matching_iris["secondary_source"] = supplement["source"]
+            else:
+                matching_iris["url"] = supplement["url"]
+                matching_iris["link_type"] = "official_resource"
+                matching_iris["source"] = supplement["source"]
+                matching_iris["link_label"] = supplement["link_label"]
         else:
             resources.append(supplement)
     resources.sort(key=lambda item: (item.get("year") or 0, item.get("title", "")), reverse=True)
+
+    validate_archive(scholarly_publications, OUTPUT, "publications", "publications")
+    validate_archive(resources, RESOURCES_OUTPUT, "resources", "resources")
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     payload = {
