@@ -11,6 +11,7 @@ const talkYear = document.querySelector('#talk-year');
 const talkCount = document.querySelector('#talk-count');
 const talkTypeButtons = document.querySelectorAll('#talk-types button');
 const talkMore = document.querySelector('#talk-load-more');
+talkSearch.value = new URLSearchParams(window.location.search).get('q') || '';
 
 function escapeTalkHtml(value) {
   return String(value || '').replace(/[&<>"]/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[character]));

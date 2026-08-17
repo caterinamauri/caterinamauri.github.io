@@ -6,6 +6,7 @@ const resourceList = document.querySelector('#resource-list');
 const resourceSearch = document.querySelector('#resource-search');
 const resourceYear = document.querySelector('#resource-year');
 const resourceCount = document.querySelector('#resource-count');
+resourceSearch.value = new URLSearchParams(window.location.search).get('q') || '';
 
 function escapeResourceHtml(value) {
   const element = document.createElement('div');

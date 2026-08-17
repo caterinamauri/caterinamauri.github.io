@@ -10,6 +10,7 @@ const year = document.querySelector('#publication-year');
 const count = document.querySelector('#publication-count');
 const more = document.querySelector('#load-more');
 const typeButtons = document.querySelectorAll('#publication-types button');
+search.value = new URLSearchParams(window.location.search).get('q') || '';
 
 function escapeHtml(value) { const element = document.createElement('div'); element.textContent = value ?? ''; return element.innerHTML; }
 function apaAuthors(value) {
