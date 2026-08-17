@@ -5,6 +5,7 @@
 .home-intro h1 { margin: 0 0 24px; font: 400 clamp(52px, 7vw, 86px)/.92 var(--serif); letter-spacing: -.045em; }
 .home-lead { max-width: 980px; margin: 0; color: var(--muted); font: 18px/1.65 var(--sans); }
 .home-context { max-width: 900px; margin: 20px 0 0; color: var(--muted); font: 14px/1.7 var(--sans); }
+.home-context a { color: var(--ink); text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .home-approach { display: grid; grid-template-columns: minmax(260px, .75fr) 1.25fr; gap: clamp(45px, 8vw, 100px); padding: 78px 0; }
 .home-approach h2, .home-contact h2 { margin: 0; font: 400 clamp(32px, 4vw, 46px)/1.02 var(--serif); letter-spacing: -.025em; }
 .home-prose p { margin: 0 0 18px; color: var(--muted); font: 15px/1.75 var(--sans); }
