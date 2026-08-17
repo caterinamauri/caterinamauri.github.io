@@ -35,6 +35,42 @@ CHAPTER_METADATA_OVERRIDES = {
     },
 }
 
+OFFICIAL_LINK_OVERRIDES = {
+    "Coconstructions in Spoken Data: UD Annotation Guidelines and First Results": "https://doi.org/10.63317/3kcohrckgnkz",
+    "Say again? The limits of Whisper with conversation: A case study on the KIParla corpus": "https://doi.org/10.63317/2so5y449gb4w",
+    "Introducing KIParla Forest: seeds for a UD annotation of interactional syntax.": "https://aclanthology.org/2025.depling-1.5/",
+    "Did Somebody Say 'Gest-IT'? A Pilot Exploration of Multimodal Data Management": "https://ceur-ws.org/Vol-3878/80_main_long.pdf",
+    "KIParla corpus: A new resource for spoken Italian": "https://aclanthology.org/2019.clicit-1.37/",
+    "Building and interpreting ad hoc categories: a linguistic analysis": "https://doi.org/10.1007/978-3-319-48832-5_16",
+    "Go and come as sources of directive constructions": "https://doi.org/10.1515/9783110335989.165",
+    "Coordination": "https://doi.org/10.5040/9781472542090.ch-017",
+    "Connectives": "https://doi.org/10.1017/CBO9781139022453.021",
+    "The grammaticalization of coordinating interclausal connectives": "https://doi.org/10.1093/oxfordhb/9780199586783.013.0054",
+    "Coordination Relations in the Languages of Europe and Beyond": "https://doi.org/10.1515/9783110211498",
+    "From cause to contrast. A study in semantic change": "https://doi.org/10.1515/9783110211764.4.303",
+    "Conjunctive, disjunctive and adversative constructions in Europe: some areal considerations": "https://doi.org/10.1075/slcs.88.10mau",
+    "Dubitative corrective constructions in Italian: their use and rise in discourse": "https://doi.org/10.1075/slcs.186.13ram",
+    "Synchrony and Diachrony. A dynamic interface.": "https://doi.org/10.1075/slcs.133",
+    "Synchrony and Diachrony. Introduction to a dynamic interface": "https://doi.org/10.1075/slcs.133.01int",
+    "Ad hoc categorization and language: the construction of categories in discourse": "https://www.sciencedirect.com/journal/language-sciences/special-issues",
+    "CATEGORIZATION AS AN AD HOC PROCESS IN DISCOURSE": "https://www.cambridgescholars.com/resources/pdfs/978-1-5275-8908-7-sample.pdf",
+    "Diversità e inclusione. Quando le parole sono importanti": "https://www.meltemieditore.it/catalogo/diversita-e-inclusione/",
+    "Posizionamento del sé e rappresentazione dell’Altro nel discorso: una prospettiva interculturale": "https://www.meltemieditore.it/catalogo/diversita-e-inclusione/",
+    "Italiano parlato e variazione linguistica. Teoria e prassi nella costruzione del corpus KIParla": "https://www.patroneditore.com/volumi/9788855535724/italiano-parlato-e-variazione-linguistica",
+    "La tipologia linguistica. Unità e diversità nelle lingue del mondo": "https://www.carocci.it/prodotto/la-tipologia-linguistica",
+    "Introduzione": "https://www.carocci.it/prodotto/la-tipologia-linguistica",
+    "Le parti del discorso": "https://www.carocci.it/prodotto/la-tipologia-linguistica",
+    "Obiettivi, metodi e strumenti della tipologia": "https://www.carocci.it/prodotto/la-tipologia-linguistica",
+    "La diversità linguistica": "https://www.carocci.it/prodotto/la-diversita-linguistica",
+    "Come variano le lingue del mondo?": "https://www.caissa.it/299-tutto-cio-che-hai-sempre-voluto-sapere-sul-linguaggio-e-sulle-lingue-9788867290444.html",
+    "Possiamo fare cose con le lingue?": "https://www.caissa.it/299-tutto-cio-che-hai-sempre-voluto-sapere-sul-linguaggio-e-sulle-lingue-9788867290444.html",
+    "Un approccio tipologico ai 'general extenders'": "https://www.francoangeli.it/Libro/9788891778475/Tipologia%2C-Acquisizione%2C-Grammaticalizzazione.-Typology%2C-Acquisition%2C-Grammaticalization-Studies?id=25216",
+    "Lists: description, delimitation, definition. A foreword": "https://doi.org/10.26346/1120-2726-115",
+    "Cross-linguistic annotation of modality: a data-driven hierarchical model": "https://aclanthology.org/W13-0501/",
+    "The added value of the Connectivity Hypothesis for the map of parts of speech. Comment on ‘An implicational map of parts of speech’ by Kees Hengeveld and Eva van Lier (2010)": "https://doi.org/10.1349/PS1.1537-0852.A.370",
+    "Pathways to conditionality: two case studies from Italian": "https://doi.org/10.1400/236607",
+}
+
 
 class PublicationParser(HTMLParser):
     def __init__(self):
@@ -77,6 +113,7 @@ class PublicationParser(HTMLParser):
                     "authors": authors,
                     "year": int(year_match.group()) if year_match else None,
                     "citation": citation,
+                    "pages": extract_pages(citation),
                     "url": english_iris_url(self.current["url"]),
                     "open_access": self.current["open_access"],
                     "type": publication_type(citation),
@@ -98,12 +135,36 @@ def clean(value):
     return re.sub(r"\s+", " ", unescape(value)).strip()
 
 
+def extract_pages(citation):
+    """Recover page ranges that Unibo exposes only inside the full citation."""
+    match = re.search(
+        r"\bpp?\.\s*(?P<pages>(?:\d+|[IVXLCDM]+)(?:\s*[-–]\s*(?:\d+|[IVXLCDM]+))?)",
+        citation,
+        re.IGNORECASE,
+    )
+    if not match:
+        return ""
+    return re.sub(r"\s*[-–]\s*", "-", match.group("pages"))
+
+
 def english_iris_url(url):
     """Ask the IRIS/DSpace interface for English when it remains the fallback."""
     if "cris.unibo.it/handle/" not in url or "locale-attribute=" in url:
         return url
     separator = "&" if "?" in url else "?"
     return f"{url}{separator}locale-attribute=en"
+
+
+def apply_official_link_policy(item):
+    """Expose publisher links publicly; retain no CRIS fallback on the website."""
+    override = OFFICIAL_LINK_OVERRIDES.get(item.get("title", ""))
+    if override:
+        item["url"] = override
+        item["link_type"] = "doi" if "doi.org/" in override else "official_publication"
+    elif "cris.unibo.it" in item.get("url", ""):
+        item["url"] = ""
+        item["link_type"] = "citation_only"
+    return item
 
 
 class ItemMetadataParser(HTMLParser):
@@ -209,6 +270,11 @@ def fetch_page(page):
 
 
 def write_archives(publications, preserve_resources=False):
+    for item in publications:
+        if not item.get("pages"):
+            item["pages"] = extract_pages(item.get("citation", ""))
+        apply_official_link_policy(item)
+
     iris_resources = [item for item in publications if item["type"] == "resources"]
     scholarly_publications = [item for item in publications if item["type"] != "resources"]
 
@@ -273,9 +339,12 @@ def write_archives(publications, preserve_resources=False):
 def main():
     arguments = argparse.ArgumentParser()
     arguments.add_argument("--from-cache", action="store_true", help="Split the existing synchronized archive without fetching Unibo")
+    arguments.add_argument("--normalize-links", action="store_true", help="Apply the public-link policy to the cached archive")
     options = arguments.parse_args()
 
-    if options.from_cache:
+    if options.normalize_links:
+        publications = json.loads(OUTPUT.read_text(encoding="utf-8"))["publications"]
+    elif options.from_cache:
         publications = json.loads(OUTPUT.read_text(encoding="utf-8"))["publications"]
         with ThreadPoolExecutor(max_workers=6) as executor:
             publications = list(executor.map(enrich_chapter_metadata, publications))
@@ -297,7 +366,7 @@ def main():
         with ThreadPoolExecutor(max_workers=6) as executor:
             publications = list(executor.map(enrich_link, publications))
 
-    write_archives(publications, preserve_resources=options.from_cache)
+    write_archives(publications, preserve_resources=options.from_cache or options.normalize_links)
 
 
 if __name__ == "__main__":

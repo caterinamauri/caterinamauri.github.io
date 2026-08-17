@@ -26,10 +26,11 @@
       "authors": "Pannitto, Ludovica; Dobrovoljc Zor, Kaja; Kahane, Sylvain; Battaglia, Elena; Guillaume, Bruno; Mauri, Caterina; Zucchini, Eleonora",
       "year": 2026,
       "citation": "Pannitto, Ludovica; Dobrovoljc Zor, Kaja; Kahane, Sylvain; Battaglia, Elena; Guillaume, Bruno; Mauri, Caterina; Zucchini, Eleonora, Coconstructions in Spoken Data: UD Annotation Guidelines and First Results, in: Proceedings of The Ninth Workshop on Universal Dependencies (UDW 2026), Palma di Maiorca, European Language Resources Association (ELRA), 2026, pp. 60 - 75 (atti di: The Ninth Workshop on Universal Dependencies (UDW 2026) @ LREC 2026, Palma, Mallora, Spain, 16 May 2026) [Contribution to conference proceedings]Open Access",
-      "url": "https://cris.unibo.it/bitstream/11585/1069389/1/2026.udw-1.0.pdf",
+      "url": "https://doi.org/10.63317/3kcohrckgnkz",
       "open_access": true,
       "type": "proceedings",
-      "link_type": "open_access_pdf"
+      "link_type": "doi",
+      "pages": "60-75"
     },
     {
       "title": "Investigating ‘Other’ in Cross-Linguistic Perspective: Theoretical and Methodological Challenges",
@@ -56,7 +57,8 @@
       "url": "https://doi.org/10.63317/3gw6i7cbs5rc",
       "open_access": true,
       "type": "proceedings",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "6547-6560"
     },
     {
       "title": "Reuse by Design: A Pivot-Based Architecture for the KIParla Corpus of Spoken Italian",
@@ -66,17 +68,19 @@
       "url": "https://doi.org/10.5334/johd.527",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "1-17"
     },
     {
       "title": "Say again? The limits of Whisper with conversation: A case study on the KIParla corpus",
       "authors": "Simonotti, Martina; Pannitto, Ludovica; Mauri, Caterina; Ferraresi, Adriano; Carioli, Gabriele",
       "year": 2026,
       "citation": "Simonotti, Martina; Pannitto, Ludovica; Mauri, Caterina; Ferraresi, Adriano; Carioli, Gabriele, Say again? The limits of Whisper with conversation: A case study on the KIParla corpus, in: Speech Language Models in Low-Resource Settings: Performance, Evaluation, and Bias Analysis (SPEAKABLE) @ LREC 2026, Language Resources Association (ELRA), 2026, pp. 16 - 30 (atti di: Speech Language Models in Low-Resource Settings: Performance, Evaluation, and Bias Analysis (SPEAKABLE) @ LREC 2026, Palma, Mallora, Spain, 11 May 2026) [Contribution to conference proceedings]Open Access",
-      "url": "https://cris.unibo.it/bitstream/11585/1069387/1/2026.speakable-1.0.pdf",
+      "url": "https://doi.org/10.63317/2so5y449gb4w",
       "open_access": true,
       "type": "proceedings",
-      "link_type": "open_access_pdf"
+      "link_type": "doi",
+      "pages": "16-30"
     },
     {
       "title": "Shaping reference through temporality: the case of Italian nominals",
@@ -86,7 +90,8 @@
       "url": "https://doi.org/10.1418/121389",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "31-61"
     },
     {
       "title": "Subjunctive/indicative alternation with verba putandi in spoken Italian",
@@ -96,7 +101,8 @@
       "url": "https://doi.org/10.1515/flin-2024-0053",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "1-33"
     },
     {
       "title": "Temporal, aspectual, and modal evaluation in nominal reference: The case of Italian",
@@ -106,7 +112,8 @@
       "url": "https://doi.org/10.1515/flin-2025-0142",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "1-31"
     },
     {
       "title": "At the crossroads of typology and language(s) in use",
@@ -116,7 +123,8 @@
       "url": "https://doi.org/10.60923/issn.2785-0943/24199",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "I-VII"
     },
     {
       "title": "CLUB Working Papers in Linguistics. Volume 9",
@@ -126,7 +134,8 @@
       "url": "https://doi.org/10.6092/unibo/amsacta/8647",
       "open_access": true,
       "type": "edited",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "167"
     },
     {
       "title": "Il corpus KIParla. Una risorsa per la didattica dell’oralità",
@@ -136,7 +145,8 @@
       "url": "https://doi.org/10.30687/elle/2280-6792/2025/02/004",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "213-230"
     },
     {
       "title": "Il progetto DiverSIta. Documentare la diversità nell’italiano parlato",
@@ -154,17 +164,18 @@
       "container_title": "",
       "publisher": "CLUB – Circolo Linguistico dell'Università di Bologna",
       "publisher_place": "",
-      "pages": ""
+      "pages": "147-156"
     },
     {
       "title": "Introducing KIParla Forest: seeds for a UD annotation of interactional syntax.",
       "authors": "Pannitto, Ludovica; Zucchini, Eleonora; Ballarè, Silvia; Bosco, Cristina; Mauri, Caterina; Sanguinetti., Manuela",
       "year": 2025,
       "citation": "Pannitto, Ludovica; Zucchini, Eleonora; Ballarè, Silvia; Bosco, Cristina; Mauri, Caterina; Sanguinetti., Manuela, Introducing KIParla Forest: seeds for a UD annotation of interactional syntax., in: Proceedings of the Eighth International Conference on Dependency Linguistics (Depling, SyntaxFest 2025), Ljubljana, Slovenia, 2025, pp. 54 - 73 (atti di: DepLing-SyntaxFest 2025, Ljubljana, 26-29 Agosto 2025) [Contribution to conference proceedings]Open Access",
-      "url": "https://cris.unibo.it/bitstream/11585/1022332/1/2025.depling-1.5.pdf",
+      "url": "https://aclanthology.org/2025.depling-1.5/",
       "open_access": true,
       "type": "proceedings",
-      "link_type": "open_access_pdf"
+      "link_type": "official_publication",
+      "pages": "54-73"
     },
     {
       "title": "Object encoding in spoken language data and antipassives",
@@ -174,7 +185,8 @@
       "url": "https://doi.org/10.60923/issn.2785-0943/21768",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "289-322"
     },
     {
       "title": "Presentazione",
@@ -192,7 +204,7 @@
       "container_title": "",
       "publisher": "CLUB – Circolo Linguistico dell'Università di Bologna",
       "publisher_place": "",
-      "pages": ""
+      "pages": "6-7"
     },
     {
       "title": "Replicability all the way up: commentary on “Replication and methodological robustness in quantitative typology” by Becker and Guzmán Naranjo",
@@ -202,7 +214,8 @@
       "url": "https://doi.org/10.1515/lingty-2025-0033",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "1-513"
     },
     {
       "title": "The mirative values of Italian altro che",
@@ -242,17 +255,19 @@
       "url": "https://doi.org/10.1093/9780198940661.003.0010",
       "open_access": false,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "220-246"
     },
     {
       "title": "Did Somebody Say 'Gest-IT'? A Pilot Exploration of Multimodal Data Management",
       "authors": "Pannitto, L.; Albanesi, L.; Marion, L.; Martines, F. M.; Caruso, C.; Bianchini, C. S.; Masini, F.; Mauri, C.",
       "year": 2024,
       "citation": "Pannitto, L.; Albanesi, L.; Marion, L.; Martines, F. M.; Caruso, C.; Bianchini, C. S.; Masini, F.; Mauri, C., Did Somebody Say 'Gest-IT'? A Pilot Exploration of Multimodal Data Management, in: Proceedings of the Tenth Italian Conference on Computational Linguistics (CLiC-it 2024), Aachen, CEUR-WS, 2024, 3878, pp. 1 - 11 (atti di: CLiC‑it 2024: Tenth Italian Conference on Computational Linguistics, Pisa, 4-6/12/2024) [Contribution to conference proceedings]Open Access",
-      "url": "https://cris.unibo.it/bitstream/11585/1003226/1/80_main_long.pdf",
+      "url": "https://ceur-ws.org/Vol-3878/80_main_long.pdf",
       "open_access": true,
       "type": "proceedings",
-      "link_type": "open_access_pdf"
+      "link_type": "official_publication",
+      "pages": "1-11"
     },
     {
       "title": "Multi-layered indexicality: When proper names become categories",
@@ -289,10 +304,11 @@
       "authors": "Caterina Mauri",
       "year": 2023,
       "citation": "Caterina Mauri, Esaustività e non esaustività esplicita nel discorso: dentro e oltre l'italiano, in: Forme della scrittura italiana contemporanea in prospettiva contrastiva. La componente testuale, Firenze, Franco Cesati, 2023, pp. 133 - 150 (QUADERNI DELLA RASSEGNA) [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/951652?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "133-150"
     },
     {
       "title": "Heterogeneous sets: a diachronic typology of associative and similative plurals",
@@ -302,17 +318,19 @@
       "url": "https://doi.org/10.1515/lingty-2021-2072",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "1-40"
     },
     {
       "title": "CATEGORIZATION AS AN AD HOC PROCESS IN DISCOURSE",
       "authors": "Caterina Mauri",
       "year": 2022,
       "citation": "Caterina Mauri, CATEGORIZATION AS AN AD HOC PROCESS IN DISCOURSE, in: A Crosslinguistic Perspective on Clear and Approximate Categorization, Newcastle upon Tyne, Cambridge Scholars Publishing, 2022, pp. 17 - 25 [Preface]",
-      "url": "https://cris.unibo.it/handle/11585/894126?locale-attribute=en",
+      "url": "https://www.cambridgescholars.com/resources/pdfs/978-1-5275-8908-7-sample.pdf",
       "open_access": false,
       "type": "other",
-      "link_type": "iris"
+      "link_type": "official_publication",
+      "pages": "17-25"
     },
     {
       "title": "Diversity, discourse, diachrony: A converging evidence methodology for grammar emergence",
@@ -329,17 +347,18 @@
       "container_title": "",
       "publisher": "Peter Lang Verlag",
       "publisher_place": "",
-      "pages": ""
+      "pages": "101-150"
     },
     {
       "title": "Diversità e inclusione. Quando le parole sono importanti",
       "authors": "Fusari, Sabrina; Ivancic, Barbara; Mauri, Caterina",
       "year": 2022,
       "citation": "Fusari, Sabrina; Ivancic, Barbara; Mauri, Caterina (a cura di): Elvira Mujcic, Giovanni Labriola, Caterina Mauri, Francesca Masini, Claudia Borghetti, Marianna Bolognesi, Ines Peta, Nahid Norozi, Jane Helen Johnson, Mariangela Picciuolo, Serena Baiesi, Marco Prandoni, Silvia Albertazzi, Lorenzo Mari, Michele Morselli, Carlotta Farese, Gilberta Golinelli, Claudia Roberta Combei, Antonella Luporini, Ana Pano Alaman, Monica Turci, Rita Monticelli, Paola Scrolavezza, Eva-Maria Thüne, Roberto Vecchi, Alessandro Zironi, Diversità e inclusione. Quando le parole sono importanti, Milano, Meltemi Press srl, 2022, pp. 260 . [Editorship]",
-      "url": "https://cris.unibo.it/handle/11585/919088?locale-attribute=en",
+      "url": "https://www.meltemieditore.it/catalogo/diversita-e-inclusione/",
       "open_access": false,
       "type": "edited",
-      "link_type": "iris"
+      "link_type": "official_publication",
+      "pages": "260"
     },
     {
       "title": "Il corpus KIParla",
@@ -349,47 +368,52 @@
       "url": "https://doi.org/10.17469/O2106SLI000006",
       "open_access": true,
       "type": "proceedings",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "109-118"
     },
     {
       "title": "Introduzione",
       "authors": "Nicola Grandi; Caterina Mauri",
       "year": 2022,
       "citation": "Nicola Grandi; Caterina Mauri, Introduzione, in: La tipologia linguistica. Unità e diversità nelle lingue del mondo, Roma, Carocci, 2022, pp. 11 - 15 (STUDI SUPERIORI) [Brief introduction]",
-      "url": "https://cris.unibo.it/handle/11585/898591?locale-attribute=en",
+      "url": "https://www.carocci.it/prodotto/la-tipologia-linguistica",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "official_publication",
+      "pages": "11-15"
     },
     {
       "title": "Italiano parlato e variazione linguistica. Teoria e prassi nella costruzione del corpus KIParla",
       "authors": "Silvia Ballarè; Eugenio Goria; Caterina Mauri",
       "year": 2022,
       "citation": "Silvia Ballarè; Eugenio Goria; Caterina Mauri, Italiano parlato e variazione linguistica. Teoria e prassi nella costruzione del corpus KIParla, Bologna, PÀTRON EDITORE, 2022, pp. 126 (LINGUISTICA E LINGUISTICHE). [Research monograph]",
-      "url": "https://cris.unibo.it/handle/11585/894125?locale-attribute=en",
+      "url": "https://www.patroneditore.com/volumi/9788855535724/italiano-parlato-e-variazione-linguistica",
       "open_access": false,
       "type": "books",
-      "link_type": "iris"
+      "link_type": "official_publication",
+      "pages": "126"
     },
     {
       "title": "La tipologia linguistica. Unità e diversità nelle lingue del mondo",
       "authors": "Nicola Grandi; Caterina Mauri",
       "year": 2022,
       "citation": "Nicola Grandi; Caterina Mauri, La tipologia linguistica. Unità e diversità nelle lingue del mondo, Roma, Carocci, 2022, pp. 343 (STUDI SUPERIORI). [Editorship]",
-      "url": "https://cris.unibo.it/handle/11585/893917?locale-attribute=en",
+      "url": "https://www.carocci.it/prodotto/la-tipologia-linguistica",
       "open_access": false,
       "type": "edited",
-      "link_type": "iris"
+      "link_type": "official_publication",
+      "pages": "343"
     },
     {
       "title": "Le parti del discorso",
       "authors": "Caterina Mauri",
       "year": 2022,
       "citation": "Caterina Mauri, Le parti del discorso, in: La tipologia linguistica. Unità e diversità nelle lingue del mondo, Roma, Carocci, 2022, pp. 219 - 252 (STUDI SUPERIORI) [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/894128?locale-attribute=en",
+      "url": "https://www.carocci.it/prodotto/la-tipologia-linguistica",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "official_publication",
+      "pages": "219-252"
     },
     {
       "title": "Non-exhaustive connectives",
@@ -399,27 +423,30 @@
       "url": "https://doi.org/10.1515/stuf-2022-1056",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "317-377"
     },
     {
       "title": "Obiettivi, metodi e strumenti della tipologia",
       "authors": "Caterina Mauri",
       "year": 2022,
       "citation": "Caterina Mauri, Obiettivi, metodi e strumenti della tipologia, in: La tipologia linguistica. Unità e diversità nelle lingue del mondo, Roma, Carocci, 2022, pp. 23 - 54 (STUDI SUPERIORI) [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/894127?locale-attribute=en",
+      "url": "https://www.carocci.it/prodotto/la-tipologia-linguistica",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "official_publication",
+      "pages": "23-54"
     },
     {
       "title": "Posizionamento del sé e rappresentazione dell’Altro nel discorso: una prospettiva interculturale",
       "authors": "Caterina Mauri, Francesca Masini, Claudia Borghetti, Marianna Bolognesi",
       "year": 2022,
       "citation": "Caterina Mauri, Francesca Masini, Claudia Borghetti, Marianna Bolognesi, Posizionamento del sé e rappresentazione dell’Altro nel discorso: una prospettiva interculturale, in: Diversità e inclusione. Quando le parole sono importanti, Milano, Meltemi editore, 2022, pp. 51 - 84 (LINEE) [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/903159?locale-attribute=en",
+      "url": "https://www.meltemieditore.it/catalogo/diversita-e-inclusione/",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "official_publication",
+      "pages": "51-84"
     },
     {
       "title": "The encoding of irrelevance in discourse: tanto between concession and justification",
@@ -429,7 +456,8 @@
       "url": "https://doi.org/10.5209/cfit.79601",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "151-179"
     },
     {
       "title": "Ad hoc categorization in linguistic interaction",
@@ -454,7 +482,8 @@
       "url": "https://doi.org/10.1075/slcs.220",
       "open_access": false,
       "type": "edited",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "467"
     },
     {
       "title": "Building categories in interaction. Theoretical and empirical perspectives",
@@ -476,20 +505,22 @@
       "authors": "Mauri, Caterina",
       "year": 2021,
       "citation": "Mauri, Caterina, Senza e la connessione anticircostanziale: tra variazione tipologica e usi discorsivi, «STUDI ITALIANI DI LINGUISTICA TEORICA E APPLICATA», 2021, L, pp. 139 - 154 [Scientific article]Open Access",
-      "url": "https://cris.unibo.it/bitstream/11585/840883/4/Senza%20e%20la%20connessione%20anticircostanziale%20tra%20variazione%20tipologica%20e%20usi%20discorsivi.pdf",
+      "url": "",
       "open_access": true,
       "type": "articles",
-      "link_type": "open_access_pdf"
+      "link_type": "citation_only",
+      "pages": "139-154"
     },
     {
       "title": "Ad hoc categorization and language: the construction of categories in discourse",
       "authors": "Caterina Mauri, Andrea Sansò",
       "year": 2020,
       "citation": "Caterina Mauri, Andrea Sansò (a cura di): Giorgio Arcodia, Caterina Mauri, Johan van der Auwera, Kalyanamalini Sahoo, Edith Moravcsik, Michael Daniel, Mira Ariel, Eugenio Goria, Ilaria Fiorentini, Emanuele Miola,, Ad hoc categorization and language: the construction of categories in discourse, Oxford, Elsevier, 2020, pp. 250 . [Editorship]",
-      "url": "https://cris.unibo.it/handle/11585/772610?locale-attribute=en",
+      "url": "https://www.sciencedirect.com/journal/language-sciences/special-issues",
       "open_access": false,
       "type": "edited",
-      "link_type": "iris"
+      "link_type": "official_publication",
+      "pages": "250"
     },
     {
       "title": "Ad hoc categorization and languaging: the online construction of categories in discourse",
@@ -499,7 +530,8 @@
       "url": "https://doi.org/10.1016/j.langsci.2020.101312",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "1-7"
     },
     {
       "title": "Diversità tra le lingue e pragmatica",
@@ -509,7 +541,8 @@
       "url": "https://doi.org/10.13130/2037-3597/13866",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "459-468"
     },
     {
       "title": "Exemplar-based compounds: The case of Chinese",
@@ -519,7 +552,8 @@
       "url": "https://doi.org/10.1016/j.langsci.2019.06.002",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "1-21"
     },
     {
       "title": "KIPoS @ EVALITA2020: Overview of the Task on KIParla Part of Speech Tagging",
@@ -529,37 +563,41 @@
       "url": "https://doi.org/10.4000/books.aaccademia.7743",
       "open_access": true,
       "type": "proceedings",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "1-8"
     },
     {
       "title": "La creazione del corpus KIPARLA: criteri metodologici e prospettive future",
       "authors": "Silvia Ballarè; Caterina Mauri",
       "year": 2020,
       "citation": "Silvia Ballarè; Caterina Mauri, La creazione del corpus KIPARLA: criteri metodologici e prospettive future, «RID, RIVISTA ITALIANA DI DIALETTOLOGIA», 2020, 44, pp. 53 - 69 [Scientific article]",
-      "url": "https://cris.unibo.it/handle/11585/821807?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "articles",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "53-69"
     },
     {
       "title": "Questione di stile. L’espressione analitica della maniera indessicale",
       "authors": "Masini, Francesca; Mauri, Caterina",
       "year": 2020,
       "citation": "Masini, Francesca; Mauri, Caterina, Questione di stile. L’espressione analitica della maniera indessicale, «TESTI E LINGUAGGI», 2020, 14, pp. 259 - 271 [Scientific article]",
-      "url": "https://cris.unibo.it/handle/11585/781945?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "articles",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "259-271"
     },
     {
       "title": "Uno, l’altro e un altro ancora: ambiguità dell’alterità tra sincronia e diacronia",
       "authors": "Gianollo, Chiara; Mauri, Caterina",
       "year": 2020,
       "citation": "Gianollo, Chiara; Mauri, Caterina, Uno, l’altro e un altro ancora: ambiguità dell’alterità tra sincronia e diacronia, «QUADERNI DI SEMANTICA», 2020, Special Issue, pp. 131 - 174 [Scientific article]Open Access",
-      "url": "https://cris.unibo.it/bitstream/11585/772605/4/Uno%2c%20l%e2%80%99altro%20e%20un%20altro%20ancora.pdf",
+      "url": "",
       "open_access": true,
       "type": "articles",
-      "link_type": "open_access_pdf"
+      "link_type": "citation_only",
+      "pages": "131-174"
     },
     {
       "title": "An ‘alternative’ core for or",
@@ -569,7 +607,8 @@
       "url": "https://doi.org/10.1016/j.pragma.2019.06.004",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "40-59"
     },
     {
       "title": "CLUB Working Papers in Linguistics",
@@ -579,17 +618,19 @@
       "url": "https://doi.org/10.6092/unibo/amsacta/6298",
       "open_access": true,
       "type": "edited",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "309"
     },
     {
       "title": "Come districarsi tra descrizioni teoriche che offuscano i dati? Un approccio tipologico ai connettivi non-esaustivi oltre la logica",
       "authors": "Mauri Caterina; Barotto Alessandra",
       "year": 2019,
       "citation": "Mauri Caterina; Barotto Alessandra, Come districarsi tra descrizioni teoriche che offuscano i dati? Un approccio tipologico ai connettivi non-esaustivi oltre la logica, in: CLUB Working Papers in Linguistics, Bologna, CLUB – Circolo Linguistico dell'Università di Bologna, 2019, pp. 217 - 230 (CLUB WORKING PAPERS IN LINGUISTICS) [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/711827?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "217-230"
     },
     {
       "title": "Il corpus KIParla. Tra linguistica dei corpora e sociolinguistica dell’italiano",
@@ -599,17 +640,19 @@
       "url": "https://doi.org/10.13135/2384-8987/3989",
       "open_access": true,
       "type": "other",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "275-278"
     },
     {
       "title": "KIParla corpus: A new resource for spoken Italian",
       "authors": "Mauri, C.; Ballare, S.; Goria, E.; Cerruti, M.; Suriano, F.",
       "year": 2019,
       "citation": "Mauri, C.; Ballare, S.; Goria, E.; Cerruti, M.; Suriano, F., KIParla corpus: A new resource for spoken Italian, in: Proceedings of the Sixth Italian Conference on Computational Linguistics, Aachen, CEUR-WS, 2019, 2481, pp. 1 - 7 (atti di: 6th Italian Conference on Computational Linguistics, CLiC-it 2019, ita, 2019) [Contribution to conference proceedings]Open Access",
-      "url": "https://cris.unibo.it/bitstream/11585/711801/1/CLiC%202019%2025.09.2019.pdf",
+      "url": "https://aclanthology.org/2019.clicit-1.37/",
       "open_access": true,
       "type": "proceedings",
-      "link_type": "open_access_pdf"
+      "link_type": "official_publication",
+      "pages": "1-7"
     },
     {
       "title": "Non-exhaustive lists in spoken language: A construction grammatical perspective",
@@ -619,7 +662,8 @@
       "url": "https://doi.org/10.1075/cf.00032.mau",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "290-316"
     },
     {
       "title": "Nouns & co. Converging evidence in the analysis of associative plurals",
@@ -629,7 +673,8 @@
       "url": "https://doi.org/10.1515/stuf-2019-0023",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "603-626"
     },
     {
       "title": "Constructing lists to construct categories",
@@ -639,17 +684,19 @@
       "url": "https://doi.org/10.26346/1120-2726-117",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "95-134"
     },
     {
       "title": "Il corpus Kiparla. Una nuova risorsa per lo studio dell'italiano parlato",
       "authors": "Caterina Mauri; Eugenio Goria",
       "year": 2018,
       "citation": "Caterina Mauri; Eugenio Goria, Il corpus Kiparla. Una nuova risorsa per lo studio dell'italiano parlato, in: CLUB Working Papers in Linguistics VOL. 2, Bologna, CLUB - Circolo dell'Universitàù di Bologna, 2018, pp. 76 - 95 [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/672102?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "76-95"
     },
     {
       "title": "Linguistic strategies for ad hoc categorization: theoretical assessment and cross-linguistic variation",
@@ -659,7 +706,8 @@
       "url": "https://doi.org/10.1515/flih-2018-0001",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "1-35"
     },
     {
       "title": "List constructions: Towards a unified account",
@@ -669,17 +717,19 @@
       "url": "https://doi.org/10.26346/1120-2726-116",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "49-94"
     },
     {
       "title": "Lists: description, delimitation, definition. A foreword",
       "authors": "Masini, Francesca; Mauri, Caterina; Pietrandrea, Paola",
       "year": 2018,
       "citation": "Masini, Francesca; Mauri, Caterina; Pietrandrea, Paola, Lists: description, delimitation, definition. A foreword, Ospedaletto (Pisa), Pacini Editore S.p.A., 2018, pp. 189 . [Editorship]Open Access",
-      "url": "https://cris.unibo.it/bitstream/11585/670277/2/Issue.pdf",
+      "url": "https://doi.org/10.26346/1120-2726-115",
       "open_access": true,
       "type": "edited",
-      "link_type": "open_access_pdf"
+      "link_type": "doi",
+      "pages": "189"
     },
     {
       "title": "Lists: description, delimitation, definition. A foreword",
@@ -689,37 +739,41 @@
       "url": "https://doi.org/10.26346/1120-2726-115",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "41-48"
     },
     {
       "title": "Special Issue: Linguistic strategies for the construction of ad hoc categories: synchronic and diachronic perspectives",
       "authors": "Mauri, Caterina*; Sansò, Andrea",
       "year": 2018,
       "citation": "Mauri, Caterina*; Sansò, Andrea, Special Issue: Linguistic strategies for the construction of ad hoc categories: synchronic and diachronic perspectives, GENTHINER STRASSE 13, D-10785 BERLIN, GERMANY, Walter de Gruyter GmbH, 2018, pp. 252 . [Editorship]",
-      "url": "https://cris.unibo.it/handle/11585/670396?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "edited",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "252"
     },
     {
       "title": "Strategie linguistiche per la costruzione on-line di categorie: un quadro tipologico",
       "authors": "Caterina Mauri, Andrea Sansò",
       "year": 2018,
       "citation": "Caterina Mauri, Andrea Sansò, Strategie linguistiche per la costruzione on-line di categorie: un quadro tipologico, in: Tipologia e 'dintorni': il metodo tipologico alla intersezione di piani di analisi, Roma, Bulzoni, 2018, pp. 209 - 232 (atti di: XLIX Convegno della Società di Linguistic Italiana, Malta, 24-26 settembre 2015) [Contribution to conference proceedings]",
-      "url": "https://cris.unibo.it/handle/11585/631365?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "proceedings",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "209-232"
     },
     {
       "title": "Un approccio tipologico ai 'general extenders'",
       "authors": "Mauri Caterina; Andrea Sansò",
       "year": 2018,
       "citation": "Mauri Caterina; Andrea Sansò, Un approccio tipologico ai 'general extenders', in: Tipologia, acquisizione, grammaticalizzazione-Typology, acquisition, grammaticalization studies, Milano, Franco Angeli, 2018, pp. 63 - 72 (MATERIALI LINGUISTICI) [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/790974?locale-attribute=en",
+      "url": "https://www.francoangeli.it/Libro/9788891778475/Tipologia%2C-Acquisizione%2C-Grammaticalizzazione.-Typology%2C-Acquisition%2C-Grammaticalization-Studies?id=25216",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "official_publication",
+      "pages": "63-72"
     },
     {
       "title": "Why use or?",
@@ -729,27 +783,30 @@
       "url": "https://doi.org/10.1515/ling-2018-0020",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "939-993"
     },
     {
       "title": "Building and interpreting ad hoc categories: a linguistic analysis",
       "authors": "Caterina Mauri",
       "year": 2017,
       "citation": "Caterina Mauri, Building and interpreting ad hoc categories: a linguistic analysis, in: Formal models in the study of language, Berlin, Springer, 2017, pp. 297 - 326 [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/589208?locale-attribute=en",
+      "url": "https://doi.org/10.1007/978-3-319-48832-5_16",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "doi",
+      "pages": "297-326"
     },
     {
       "title": "Come variano le lingue del mondo?",
       "authors": "Caterina Mauri; Andrea Sansò",
       "year": 2017,
       "citation": "Caterina Mauri; Andrea Sansò, Come variano le lingue del mondo?, in: Tutto ciò che hai sempre voluto sapere sul linguaggio e sulle lingue, Bologna, Caissa Italia, 2017, pp. 33 - 36 [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/589217?locale-attribute=en",
+      "url": "https://www.caissa.it/299-tutto-cio-che-hai-sempre-voluto-sapere-sul-linguaggio-e-sulle-lingue-9788867290444.html",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "official_publication",
+      "pages": "33-36"
     },
     {
       "title": "Conjunctions",
@@ -764,37 +821,40 @@
       "container_title": "Oxford Bibliographies in Linguistics",
       "publisher": "Oxford University PressNew York, NY",
       "publisher_place": "",
-      "pages": ""
+      "pages": "1-14"
     },
     {
       "title": "Dubitative corrective constructions in Italian: their use and rise in discourse",
       "authors": "Mauri, Caterina; Giacalone Ramat, Anna; Sansò, Andrea",
       "year": 2017,
       "citation": "Mauri, Caterina; Giacalone Ramat, Anna; Sansò, Andrea, Dubitative corrective constructions in Italian: their use and rise in discourse, in: Pragmatic Markers, Discourse Markers and Modal Particles, Amsterdam, John Benjamins, 2017, pp. 337 - 370 [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/589196?locale-attribute=en",
+      "url": "https://doi.org/10.1075/slcs.186.13ram",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "doi",
+      "pages": "337-370"
     },
     {
       "title": "Linguistic diversity",
       "authors": "Mauri, Caterina e Arcodia, Giorgio",
       "year": 2017,
       "citation": "Mauri, Caterina e Arcodia, Giorgio (a cura di): Giorgio Arcodia, Caterina Mauri, Sonia Cristofaro, Caleb Everett, Matti Miestamo, Maria Teresa Guasti, Linguistic diversity, Bologna, Il Mulino, 2017, pp. 137 . [Editorship]",
-      "url": "https://cris.unibo.it/handle/11585/624799?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "edited",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "137"
     },
     {
       "title": "Possiamo fare cose con le lingue?",
       "authors": "Caterina Mauri",
       "year": 2017,
       "citation": "Caterina Mauri, Possiamo fare cose con le lingue?, in: Tutto ciò che hai sempre voluto sapere sul linguaggio e sulle lingue, Bologna, Caissa Italia, 2017, pp. 161 - 164 [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/589219?locale-attribute=en",
+      "url": "https://www.caissa.it/299-tutto-cio-che-hai-sempre-voluto-sapere-sul-linguaggio-e-sulle-lingue-9788867290444.html",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "official_publication",
+      "pages": "161-164"
     },
     {
       "title": "What is linguistic diversity?",
@@ -804,17 +864,19 @@
       "url": "https://doi.org/10.1418/88239",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "175-201"
     },
     {
       "title": "La diversità linguistica",
       "authors": "Arcodia Giorgio Francesco; Mauri Caterina",
       "year": 2016,
       "citation": "Arcodia Giorgio Francesco; Mauri Caterina, La diversità linguistica, Roma, Carocci, 2016, pp. 126 . [Research monograph]",
-      "url": "https://cris.unibo.it/handle/11585/542518?locale-attribute=en",
+      "url": "https://www.carocci.it/prodotto/la-diversita-linguistica",
       "open_access": false,
       "type": "books",
-      "link_type": "iris"
+      "link_type": "official_publication",
+      "pages": "126"
     },
     {
       "title": "The linguistic marking of (ir)realis and subjunctive",
@@ -836,10 +898,11 @@
       "authors": "Mauri, Caterina; Ramat, Paolo; Sansò, Andrea",
       "year": 2015,
       "citation": "Mauri, Caterina; Ramat, Paolo; Sansò, Andrea, LES ÉTUDES TYPOLOGIQUES EN ITALIE, «CAHIERS DE LEXICOLOGIE», 2015, 107, pp. 73 - 82 [Scientific article]",
-      "url": "https://cris.unibo.it/handle/11585/550712?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "articles",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "73-82"
     },
     {
       "title": "Piuttosto che: dalla preferenza all’esemplificazione di alternative",
@@ -849,97 +912,107 @@
       "url": "https://doi.org/10.5209/rev_CFIT.2015.v22.50951",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "49-72"
     },
     {
       "title": "Go and come as sources of directive constructions",
       "authors": "Caterina, Mauri; Andrea, Sansò",
       "year": 2014,
       "citation": "Caterina, Mauri; Andrea, Sansò, Go and come as sources of directive constructions, in: 'COME' and 'GO' off the Beaten Grammaticalization Path, BERLIN, Mouton de Gruyter, 2014, pp. 165 - 184 [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/542501?locale-attribute=en",
+      "url": "https://doi.org/10.1515/9783110335989.165",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "doi",
+      "pages": "165-184"
     },
     {
       "title": "Pathways to conditionality: two case studies from Italian",
       "authors": "Caterina Mauri; Andrea Sansò",
       "year": 2014,
       "citation": "Caterina Mauri; Andrea Sansò, Pathways to conditionality: two case studies from Italian, «ARCHIVIO GLOTTOLOGICO ITALIANO», 2014, 99, pp. 97 - 121 [Scientific article]",
-      "url": "https://cris.unibo.it/handle/11585/542455?locale-attribute=en",
+      "url": "https://doi.org/10.1400/236607",
       "open_access": false,
       "type": "articles",
-      "link_type": "iris"
+      "link_type": "doi",
+      "pages": "97-121"
     },
     {
       "title": "What do connectives and plurals have in common? The linguistic expression of ad hoc categories",
       "authors": "Mauri Caterina",
       "year": 2014,
       "citation": "Mauri Caterina, What do connectives and plurals have in common? The linguistic expression of ad hoc categories, in: Festchrift for Jacques Moeschler, Ginevra, Université de Genève, 2014, pp. 1 - 21 [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/542499?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "1-21"
     },
     {
       "title": "Coordination",
       "authors": "Mauri C.",
       "year": 2013,
       "citation": "Mauri C., Coordination, in: The Bloomsbury Companion to Syntax, London, Bloomsbury, 2013, pp. 292 - 310 [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/542488?locale-attribute=en",
+      "url": "https://doi.org/10.5040/9781472542090.ch-017",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "doi",
+      "pages": "292-310"
     },
     {
       "title": "Cross-linguistic annotation of modality: a data-driven hierarchical model",
       "authors": "Nissim M.; Pietrandrea P.; Sansò A.; Mauri C.",
       "year": 2013,
       "citation": "Nissim M.; Pietrandrea P.; Sansò A.; Mauri C., Cross-linguistic annotation of modality: a data-driven hierarchical model, in: Proceedings of the 9th Joint ISO - ACL SIGSEM Workshop on Interoperable Semantic Annotation (isa-9), Red Hook, NY, Curran Associates, Inc, 2013, pp. 7 - 14 (atti di: 9th Joint ISO - ACL SIGSEM Workshop on Interoperable Semantic Annotation (isa-9), Potsdam, Germany, March 19-20 2013) [Contribution to conference proceedings]",
-      "url": "https://cris.unibo.it/handle/11585/261940?locale-attribute=en",
+      "url": "https://aclanthology.org/W13-0501/",
       "open_access": false,
       "type": "proceedings",
-      "link_type": "iris"
+      "link_type": "official_publication",
+      "pages": "7-14"
     },
     {
       "title": "Synchrony and Diachrony. A dynamic interface.",
       "authors": "A. Giacalone Ramat; C. Mauri; P. Molinelli",
       "year": 2013,
       "citation": "A. Giacalone Ramat; C. Mauri; P. Molinelli (a cura di): Anna Giacalone Ramat; Caterina Mauri; Piera Molinelli; Graeme Trousdale; Elisabetta Magni, Johan van der Auwera, Oliver Currie, Steve Disney, Helène Margerie, Athanasios Giannaris, Dimitra Melissaroupoulou, Melani Wratil, Lien De Vos, Chiara Semplicini, Miriam Voghera, Henrik Rosenkvist & Sanna Skärlund, Mads Christiansen, Hubert Cuyckens, Caterina Guardamagna, Melanie Uth, Barbara Egedi, Chiara Fedriani, Gianguido Manzelli, Paolo Ramat, Björn Wiemer, Luca Lorenzetti, Alessandro De Angelis, Synchrony and Diachrony. A dynamic interface., AMSTERDAM, John Benjamins Publishing Company, 2013, pp. 229 . [Editorship]",
-      "url": "https://cris.unibo.it/handle/11585/542520?locale-attribute=en",
+      "url": "https://doi.org/10.1075/slcs.133",
       "open_access": false,
       "type": "edited",
-      "link_type": "iris"
+      "link_type": "doi",
+      "pages": "M"
     },
     {
       "title": "Synchrony and Diachrony. Introduction to a dynamic interface",
       "authors": "Giacalone Ramat, Anna; Mauri, Caterina; Molinelli, Piera",
       "year": 2013,
       "citation": "Giacalone Ramat, Anna; Mauri, Caterina; Molinelli, Piera, Synchrony and Diachrony. Introduction to a dynamic interface, in: Synchrony and Diachrony. A dynamic interface, AMSTERDAM, John Benjamins Publishing Company, 2013, pp. 1 - 26 [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/542491?locale-attribute=en",
+      "url": "https://doi.org/10.1075/slcs.133.01int",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "doi",
+      "pages": "1-26"
     },
     {
       "title": "Tipologia Linguistica",
       "authors": "Mauri Caterina; Sansò Andrea",
       "year": 1997,
       "citation": "Mauri Caterina; Sansò Andrea, Tipologia Linguistica, in: La linguistica italiana all’alba del terzo millennio (1997-2010), Roma, Bulzoni, 2013, pp. 683 - 696 [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/542481?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "683-696"
     },
     {
       "title": "Connectives",
       "authors": "Caterina, Mauri; Johan van der Auwera,",
       "year": 2012,
       "citation": "Caterina, Mauri; Johan van der Auwera,, Connectives, in: Cambridge Handbook of Pragmatics, CAMBRIDGE, Cambridge University Press, 2012, pp. 347 - 402 [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/542487?locale-attribute=en",
+      "url": "https://doi.org/10.1017/CBO9781139022453.021",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "doi",
+      "pages": "347-402"
     },
     {
       "title": "Gradualness and pace in grammaticalization: The case of adversative connectives",
@@ -949,7 +1022,8 @@
       "url": "https://doi.org/10.1515/flin.2012.017",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "483-512"
     },
     {
       "title": "The development of adversative connectives in Italian: stages and factors at play",
@@ -959,7 +1033,8 @@
       "url": "https://doi.org/10.1515/ling-2012-0008",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "191-239"
     },
     {
       "title": "The reality status of directives and its coding across languages",
@@ -969,7 +1044,8 @@
       "url": "https://doi.org/10.1016/j.langsci.2011.08.002",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "147-170"
     },
     {
       "title": "What do languages code when they code reality status?",
@@ -979,7 +1055,8 @@
       "url": "https://doi.org/10.1016/j.langsci.2010.11.004",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "99-106"
     },
     {
       "title": "How directive constructions emerge. Grammaticalization, constructionalization, cooptation",
@@ -989,7 +1066,8 @@
       "url": "https://doi.org/10.1016/j.pragma.2011.08.001",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "3489-3521"
     },
     {
       "title": "How directive constructions emerge: Grammaticalization, constructionalization, cooptation",
@@ -999,37 +1077,41 @@
       "url": "https://doi.org/10.1016/j.pragma.2011.08.001",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "3489-3521"
     },
     {
       "title": "The grammaticalization of coordinating interclausal connectives",
       "authors": "Giacalone Ramat Anna; Mauri Caterina",
       "year": 2011,
       "citation": "Giacalone Ramat Anna; Mauri Caterina, The grammaticalization of coordinating interclausal connectives, in: Oxford Handbook of Grammaticalization, OXFORD, Oxford University Press, 2011, pp. 656 - 667 [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/542484?locale-attribute=en",
+      "url": "https://doi.org/10.1093/oxfordhb/9780199586783.013.0054",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "doi",
+      "pages": "656-667"
     },
     {
       "title": "I connettivi congiuntivi e avversativi dall'antico russo di Novgorod al russo moderno",
       "authors": "C. Mauri; G. Manzelli",
       "year": 2010,
       "citation": "C. Mauri; G. Manzelli, I connettivi congiuntivi e avversativi dall'antico russo di Novgorod al russo moderno, in: R. Benacchio, L. Ruvoletto, Lingue slave in evoluzione: studi di grammatica e semantica, Padova, UNIPRESS, 2010, pp. 119 - 137 (atti di: Lingue slave in evoluzione: studi di grammatica e semantica, II incontro di linguistica slava, Padova, 14-15 novembre 2008) [Contribution to conference proceedings]",
-      "url": "https://cris.unibo.it/handle/11585/542514?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "proceedings",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "119-137"
     },
     {
       "title": "I connettivi congiuntivi e avversativi dall’antico russo di Novgorod al russo moderno",
       "authors": "Mauri, Caterina; Manzelli, Gianguido",
       "year": 2010,
       "citation": "Mauri, Caterina; Manzelli, Gianguido, I connettivi congiuntivi e avversativi dall’antico russo di Novgorod al russo moderno, in: Lingue slave in evoluzione: studi di grammatica e semantica, Padova, Unipress, 2010, pp. 119 - 137 [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/633033?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "119-137"
     },
     {
       "title": "Semantic Maps or Coding Maps? A unified account of the coding degree, coding distance and coding complexity of coordination relations.",
@@ -1039,77 +1121,85 @@
       "url": "https://doi.org/10.1349/PS1.1537-0852.A.351",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "210-232"
     },
     {
       "title": "The added value of the Connectivity Hypothesis for the map of parts of speech. Comment on ‘An implicational map of parts of speech’ by Kees Hengeveld and Eva van Lier (2010)",
       "authors": "Mauri Caterina",
       "year": 2010,
       "citation": "Mauri Caterina, The added value of the Connectivity Hypothesis for the map of parts of speech. Comment on ‘An implicational map of parts of speech’ by Kees Hengeveld and Eva van Lier (2010), «LINGUISTIC DISCOVERY», 2010, 8, pp. 157 - 159 [Scientific article]",
-      "url": "https://cris.unibo.it/handle/11585/542457?locale-attribute=en",
+      "url": "https://doi.org/10.1349/PS1.1537-0852.A.370",
       "open_access": false,
       "type": "articles",
-      "link_type": "iris"
+      "link_type": "doi",
+      "pages": "157-159"
     },
     {
       "title": "Dalla continuità temporale al contrasto: la grammaticalizzazione di tuttavia come connettivo coordinativo",
       "authors": "Giacalone Ramat, Anna; Mauri, Caterina",
       "year": 2009,
       "citation": "Giacalone Ramat, Anna; Mauri, Caterina, Dalla continuità temporale al contrasto: la grammaticalizzazione di tuttavia come connettivo coordinativo, in: Sintassi storica e sincronica dell'italiano. Subordinazione, coordinazione e giustapposizione, Firenze, Franco Cesati Editore, 2009, pp. 449 - 470 [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/542497?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "449-470"
     },
     {
       "title": "La variazione linguistica in Europa attraverso un database tipologico. L’esperienza del Pavia Typological Database",
       "authors": "Da Milano Federica; Mauri Caterina; Sansò Andrea",
       "year": 2009,
       "citation": "Da Milano Federica; Mauri Caterina; Sansò Andrea, La variazione linguistica in Europa attraverso un database tipologico. L’esperienza del Pavia Typological Database, in: Linguistica e modelli tecnologici di ricerca, ROMA, Bulzoni, 2009, pp. 249 - 266 [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/542480?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "249-266"
     },
     {
       "title": "Coordination Relations in the Languages of Europe and Beyond",
       "authors": "Mauri Caterina",
       "year": 2008,
       "citation": "Mauri Caterina, Coordination Relations in the Languages of Europe and Beyond, Berlin, New York, Mouton de Gruyter, 2008, pp. 372 . [Research monograph]",
-      "url": "https://cris.unibo.it/handle/11585/542519?locale-attribute=en",
+      "url": "https://doi.org/10.1515/9783110211498",
       "open_access": false,
       "type": "books",
-      "link_type": "iris"
+      "link_type": "doi",
+      "pages": "372"
     },
     {
       "title": "From cause to contrast. A study in semantic change",
       "authors": "Giacalone Ramat, Anna; Mauri, Caterina",
       "year": 2008,
       "citation": "Giacalone Ramat, Anna; Mauri, Caterina, From cause to contrast. A study in semantic change, in: Studies on Grammaticalization, BERLIN/NEW YORK, Mouton-De Gruyter, 2008, pp. 303 - 321 [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/542505?locale-attribute=en",
+      "url": "https://doi.org/10.1515/9783110211764.4.303",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "doi",
+      "pages": "303-321"
     },
     {
       "title": "Mappe semantiche tra sincronia e diacronia: l'evoluzione delle strategie congiuntive e avversative nelle lingue slave",
       "authors": "Mauri Caterina; Manzelli Gianguido",
       "year": 2008,
       "citation": "Mauri Caterina; Manzelli Gianguido, Mappe semantiche tra sincronia e diacronia: l'evoluzione delle strategie congiuntive e avversative nelle lingue slave, «LINGUISTICA E FILOLOGIA», 2008, 26, pp. 75 - 103 [Scientific article]",
-      "url": "https://cris.unibo.it/handle/11585/542454?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "articles",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "75-103"
     },
     {
       "title": "recensione di M. Haspelmath (ed.), Coordinating Constructions, Amsterdam, Philadeplhia: John Benjamins (2004)",
       "authors": "Mauri Caterina",
       "year": 2004,
       "citation": "Mauri Caterina, Review of: recensione di M. Haspelmath (ed.), Coordinating Constructions, Amsterdam, Philadeplhia: John Benjamins (2004), «ARCHIVIO GLOTTOLOGICO ITALIANO», 2008, XCIII, pp. 110 - 123 [Review]",
-      "url": "https://cris.unibo.it/handle/11585/542479?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "other",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "110-123"
     },
     {
       "title": "The irreality of alternatives: towards a typology of disjunction",
@@ -1119,67 +1209,74 @@
       "url": "https://doi.org/10.1075/sl.32.1.03mau",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "pages": "22-55"
     },
     {
       "title": "The parallelisms of coordination",
       "authors": "Mauri Caterina",
       "year": 2008,
       "citation": "Mauri Caterina, The parallelisms of coordination, «REVUE DE SÉMANTIQUE ET PRAGMATIQUE», 2008, 24, pp. 145 - 175 [Scientific article]",
-      "url": "https://cris.unibo.it/handle/11585/542433?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "articles",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "145-175"
     },
     {
       "title": "Conjunctive, disjunctive and adversative constructions in Europe: some areal considerations",
       "authors": "MAURI C",
       "year": 2007,
       "citation": "MAURI C, Conjunctive, disjunctive and adversative constructions in Europe: some areal considerations, in: Europe and the Mediterranean linguistic areas, Amsterdam, Philadelphia, John Benjamins, 2007, pp. 182 - 214 [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/542496?locale-attribute=en",
+      "url": "https://doi.org/10.1075/slcs.88.10mau",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "doi",
+      "pages": "182-214"
     },
     {
       "title": "Documenting linguistic variation in Europe. The Pavia Typological Database",
       "authors": "Mauri, Caterina; Da Milano, Federica; Sansò, Andrea",
       "year": 2007,
       "citation": "Mauri, Caterina; Da Milano, Federica; Sansò, Andrea, Documenting linguistic variation in Europe. The Pavia Typological Database, in: Language resources and linguistic theory, Milano, Franco Angeli, 2007, pp. 67 - 79 [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/633032?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "67-79"
     },
     {
       "title": "Documenting variation in Europe. The Pavia Typological Database",
       "authors": "MAURI C; FEDERICA DA MILANO; ANDREA SANSO",
       "year": 2007,
       "citation": "MAURI C; FEDERICA DA MILANO; ANDREA SANSO, Documenting variation in Europe. The Pavia Typological Database, in: Language Resources and Linguistic Theories, Milano, Franco Angeli, 2007, pp. 67 - 79 [Chapter or essay]",
-      "url": "https://cris.unibo.it/handle/11585/542498?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "chapters",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "67-79"
     },
     {
       "title": "Linguistica tipologica e prassi computazionale. L’esperienza del Pavia Typological Database",
       "authors": "MAURI C; FEDERICA DA MILANO; ANDREA SANSO",
       "year": 2007,
       "citation": "MAURI C; FEDERICA DA MILANO; ANDREA SANSO, Linguistica tipologica e prassi computazionale. L’esperienza del Pavia Typological Database, «STUDI ITALIANI DI LINGUISTICA TEORICA E APPLICATA», 2007, XLVI, pp. 311 - 329 [Scientific article]",
-      "url": "https://cris.unibo.it/handle/11585/542456?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "articles",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "311-329"
     },
     {
       "title": "Combinazione e contrasto: i connettivi congiuntivi e avversativi nelle lingue d’Europa",
       "authors": "MAURI C",
       "year": 2006,
       "citation": "MAURI C, Combinazione e contrasto: i connettivi congiuntivi e avversativi nelle lingue d’Europa, «ARCHIVIO GLOTTOLOGICO ITALIANO», 2006, XCI, pp. 166 - 202 [Scientific article]",
-      "url": "https://cris.unibo.it/handle/11585/542432?locale-attribute=en",
+      "url": "",
       "open_access": false,
       "type": "articles",
-      "link_type": "iris"
+      "link_type": "citation_only",
+      "pages": "166-202"
     }
   ]
 }
