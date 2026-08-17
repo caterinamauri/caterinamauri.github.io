@@ -8,6 +8,21 @@ const eventTypeButtons = document.querySelectorAll('#event-types button');
 const eventMore = document.querySelector('#event-load-more');
 let activeEventType = '';
 let visibleEvents = 12;
+const activeEventTheme = new URLSearchParams(window.location.search).get('theme') || '';
+
+const eventThemeNames = {
+  interaction: ['Grammar and interaction', 'Grammatica e interazione'],
+  typology: ['Typology and linguistic diversity', 'Tipologia e diversità linguistica'],
+  categories: ['Categories in discourse', 'Categorie nel discorso'],
+  data: ['Data and variation', 'Dati e variazione']
+};
+
+if (eventThemeNames[activeEventTheme]) {
+  const themeContext = document.createElement('div');
+  themeContext.className = 'event-theme-context';
+  themeContext.innerHTML = `<span>${eventsAreItalian ? 'Eventi collegati a' : 'Events related to'} “${eventThemeNames[activeEventTheme][eventsAreItalian ? 1 : 0]}”</span><a href="events.html">${eventsAreItalian ? 'Mostra tutti gli eventi' : 'Show all events'} →</a>`;
+  document.querySelector('#event-types')?.insertAdjacentElement('beforebegin', themeContext);
+}
 
 const eventTypeNames = {
   conference: ['conference', 'convegno'], workshop: ['workshop / panel', 'workshop / panel'],
@@ -25,7 +40,10 @@ function eventDate(value) {
 }
 
 function renderEvents() {
-  const matches = scientificEvents.filter((item) => !activeEventType || item.type === activeEventType);
+  const matches = scientificEvents.filter((item) =>
+    (!activeEventType || item.type === activeEventType)
+    && (!eventThemeNames[activeEventTheme] || item.themes?.includes(activeEventTheme))
+  );
   eventCount.textContent = `${matches.length} ${eventsAreItalian ? (matches.length === 1 ? 'iniziativa' : 'iniziative') : (matches.length === 1 ? 'event' : 'events')}`;
   eventList.innerHTML = matches.slice(0, visibleEvents).map((item) => {
     const copy = eventsAreItalian ? item.it : item.en;
