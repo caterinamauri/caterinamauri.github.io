@@ -59,6 +59,9 @@
 .engagement-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 26px; }
 .engagement-links .arrow-link { width: 100%; max-width: none; }
 .engagement-page .pending { padding: 12px 14px; border-left: 2px solid var(--blue); font-size: 12px !important; }
+.engagement-page [hidden] { display: none !important; }
+.engagement-theme-context { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 24px; padding: 22px 0; border-bottom: 1px solid var(--line); color: var(--muted); font: 13px/1.5 var(--sans); }
+.engagement-theme-context a { color: var(--blue); font: 500 11px var(--mono); letter-spacing: .04em; text-decoration: none; text-transform: uppercase; }
 .teaching-page footer a { color: inherit; text-decoration: none; }
 @media (max-width: 800px) {
   .engagement-links { grid-template-columns: 1fr; gap: 0; }

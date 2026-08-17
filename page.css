@@ -38,6 +38,7 @@
 .question-grid p { color: var(--muted); font-size: 14px; line-height: 1.65; }
 .question-grid a, .network-list a, .compact-records a, .cv-note a { color: inherit; font: 500 12px var(--mono); letter-spacing: .04em; text-transform: uppercase; text-decoration: none; }
 .path-links { display: flex; flex-wrap: wrap; gap: 9px 18px; margin-top: 22px; }
+.path-links .path-label { flex-basis: 100%; margin-bottom: 2px; color: var(--muted); font-size: 11px; letter-spacing: .055em; text-transform: uppercase; }
 .path-links a { color: var(--blue); }
 .path-links a::after { content: " →"; }
 [id="speak"], [id="leadhoc"], [id="logicon"], [id="unidive"], [id="diversita"], [id="incremental-semantics"], [id="abstraction"], [id="kiparla-title"] { scroll-margin-top: 30px; }
