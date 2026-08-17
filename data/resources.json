@@ -12,7 +12,7 @@
       "type": "resources",
       "link_type": "iris",
       "secondary_url": "https://universaldependencies.org/treebanks/it_kiparlaforest/index.html",
-      "secondary_link_label": "Open resource ↗",
+      "secondary_link_label": "Universal Dependencies ↗",
       "secondary_source": "Universal Dependencies"
     },
     {
@@ -58,10 +58,10 @@
       "link_type": "doi"
     },
     {
-      "title": "KIParla Corpus",
+      "title": "Corpus KIParla",
       "authors": "Mauri, Caterina; Ballarè, Silvia; Goria, Eugenio; Cerruti, Massimo",
       "year": 2019,
-      "citation": "Mauri, Caterina; Ballarè, Silvia; Goria, Eugenio; Cerruti, Massimo, KIParla Corpus, 2019. [Database]",
+      "citation": "Mauri, Caterina; Ballarè, Silvia; Goria, Eugenio; Cerruti, Massimo, Corpus KIParla, 2019. [Database]",
       "url": "https://doi.org/10.60760/unibo/kiparla",
       "open_access": false,
       "type": "resources",

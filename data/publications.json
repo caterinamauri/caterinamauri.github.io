@@ -177,6 +177,21 @@
       "link_type": "doi"
     },
     {
+      "title": "‘Or’ cycles",
+      "authors": "Ariel, Mira; Mauri, Caterina",
+      "year": 2025,
+      "citation": "Ariel, Mira; Mauri, Caterina, ‘Or’ cycles, in: Cyclic Change in Grammar and Discourse, Oxford, Oxford University Press, 2025, pp. 220 - 246 [Chapter or essay]",
+      "url": "https://doi.org/10.1093/9780198940661.003.0010",
+      "open_access": false,
+      "type": "chapters",
+      "link_type": "doi",
+      "editors": [],
+      "container_title": "Cyclic Change in Grammar and Discourse",
+      "publisher": "Oxford University PressOxford",
+      "publisher_place": "",
+      "pages": "220-246"
+    },
+    {
       "title": "Presentazione",
       "authors": "Ballarè, Silvia; Mauri, Caterina",
       "year": 2025,
@@ -233,16 +248,6 @@
       "publisher": "De Gruyter",
       "publisher_place": "",
       "pages": "31-68"
-    },
-    {
-      "title": "‘Or’ cycles",
-      "authors": "Ariel, Mira; Mauri, Caterina",
-      "year": 2025,
-      "citation": "Ariel, Mira; Mauri, Caterina, ‘Or’ cycles, in: Cyclic Change in Grammar and Discourse, Oxford, Oxford University Press, 2025, pp. 220 - 246 [Chapter or essay]",
-      "url": "https://doi.org/10.1093/9780198940661.003.0010",
-      "open_access": false,
-      "type": "chapters",
-      "link_type": "doi"
     },
     {
       "title": "Did Somebody Say 'Gest-IT'? A Pilot Exploration of Multimodal Data Management",
@@ -315,6 +320,16 @@
       "link_type": "iris"
     },
     {
+      "title": "Diversità e inclusione. Quando le parole sono importanti",
+      "authors": "Fusari, Sabrina; Ivancic, Barbara; Mauri, Caterina",
+      "year": 2022,
+      "citation": "Fusari, Sabrina; Ivancic, Barbara; Mauri, Caterina (a cura di): Elvira Mujcic, Giovanni Labriola, Caterina Mauri, Francesca Masini, Claudia Borghetti, Marianna Bolognesi, Ines Peta, Nahid Norozi, Jane Helen Johnson, Mariangela Picciuolo, Serena Baiesi, Marco Prandoni, Silvia Albertazzi, Lorenzo Mari, Michele Morselli, Carlotta Farese, Gilberta Golinelli, Claudia Roberta Combei, Antonella Luporini, Ana Pano Alaman, Monica Turci, Rita Monticelli, Paola Scrolavezza, Eva-Maria Thüne, Roberto Vecchi, Alessandro Zironi, Diversità e inclusione. Quando le parole sono importanti, Milano, Meltemi Press srl, 2022, pp. 260 . [Editorship]",
+      "url": "https://cris.unibo.it/handle/11585/919088?locale-attribute=en",
+      "open_access": false,
+      "type": "edited",
+      "link_type": "iris"
+    },
+    {
       "title": "Diversity, discourse, diachrony: A converging evidence methodology for grammar emergence",
       "authors": "Mauri Caterina; Masini Francesca",
       "year": 2022,
@@ -330,16 +345,6 @@
       "publisher": "Peter Lang Verlag",
       "publisher_place": "",
       "pages": ""
-    },
-    {
-      "title": "Diversità e inclusione. Quando le parole sono importanti",
-      "authors": "Fusari, Sabrina; Ivancic, Barbara; Mauri, Caterina",
-      "year": 2022,
-      "citation": "Fusari, Sabrina; Ivancic, Barbara; Mauri, Caterina (a cura di): Elvira Mujcic, Giovanni Labriola, Caterina Mauri, Francesca Masini, Claudia Borghetti, Marianna Bolognesi, Ines Peta, Nahid Norozi, Jane Helen Johnson, Mariangela Picciuolo, Serena Baiesi, Marco Prandoni, Silvia Albertazzi, Lorenzo Mari, Michele Morselli, Carlotta Farese, Gilberta Golinelli, Claudia Roberta Combei, Antonella Luporini, Ana Pano Alaman, Monica Turci, Rita Monticelli, Paola Scrolavezza, Eva-Maria Thüne, Roberto Vecchi, Alessandro Zironi, Diversità e inclusione. Quando le parole sono importanti, Milano, Meltemi Press srl, 2022, pp. 260 . [Editorship]",
-      "url": "https://cris.unibo.it/handle/11585/919088?locale-attribute=en",
-      "open_access": false,
-      "type": "edited",
-      "link_type": "iris"
     },
     {
       "title": "Il corpus KIParla",
