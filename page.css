@@ -40,7 +40,7 @@
 .path-links { display: flex; flex-wrap: wrap; gap: 9px 18px; margin-top: 22px; }
 .path-links a { color: var(--blue); }
 .path-links a::after { content: " →"; }
-[id="speak"], [id="leadhoc"], [id="unidive"], [id="kiparla-title"] { scroll-margin-top: 30px; }
+[id="speak"], [id="leadhoc"], [id="unidive"], [id="diversita"], [id="incremental-semantics"], [id="abstraction"], [id="kiparla-title"] { scroll-margin-top: 30px; }
 .project h3 { margin: 58px 0 12px; font: 400 clamp(30px, 4vw, 46px)/1 var(--serif); letter-spacing: -.025em; }
 .compact-records { border-top: 1px solid var(--line); }
 .compact-records article { display: grid; grid-template-columns: 130px 1fr; gap: 28px; padding: 24px 0; border-bottom: 1px solid var(--line); }
