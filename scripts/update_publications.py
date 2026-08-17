@@ -69,6 +69,7 @@ OFFICIAL_LINK_OVERRIDES = {
     "Cross-linguistic annotation of modality: a data-driven hierarchical model": "https://aclanthology.org/W13-0501/",
     "The added value of the Connectivity Hypothesis for the map of parts of speech. Comment on ‘An implicational map of parts of speech’ by Kees Hengeveld and Eva van Lier (2010)": "https://doi.org/10.1349/PS1.1537-0852.A.370",
     "Pathways to conditionality: two case studies from Italian": "https://doi.org/10.1400/236607",
+    "LES ÉTUDES TYPOLOGIQUES EN ITALIE": "https://doi.org/10.15122/isbn.978-2-406-05686-7.p.0073",
 }
 
 
