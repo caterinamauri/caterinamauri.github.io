@@ -4,6 +4,13 @@ const publicationsScriptUrl = document.querySelector('script[src*="publications.
 const publicationsDataUrl = new URL('data/publications.json', publicationsScriptUrl);
 let visiblePublications = 12;
 let activePublicationType = '';
+const activePublicationTheme = new URLSearchParams(window.location.search).get('theme') || '';
+const publicationThemeNames = {
+  interaction: ['Grammar in use and interaction', 'Grammatica nell’uso e nell’interazione'],
+  typology: ['Diversity, variation and possibility', 'Diversità, variazione e possibilità'],
+  categories: ['Meaning and categories in interaction', 'Significati e categorie nell’interazione'],
+  data: ['Data, resources and methods', 'Dati, risorse e metodi']
+};
 const list = document.querySelector('#publication-list');
 const search = document.querySelector('#publication-search');
 const year = document.querySelector('#publication-year');
@@ -11,6 +18,12 @@ const count = document.querySelector('#publication-count');
 const more = document.querySelector('#load-more');
 const typeButtons = document.querySelectorAll('#publication-types button');
 search.value = new URLSearchParams(window.location.search).get('q') || '';
+if (publicationThemeNames[activePublicationTheme]) {
+  const context = document.createElement('div');
+  context.className = 'event-theme-context';
+  context.innerHTML = `<span>${publicationsAreItalian ? 'Pubblicazioni collegate a' : 'Publications related to'} “${publicationThemeNames[activePublicationTheme][publicationsAreItalian ? 1 : 0]}”</span><a href="publications.html">${publicationsAreItalian ? 'Mostra tutte le pubblicazioni' : 'Show all publications'} →</a>`;
+  document.querySelector('#publication-types')?.insertAdjacentElement('beforebegin', context);
+}
 
 function escapeHtml(value) { const element = document.createElement('div'); element.textContent = value ?? ''; return element.innerHTML; }
 function apaAuthors(value) {
@@ -74,7 +87,7 @@ function conciseSource(item) {
 function renderPublications() {
   if (!publications.length) return;
   const query = search.value.trim().toLowerCase();
-  const matches = publications.filter((item) => (!year.value || String(item.year) === year.value) && (!activePublicationType || item.type === activePublicationType) && (!query || `${item.title} ${item.authors} ${item.citation}`.toLowerCase().includes(query)));
+  const matches = publications.filter((item) => (!year.value || String(item.year) === year.value) && (!activePublicationType || item.type === activePublicationType) && (!publicationThemeNames[activePublicationTheme] || item.themes?.includes(activePublicationTheme)) && (!query || `${item.title} ${item.authors} ${item.citation}`.toLowerCase().includes(query)));
   count.textContent = `${matches.length} ${publicationsAreItalian ? 'pubblicazioni' : 'publications'}`;
   list.innerHTML = matches.slice(0, visiblePublications).map((item) => `<li><div class="apa-entry"><p class="apa-authors">${escapeHtml(apaAuthors(item.authors))} (${item.year || 'n.d.'}).</p><h3><a href="${item.url}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a>${item.open_access ? `<span class="oa">${publicationsAreItalian ? 'Accesso aperto' : 'Open access'}</span>` : ''}</h3><p class="apa-source">${publicationSourceHtml(item)}</p></div></li>`).join('') || `<li class="loading">${publicationsAreItalian ? 'Nessun risultato.' : 'No results.'}</li>`;
   more.hidden = visiblePublications >= matches.length;

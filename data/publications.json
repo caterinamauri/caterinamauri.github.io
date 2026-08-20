@@ -19,7 +19,11 @@
       ],
       "container_title": "Non-verbal Predication in the World’s Languages: A Typological Survey. Volume 1: Eurasia, North America, South America",
       "publisher": "De Gruyter Mouton",
-      "publisher_place": "Berlin and Boston"
+      "publisher_place": "Berlin and Boston",
+      "themes": [
+        "interaction",
+        "typology"
+      ]
     },
     {
       "title": "Coconstructions in Spoken Data: UD Annotation Guidelines and First Results",
@@ -30,7 +34,11 @@
       "url": "https://doi.org/10.63317/3kcohrckgnkz",
       "open_access": true,
       "type": "proceedings",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "data"
+      ]
     },
     {
       "title": "Investigating ‘Other’ in Cross-Linguistic Perspective: Theoretical and Methodological Challenges",
@@ -47,7 +55,12 @@
       ],
       "container_title": "Other: Ambiguity, Constraints, and Change",
       "publisher": "BRILL",
-      "publisher_place": ""
+      "publisher_place": "",
+      "themes": [
+        "typology",
+        "categories",
+        "data"
+      ]
     },
     {
       "title": "Is Semi-Automatic Transcription Useful in Corpus Creation? Preliminary Considerations on the KIParla Corpus",
@@ -58,7 +71,10 @@
       "url": "https://doi.org/10.63317/3gw6i7cbs5rc",
       "open_access": true,
       "type": "proceedings",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "data"
+      ]
     },
     {
       "title": "Reuse by Design: A Pivot-Based Architecture for the KIParla Corpus of Spoken Italian",
@@ -69,7 +85,11 @@
       "url": "https://doi.org/10.5334/johd.527",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "data"
+      ]
     },
     {
       "title": "Say again? The limits of Whisper with conversation: A case study on the KIParla corpus",
@@ -80,7 +100,11 @@
       "url": "https://doi.org/10.63317/2so5y449gb4w",
       "open_access": true,
       "type": "proceedings",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "data"
+      ]
     },
     {
       "title": "Shaping reference through temporality: the case of Italian nominals",
@@ -91,7 +115,11 @@
       "url": "https://doi.org/10.1418/121389",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "typology",
+        "categories"
+      ]
     },
     {
       "title": "Subjunctive/indicative alternation with verba putandi in spoken Italian",
@@ -102,7 +130,10 @@
       "url": "https://doi.org/10.1515/flin-2024-0053",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction"
+      ]
     },
     {
       "title": "Temporal, aspectual, and modal evaluation in nominal reference: The case of Italian",
@@ -113,7 +144,11 @@
       "url": "https://doi.org/10.1515/flin-2025-0142",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "typology",
+        "categories"
+      ]
     },
     {
       "title": "At the crossroads of typology and language(s) in use",
@@ -124,7 +159,11 @@
       "url": "https://doi.org/10.60923/issn.2785-0943/24199",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "typology"
+      ]
     },
     {
       "title": "CLUB Working Papers in Linguistics. Volume 9",
@@ -135,7 +174,8 @@
       "url": "https://doi.org/10.6092/unibo/amsacta/8647",
       "open_access": true,
       "type": "edited",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": []
     },
     {
       "title": "Il corpus KIParla. Una risorsa per la didattica dell’oralità",
@@ -146,7 +186,10 @@
       "url": "https://doi.org/10.30687/elle/2280-6792/2025/02/004",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "data"
+      ]
     },
     {
       "title": "Il progetto DiverSIta. Documentare la diversità nell’italiano parlato",
@@ -164,7 +207,11 @@
       ],
       "container_title": "",
       "publisher": "CLUB – Circolo Linguistico dell'Università di Bologna",
-      "publisher_place": ""
+      "publisher_place": "",
+      "themes": [
+        "interaction",
+        "data"
+      ]
     },
     {
       "title": "Introducing KIParla Forest: seeds for a UD annotation of interactional syntax.",
@@ -175,7 +222,11 @@
       "url": "https://aclanthology.org/2025.depling-1.5/",
       "open_access": true,
       "type": "proceedings",
-      "link_type": "official_publication"
+      "link_type": "official_publication",
+      "themes": [
+        "interaction",
+        "data"
+      ]
     },
     {
       "title": "Object encoding in spoken language data and antipassives",
@@ -186,7 +237,12 @@
       "url": "https://doi.org/10.60923/issn.2785-0943/21768",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "typology",
+        "data"
+      ]
     },
     {
       "title": "‘Or’ cycles",
@@ -201,7 +257,11 @@
       "editors": [],
       "container_title": "Cyclic Change in Grammar and Discourse",
       "publisher": "Oxford University PressOxford",
-      "publisher_place": ""
+      "publisher_place": "",
+      "themes": [
+        "interaction",
+        "typology"
+      ]
     },
     {
       "title": "Presentazione",
@@ -219,7 +279,8 @@
       ],
       "container_title": "",
       "publisher": "CLUB – Circolo Linguistico dell'Università di Bologna",
-      "publisher_place": ""
+      "publisher_place": "",
+      "themes": []
     },
     {
       "title": "Replicability all the way up: commentary on “Replication and methodological robustness in quantitative typology” by Becker and Guzmán Naranjo",
@@ -230,7 +291,11 @@
       "url": "https://doi.org/10.1515/lingty-2025-0033",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "typology",
+        "data"
+      ]
     },
     {
       "title": "The mirative values of Italian altro che",
@@ -245,7 +310,11 @@
       "editors": [],
       "container_title": "Expressing Surprise at the Crossroads",
       "publisher": "De Gruyter",
-      "publisher_place": ""
+      "publisher_place": "",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "To understand in interaction: the rise of epistemic and evidential constructions based on \"capire\" in spoken Italian",
@@ -260,7 +329,11 @@
       "editors": [],
       "container_title": "Expanding the Boundaries of Epistemicity",
       "publisher": "De Gruyter",
-      "publisher_place": ""
+      "publisher_place": "",
+      "themes": [
+        "interaction",
+        "typology"
+      ]
     },
     {
       "title": "Did Somebody Say 'Gest-IT'? A Pilot Exploration of Multimodal Data Management",
@@ -271,7 +344,10 @@
       "url": "https://ceur-ws.org/Vol-3878/80_main_long.pdf",
       "open_access": true,
       "type": "proceedings",
-      "link_type": "official_publication"
+      "link_type": "official_publication",
+      "themes": [
+        "data"
+      ]
     },
     {
       "title": "Multi-layered indexicality: When proper names become categories",
@@ -286,7 +362,11 @@
       "editors": [],
       "container_title": "Indexicality",
       "publisher": "De Gruyter",
-      "publisher_place": ""
+      "publisher_place": "",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "Counterfactual conditionals: Linguistic variation in Italian and beyond",
@@ -301,7 +381,10 @@
       "editors": [],
       "container_title": "Sociolinguistic and Typological Perspectives on Language Variation",
       "publisher": "De Gruyter",
-      "publisher_place": ""
+      "publisher_place": "",
+      "themes": [
+        "typology"
+      ]
     },
     {
       "title": "Esaustività e non esaustività esplicita nel discorso: dentro e oltre l'italiano",
@@ -312,7 +395,12 @@
       "url": "",
       "open_access": false,
       "type": "chapters",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "interaction",
+        "typology",
+        "categories"
+      ]
     },
     {
       "title": "Heterogeneous sets: a diachronic typology of associative and similative plurals",
@@ -323,7 +411,11 @@
       "url": "https://doi.org/10.1515/lingty-2021-2072",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "typology"
+      ]
     },
     {
       "title": "CATEGORIZATION AS AN AD HOC PROCESS IN DISCOURSE",
@@ -334,7 +426,11 @@
       "url": "https://www.cambridgescholars.com/resources/pdfs/978-1-5275-8908-7-sample.pdf",
       "open_access": false,
       "type": "other",
-      "link_type": "official_publication"
+      "link_type": "official_publication",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "Diversità e inclusione. Quando le parole sono importanti",
@@ -345,7 +441,11 @@
       "url": "https://www.meltemieditore.it/catalogo/diversita-e-inclusione/",
       "open_access": false,
       "type": "edited",
-      "link_type": "official_publication"
+      "link_type": "official_publication",
+      "themes": [
+        "typology",
+        "categories"
+      ]
     },
     {
       "title": "Diversity, discourse, diachrony: A converging evidence methodology for grammar emergence",
@@ -362,7 +462,12 @@
       ],
       "container_title": "",
       "publisher": "Peter Lang Verlag",
-      "publisher_place": ""
+      "publisher_place": "",
+      "themes": [
+        "interaction",
+        "typology",
+        "data"
+      ]
     },
     {
       "title": "Il corpus KIParla",
@@ -373,7 +478,10 @@
       "url": "https://doi.org/10.17469/O2106SLI000006",
       "open_access": true,
       "type": "proceedings",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "data"
+      ]
     },
     {
       "title": "Introduzione",
@@ -384,7 +492,10 @@
       "url": "https://www.carocci.it/prodotto/la-tipologia-linguistica",
       "open_access": false,
       "type": "chapters",
-      "link_type": "official_publication"
+      "link_type": "official_publication",
+      "themes": [
+        "typology"
+      ]
     },
     {
       "title": "Italiano parlato e variazione linguistica. Teoria e prassi nella costruzione del corpus KIParla",
@@ -395,7 +506,12 @@
       "url": "https://www.patroneditore.com/volumi/9788855535724/italiano-parlato-e-variazione-linguistica",
       "open_access": false,
       "type": "books",
-      "link_type": "official_publication"
+      "link_type": "official_publication",
+      "themes": [
+        "interaction",
+        "typology",
+        "data"
+      ]
     },
     {
       "title": "La tipologia linguistica. Unità e diversità nelle lingue del mondo",
@@ -406,7 +522,10 @@
       "url": "https://www.carocci.it/prodotto/la-tipologia-linguistica",
       "open_access": false,
       "type": "edited",
-      "link_type": "official_publication"
+      "link_type": "official_publication",
+      "themes": [
+        "typology"
+      ]
     },
     {
       "title": "Le parti del discorso",
@@ -417,7 +536,10 @@
       "url": "https://www.carocci.it/prodotto/la-tipologia-linguistica",
       "open_access": false,
       "type": "chapters",
-      "link_type": "official_publication"
+      "link_type": "official_publication",
+      "themes": [
+        "typology"
+      ]
     },
     {
       "title": "Non-exhaustive connectives",
@@ -428,7 +550,11 @@
       "url": "https://doi.org/10.1515/stuf-2022-1056",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "typology",
+        "categories"
+      ]
     },
     {
       "title": "Obiettivi, metodi e strumenti della tipologia",
@@ -439,7 +565,10 @@
       "url": "https://www.carocci.it/prodotto/la-tipologia-linguistica",
       "open_access": false,
       "type": "chapters",
-      "link_type": "official_publication"
+      "link_type": "official_publication",
+      "themes": [
+        "data"
+      ]
     },
     {
       "title": "Posizionamento del sé e rappresentazione dell’Altro nel discorso: una prospettiva interculturale",
@@ -450,7 +579,11 @@
       "url": "https://www.meltemieditore.it/catalogo/diversita-e-inclusione/",
       "open_access": false,
       "type": "chapters",
-      "link_type": "official_publication"
+      "link_type": "official_publication",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "The encoding of irrelevance in discourse: tanto between concession and justification",
@@ -461,7 +594,10 @@
       "url": "https://doi.org/10.5209/cfit.79601",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction"
+      ]
     },
     {
       "title": "Ad hoc categorization in linguistic interaction",
@@ -476,7 +612,11 @@
       "editors": [],
       "container_title": "Studies in Language Companion Series",
       "publisher": "John Benjamins Publishing Company",
-      "publisher_place": ""
+      "publisher_place": "",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "Building Categories in Interaction: Linguistic resources at work",
@@ -487,7 +627,11 @@
       "url": "https://doi.org/10.1075/slcs.220",
       "open_access": false,
       "type": "edited",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "Building categories in interaction. Theoretical and empirical perspectives",
@@ -502,7 +646,11 @@
       "editors": [],
       "container_title": "Studies in Language Companion Series",
       "publisher": "John Benjamins Publishing Company",
-      "publisher_place": ""
+      "publisher_place": "",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "Senza e la connessione anticircostanziale: tra variazione tipologica e usi discorsivi",
@@ -513,7 +661,11 @@
       "url": "",
       "open_access": true,
       "type": "articles",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "interaction",
+        "typology"
+      ]
     },
     {
       "title": "Ad hoc categorization and language: the construction of categories in discourse",
@@ -524,7 +676,11 @@
       "url": "https://www.sciencedirect.com/journal/language-sciences/special-issues",
       "open_access": false,
       "type": "edited",
-      "link_type": "official_publication"
+      "link_type": "official_publication",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "Ad hoc categorization and languaging: the online construction of categories in discourse",
@@ -535,7 +691,11 @@
       "url": "https://doi.org/10.1016/j.langsci.2020.101312",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "Diversità tra le lingue e pragmatica",
@@ -546,7 +706,11 @@
       "url": "https://doi.org/10.13130/2037-3597/13866",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "Exemplar-based compounds: The case of Chinese",
@@ -557,7 +721,11 @@
       "url": "https://doi.org/10.1016/j.langsci.2019.06.002",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "typology",
+        "categories"
+      ]
     },
     {
       "title": "KIPoS @ EVALITA2020: Overview of the Task on KIParla Part of Speech Tagging",
@@ -568,7 +736,11 @@
       "url": "https://doi.org/10.4000/books.aaccademia.7743",
       "open_access": true,
       "type": "proceedings",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "typology",
+        "data"
+      ]
     },
     {
       "title": "La creazione del corpus KIPARLA: criteri metodologici e prospettive future",
@@ -579,7 +751,10 @@
       "url": "",
       "open_access": false,
       "type": "articles",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "data"
+      ]
     },
     {
       "title": "Questione di stile. L’espressione analitica della maniera indessicale",
@@ -590,7 +765,11 @@
       "url": "",
       "open_access": false,
       "type": "articles",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "Uno, l’altro e un altro ancora: ambiguità dell’alterità tra sincronia e diacronia",
@@ -601,7 +780,11 @@
       "url": "",
       "open_access": true,
       "type": "articles",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "An ‘alternative’ core for or",
@@ -612,7 +795,11 @@
       "url": "https://doi.org/10.1016/j.pragma.2019.06.004",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "CLUB Working Papers in Linguistics",
@@ -623,7 +810,8 @@
       "url": "https://doi.org/10.6092/unibo/amsacta/6298",
       "open_access": true,
       "type": "edited",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": []
     },
     {
       "title": "Come districarsi tra descrizioni teoriche che offuscano i dati? Un approccio tipologico ai connettivi non-esaustivi oltre la logica",
@@ -634,7 +822,11 @@
       "url": "",
       "open_access": false,
       "type": "chapters",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "typology",
+        "data"
+      ]
     },
     {
       "title": "Il corpus KIParla. Tra linguistica dei corpora e sociolinguistica dell’italiano",
@@ -645,7 +837,10 @@
       "url": "https://doi.org/10.13135/2384-8987/3989",
       "open_access": true,
       "type": "other",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "data"
+      ]
     },
     {
       "title": "KIParla corpus: A new resource for spoken Italian",
@@ -656,7 +851,11 @@
       "url": "https://aclanthology.org/2019.clicit-1.37/",
       "open_access": true,
       "type": "proceedings",
-      "link_type": "official_publication"
+      "link_type": "official_publication",
+      "themes": [
+        "interaction",
+        "data"
+      ]
     },
     {
       "title": "Non-exhaustive lists in spoken language: A construction grammatical perspective",
@@ -667,7 +866,11 @@
       "url": "https://doi.org/10.1075/cf.00032.mau",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "Nouns & co. Converging evidence in the analysis of associative plurals",
@@ -678,7 +881,10 @@
       "url": "https://doi.org/10.1515/stuf-2019-0023",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "typology"
+      ]
     },
     {
       "title": "Constructing lists to construct categories",
@@ -689,7 +895,11 @@
       "url": "https://doi.org/10.26346/1120-2726-117",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "Il corpus Kiparla. Una nuova risorsa per lo studio dell'italiano parlato",
@@ -700,7 +910,11 @@
       "url": "",
       "open_access": false,
       "type": "chapters",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "interaction",
+        "data"
+      ]
     },
     {
       "title": "Linguistic strategies for ad hoc categorization: theoretical assessment and cross-linguistic variation",
@@ -711,7 +925,11 @@
       "url": "https://doi.org/10.1515/flih-2018-0001",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "typology",
+        "categories"
+      ]
     },
     {
       "title": "List constructions: Towards a unified account",
@@ -722,7 +940,11 @@
       "url": "https://doi.org/10.26346/1120-2726-116",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "Lists: description, delimitation, definition. A foreword",
@@ -733,7 +955,11 @@
       "url": "https://doi.org/10.26346/1120-2726-115",
       "open_access": true,
       "type": "edited",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "Lists: description, delimitation, definition. A foreword",
@@ -744,7 +970,11 @@
       "url": "https://doi.org/10.26346/1120-2726-115",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "Special Issue: Linguistic strategies for the construction of ad hoc categories: synchronic and diachronic perspectives",
@@ -755,7 +985,12 @@
       "url": "",
       "open_access": false,
       "type": "edited",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "interaction",
+        "typology",
+        "categories"
+      ]
     },
     {
       "title": "Strategie linguistiche per la costruzione on-line di categorie: un quadro tipologico",
@@ -766,7 +1001,12 @@
       "url": "",
       "open_access": false,
       "type": "proceedings",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "interaction",
+        "typology",
+        "categories"
+      ]
     },
     {
       "title": "Un approccio tipologico ai 'general extenders'",
@@ -777,7 +1017,11 @@
       "url": "https://www.francoangeli.it/Libro/9788891778475/Tipologia%2C-Acquisizione%2C-Grammaticalizzazione.-Typology%2C-Acquisition%2C-Grammaticalization-Studies?id=25216",
       "open_access": false,
       "type": "chapters",
-      "link_type": "official_publication"
+      "link_type": "official_publication",
+      "themes": [
+        "interaction",
+        "typology"
+      ]
     },
     {
       "title": "Why use or?",
@@ -788,7 +1032,12 @@
       "url": "https://doi.org/10.1515/ling-2018-0020",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "typology",
+        "categories"
+      ]
     },
     {
       "title": "Building and interpreting ad hoc categories: a linguistic analysis",
@@ -799,7 +1048,11 @@
       "url": "https://doi.org/10.1007/978-3-319-48832-5_16",
       "open_access": false,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "Come variano le lingue del mondo?",
@@ -810,7 +1063,10 @@
       "url": "https://www.caissa.it/299-tutto-cio-che-hai-sempre-voluto-sapere-sul-linguaggio-e-sulle-lingue-9788867290444.html",
       "open_access": false,
       "type": "chapters",
-      "link_type": "official_publication"
+      "link_type": "official_publication",
+      "themes": [
+        "typology"
+      ]
     },
     {
       "title": "Conjunctions",
@@ -825,7 +1081,11 @@
       "editors": [],
       "container_title": "Oxford Bibliographies in Linguistics",
       "publisher": "Oxford University PressNew York, NY",
-      "publisher_place": ""
+      "publisher_place": "",
+      "themes": [
+        "typology",
+        "categories"
+      ]
     },
     {
       "title": "Dubitative corrective constructions in Italian: their use and rise in discourse",
@@ -836,7 +1096,11 @@
       "url": "https://doi.org/10.1075/slcs.186.13ram",
       "open_access": false,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "Linguistic diversity",
@@ -847,7 +1111,10 @@
       "url": "",
       "open_access": false,
       "type": "edited",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "typology"
+      ]
     },
     {
       "title": "Possiamo fare cose con le lingue?",
@@ -858,7 +1125,11 @@
       "url": "https://www.caissa.it/299-tutto-cio-che-hai-sempre-voluto-sapere-sul-linguaggio-e-sulle-lingue-9788867290444.html",
       "open_access": false,
       "type": "chapters",
-      "link_type": "official_publication"
+      "link_type": "official_publication",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "What is linguistic diversity?",
@@ -869,7 +1140,10 @@
       "url": "https://doi.org/10.1418/88239",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "typology"
+      ]
     },
     {
       "title": "La diversità linguistica",
@@ -880,7 +1154,10 @@
       "url": "https://www.carocci.it/prodotto/la-diversita-linguistica",
       "open_access": false,
       "type": "books",
-      "link_type": "official_publication"
+      "link_type": "official_publication",
+      "themes": [
+        "typology"
+      ]
     },
     {
       "title": "The linguistic marking of (ir)realis and subjunctive",
@@ -895,7 +1172,10 @@
       "editors": [],
       "container_title": "The Oxford Handbook of Modality and Mood",
       "publisher": "Oxford University Press",
-      "publisher_place": ""
+      "publisher_place": "",
+      "themes": [
+        "typology"
+      ]
     },
     {
       "title": "LES ÉTUDES TYPOLOGIQUES EN ITALIE",
@@ -906,7 +1186,10 @@
       "url": "https://doi.org/10.15122/isbn.978-2-406-05686-7.p.0073",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "typology"
+      ]
     },
     {
       "title": "Piuttosto che: dalla preferenza all’esemplificazione di alternative",
@@ -917,7 +1200,11 @@
       "url": "https://doi.org/10.5209/rev_CFIT.2015.v22.50951",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "categories"
+      ]
     },
     {
       "title": "Go and come as sources of directive constructions",
@@ -928,7 +1215,11 @@
       "url": "https://doi.org/10.1515/9783110335989.165",
       "open_access": false,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "typology"
+      ]
     },
     {
       "title": "Pathways to conditionality: two case studies from Italian",
@@ -939,7 +1230,11 @@
       "url": "https://doi.org/10.1400/236607",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "typology"
+      ]
     },
     {
       "title": "What do connectives and plurals have in common? The linguistic expression of ad hoc categories",
@@ -950,7 +1245,11 @@
       "url": "",
       "open_access": false,
       "type": "chapters",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "typology",
+        "categories"
+      ]
     },
     {
       "title": "Coordination",
@@ -961,7 +1260,10 @@
       "url": "https://doi.org/10.5040/9781472542090.ch-017",
       "open_access": false,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "typology"
+      ]
     },
     {
       "title": "Cross-linguistic annotation of modality: a data-driven hierarchical model",
@@ -972,7 +1274,11 @@
       "url": "https://aclanthology.org/W13-0501/",
       "open_access": false,
       "type": "proceedings",
-      "link_type": "official_publication"
+      "link_type": "official_publication",
+      "themes": [
+        "typology",
+        "data"
+      ]
     },
     {
       "title": "Synchrony and Diachrony. A dynamic interface.",
@@ -983,7 +1289,11 @@
       "url": "https://doi.org/10.1075/slcs.133",
       "open_access": false,
       "type": "edited",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "typology"
+      ]
     },
     {
       "title": "Synchrony and Diachrony. Introduction to a dynamic interface",
@@ -994,7 +1304,11 @@
       "url": "https://doi.org/10.1075/slcs.133.01int",
       "open_access": false,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "typology"
+      ]
     },
     {
       "title": "Tipologia Linguistica",
@@ -1005,7 +1319,10 @@
       "url": "",
       "open_access": false,
       "type": "chapters",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "typology"
+      ]
     },
     {
       "title": "Connectives",
@@ -1016,7 +1333,12 @@
       "url": "https://doi.org/10.1017/CBO9781139022453.021",
       "open_access": false,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "typology",
+        "categories"
+      ]
     },
     {
       "title": "Gradualness and pace in grammaticalization: The case of adversative connectives",
@@ -1027,7 +1349,12 @@
       "url": "https://doi.org/10.1515/flin.2012.017",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "typology",
+        "categories"
+      ]
     },
     {
       "title": "The development of adversative connectives in Italian: stages and factors at play",
@@ -1038,7 +1365,12 @@
       "url": "https://doi.org/10.1515/ling-2012-0008",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "typology",
+        "categories"
+      ]
     },
     {
       "title": "The reality status of directives and its coding across languages",
@@ -1049,7 +1381,11 @@
       "url": "https://doi.org/10.1016/j.langsci.2011.08.002",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "typology",
+        "categories"
+      ]
     },
     {
       "title": "What do languages code when they code reality status?",
@@ -1060,7 +1396,11 @@
       "url": "https://doi.org/10.1016/j.langsci.2010.11.004",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "typology",
+        "categories"
+      ]
     },
     {
       "title": "How directive constructions emerge. Grammaticalization, constructionalization, cooptation",
@@ -1071,7 +1411,11 @@
       "url": "https://doi.org/10.1016/j.pragma.2011.08.001",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "typology"
+      ]
     },
     {
       "title": "How directive constructions emerge: Grammaticalization, constructionalization, cooptation",
@@ -1082,7 +1426,11 @@
       "url": "https://doi.org/10.1016/j.pragma.2011.08.001",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "typology"
+      ]
     },
     {
       "title": "The grammaticalization of coordinating interclausal connectives",
@@ -1093,7 +1441,11 @@
       "url": "https://doi.org/10.1093/oxfordhb/9780199586783.013.0054",
       "open_access": false,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "typology"
+      ]
     },
     {
       "title": "I connettivi congiuntivi e avversativi dall'antico russo di Novgorod al russo moderno",
@@ -1104,7 +1456,11 @@
       "url": "",
       "open_access": false,
       "type": "proceedings",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "interaction",
+        "typology"
+      ]
     },
     {
       "title": "I connettivi congiuntivi e avversativi dall’antico russo di Novgorod al russo moderno",
@@ -1115,7 +1471,11 @@
       "url": "",
       "open_access": false,
       "type": "chapters",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "interaction",
+        "typology"
+      ]
     },
     {
       "title": "Semantic Maps or Coding Maps? A unified account of the coding degree, coding distance and coding complexity of coordination relations.",
@@ -1126,7 +1486,11 @@
       "url": "https://doi.org/10.1349/PS1.1537-0852.A.351",
       "open_access": true,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "typology",
+        "data"
+      ]
     },
     {
       "title": "The added value of the Connectivity Hypothesis for the map of parts of speech. Comment on ‘An implicational map of parts of speech’ by Kees Hengeveld and Eva van Lier (2010)",
@@ -1137,7 +1501,10 @@
       "url": "https://doi.org/10.1349/PS1.1537-0852.A.370",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "typology"
+      ]
     },
     {
       "title": "Dalla continuità temporale al contrasto: la grammaticalizzazione di tuttavia come connettivo coordinativo",
@@ -1148,7 +1515,11 @@
       "url": "",
       "open_access": false,
       "type": "chapters",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "interaction",
+        "typology"
+      ]
     },
     {
       "title": "La variazione linguistica in Europa attraverso un database tipologico. L’esperienza del Pavia Typological Database",
@@ -1159,7 +1530,10 @@
       "url": "",
       "open_access": false,
       "type": "chapters",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "typology"
+      ]
     },
     {
       "title": "Coordination Relations in the Languages of Europe and Beyond",
@@ -1170,7 +1544,10 @@
       "url": "https://doi.org/10.1515/9783110211498",
       "open_access": false,
       "type": "books",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "typology"
+      ]
     },
     {
       "title": "From cause to contrast. A study in semantic change",
@@ -1181,7 +1558,11 @@
       "url": "https://doi.org/10.1515/9783110211764.4.303",
       "open_access": false,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "interaction",
+        "typology"
+      ]
     },
     {
       "title": "Mappe semantiche tra sincronia e diacronia: l'evoluzione delle strategie congiuntive e avversative nelle lingue slave",
@@ -1192,7 +1573,12 @@
       "url": "",
       "open_access": false,
       "type": "articles",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "interaction",
+        "typology",
+        "data"
+      ]
     },
     {
       "title": "recensione di M. Haspelmath (ed.), Coordinating Constructions, Amsterdam, Philadeplhia: John Benjamins (2004)",
@@ -1203,7 +1589,10 @@
       "url": "",
       "open_access": false,
       "type": "other",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "typology"
+      ]
     },
     {
       "title": "The irreality of alternatives: towards a typology of disjunction",
@@ -1214,7 +1603,11 @@
       "url": "https://doi.org/10.1075/sl.32.1.03mau",
       "open_access": false,
       "type": "articles",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "typology",
+        "categories"
+      ]
     },
     {
       "title": "The parallelisms of coordination",
@@ -1225,7 +1618,10 @@
       "url": "",
       "open_access": false,
       "type": "articles",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "typology"
+      ]
     },
     {
       "title": "Conjunctive, disjunctive and adversative constructions in Europe: some areal considerations",
@@ -1236,7 +1632,10 @@
       "url": "https://doi.org/10.1075/slcs.88.10mau",
       "open_access": false,
       "type": "chapters",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "typology"
+      ]
     },
     {
       "title": "Documenting linguistic variation in Europe. The Pavia Typological Database",
@@ -1247,7 +1646,11 @@
       "url": "",
       "open_access": false,
       "type": "chapters",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "typology",
+        "data"
+      ]
     },
     {
       "title": "Documenting variation in Europe. The Pavia Typological Database",
@@ -1258,7 +1661,11 @@
       "url": "",
       "open_access": false,
       "type": "chapters",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "typology",
+        "data"
+      ]
     },
     {
       "title": "Linguistica tipologica e prassi computazionale. L’esperienza del Pavia Typological Database",
@@ -1269,7 +1676,10 @@
       "url": "",
       "open_access": false,
       "type": "articles",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "typology"
+      ]
     },
     {
       "title": "Combinazione e contrasto: i connettivi congiuntivi e avversativi nelle lingue d’Europa",
@@ -1280,7 +1690,11 @@
       "url": "",
       "open_access": false,
       "type": "articles",
-      "link_type": "citation_only"
+      "link_type": "citation_only",
+      "themes": [
+        "typology",
+        "categories"
+      ]
     }
   ]
 }

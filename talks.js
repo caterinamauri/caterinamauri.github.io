@@ -4,6 +4,13 @@ const talksScriptUrl = document.querySelector('script[src*="talks.js"]')?.src ||
 const talksDataUrl = new URL('data/talks.json', talksScriptUrl);
 let activeTalkType = '';
 let visibleTalks = 18;
+const activeTalkTheme = new URLSearchParams(window.location.search).get('theme') || '';
+const talkThemeNames = {
+  interaction: ['Grammar in use and interaction', 'Grammatica nell’uso e nell’interazione'],
+  typology: ['Diversity, variation and possibility', 'Diversità, variazione e possibilità'],
+  categories: ['Meaning and categories in interaction', 'Significati e categorie nell’interazione'],
+  data: ['Data, resources and methods', 'Dati, risorse e metodi']
+};
 
 const talkList = document.querySelector('#talk-list');
 const talkSearch = document.querySelector('#talk-search');
@@ -12,6 +19,13 @@ const talkCount = document.querySelector('#talk-count');
 const talkTypeButtons = document.querySelectorAll('#talk-types button');
 const talkMore = document.querySelector('#talk-load-more');
 talkSearch.value = new URLSearchParams(window.location.search).get('q') || '';
+
+if (talkThemeNames[activeTalkTheme]) {
+  const context = document.createElement('div');
+  context.className = 'event-theme-context';
+  context.innerHTML = `<span>${talksAreItalian ? 'Talks collegati a' : 'Talks related to'} “${talkThemeNames[activeTalkTheme][talksAreItalian ? 1 : 0]}”</span><a href="talks.html">${talksAreItalian ? 'Mostra tutti i talks' : 'Show all talks'} →</a>`;
+  document.querySelector('#talk-types')?.insertAdjacentElement('beforebegin', context);
+}
 
 function escapeTalkHtml(value) {
   return String(value || '').replace(/[&<>"]/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[character]));
@@ -43,6 +57,7 @@ function renderTalks() {
   const matches = talks.filter((item) =>
     (!talkYear.value || String(item.year) === talkYear.value)
     && (!activeTalkType || item.type === activeTalkType)
+    && (!talkThemeNames[activeTalkTheme] || item.themes?.includes(activeTalkTheme))
     && (!query || `${item.title} ${item.citation}`.toLowerCase().includes(query))
   );
   talkCount.textContent = `${matches.length} ${talksAreItalian ? (matches.length === 1 ? 'intervento' : 'interventi') : (matches.length === 1 ? 'talk' : 'talks')}`;

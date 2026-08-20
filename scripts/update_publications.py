@@ -11,6 +11,8 @@ import re
 import ssl
 import urllib.request
 
+from apply_theme_tags import themes_for
+
 try:
     import certifi
     SSL_CONTEXT = ssl.create_default_context(cafile=certifi.where())
@@ -21,7 +23,7 @@ BASE_URL = "https://www.unibo.it/sitoweb/caterina.mauri/publications"
 OUTPUT = Path(__file__).resolve().parents[1] / "data" / "publications.json"
 RESOURCES_OUTPUT = Path(__file__).resolve().parents[1] / "data" / "resources.json"
 
-CURATED_METADATA_FIELDS = ("pages", "editors", "container_title", "publisher", "publisher_place")
+CURATED_METADATA_FIELDS = ("pages", "editors", "container_title", "publisher", "publisher_place", "themes")
 LINK_QUALITY = {
     "": 0,
     "citation_only": 0,
@@ -207,6 +209,14 @@ def preserve_curated_metadata(items, path, collection_key):
     return items
 
 
+def add_initial_themes(items):
+    """Classify new records while leaving previously reviewed themes untouched."""
+    for item in items:
+        if "themes" not in item:
+            item["themes"] = themes_for(item)
+    return items
+
+
 def validate_archive(items, path, collection_key, label):
     """Refuse to publish a truncated or structurally invalid synchronization."""
     if not items:
@@ -340,6 +350,7 @@ def write_archives(publications, preserve_resources=False):
         apply_official_link_policy(item)
 
     publications = preserve_curated_metadata(publications, OUTPUT, "publications")
+    publications = add_initial_themes(publications)
 
     iris_resources = [item for item in publications if item["type"] == "resources"]
     scholarly_publications = [item for item in publications if item["type"] != "resources"]
