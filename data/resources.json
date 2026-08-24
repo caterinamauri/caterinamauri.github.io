@@ -12,6 +12,10 @@
       "open_access": false,
       "type": "resources",
       "link_type": "official_resource",
+      "themes": [
+        "interaction",
+        "data"
+      ],
       "source": "Universal Dependencies",
       "link_label": "Open resource ↗"
     },
@@ -24,7 +28,10 @@
       "url": "https://doi.org/10.60760/unibo/stra-parlabo",
       "open_access": false,
       "type": "resources",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "data"
+      ]
     },
     {
       "title": "Gest-IT",
@@ -47,7 +54,10 @@
       "url": "https://doi.org/10.60760/unibo/parlabo",
       "open_access": false,
       "type": "resources",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "data"
+      ]
     },
     {
       "title": "Corpus KIPasti",
@@ -58,7 +68,10 @@
       "url": "https://doi.org/10.60760/unibo/kipasti",
       "open_access": false,
       "type": "resources",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "data"
+      ]
     },
     {
       "title": "KIParla Corpus",
@@ -69,7 +82,10 @@
       "url": "https://doi.org/10.60760/unibo/kiparla",
       "open_access": false,
       "type": "resources",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "data"
+      ]
     },
     {
       "title": "Corpus KIP",
@@ -80,7 +96,10 @@
       "url": "https://doi.org/10.60760/unibo/kip",
       "open_access": false,
       "type": "resources",
-      "link_type": "doi"
+      "link_type": "doi",
+      "themes": [
+        "data"
+      ]
     }
   ]
 }
