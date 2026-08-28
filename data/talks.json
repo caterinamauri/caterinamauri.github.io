@@ -26,10 +26,22 @@
     {
       "year": 2026,
       "type": "selected",
+      "title": "Coordination in contact: Interactional reshaping in spoken Kazakh",
+      "citation": "Caterina Mauri and Giorgia Troiani. “Coordination in contact: Interactional reshaping in spoken Kazakh.” Workshop “Subordination and coordination in language-contact situations” (WS16), 59th Annual Meeting of the Societas Linguistica Europaea (SLE), Osnabrück, Germany, 26–29 August 2026.",
+      "event": "59th Annual Meeting of the Societas Linguistica Europaea (SLE)",
+      "forthcoming": false,
+      "themes": [
+        "interaction",
+        "typology"
+      ]
+    },
+    {
+      "year": 2026,
+      "type": "selected",
       "title": "Coconstructions in spoken Universal Dependencies: guidelines and first results.",
-      "citation": "Forthcoming. Ludovica Pannitto, Kaja Dobrovoljc, Sylvain Kahane, Elena Battaglia, Bruno Guillaume, Caterina Mauri, and Eleonora Zucchini. “Coconstructions in spoken Universal Dependencies: guidelines and first results.” 4th UniDive General Meeting, House of the Romanian Academy, Bucharest, Romania, 27–28 August 2026.",
+      "citation": "Ludovica Pannitto, Kaja Dobrovoljc, Sylvain Kahane, Elena Battaglia, Bruno Guillaume, Caterina Mauri, and Eleonora Zucchini. “Coconstructions in spoken Universal Dependencies: guidelines and first results.” 4th UniDive General Meeting, House of the Romanian Academy, Bucharest, Romania, 27–28 August 2026.",
       "event": "4th UniDive General Meeting",
-      "forthcoming": true,
+      "forthcoming": false,
       "themes": [
         "interaction",
         "data"
@@ -39,9 +51,9 @@
       "year": 2026,
       "type": "selected",
       "title": "Complexity in Joint Corpus Representations, Under-specified Simultaneity, and the Case of KIParla.",
-      "citation": "Forthcoming. “Complexity in Joint Corpus Representations, Under-specified Simultaneity, and the Case of KIParla.” KONVENS 2026.",
+      "citation": "“Complexity in Joint Corpus Representations, Under-specified Simultaneity, and the Case of KIParla.” KONVENS 2026.",
       "event": "KONVENS 2026",
-      "forthcoming": true,
+      "forthcoming": false,
       "themes": [
         "data"
       ]
@@ -50,9 +62,9 @@
       "year": 2026,
       "type": "selected",
       "title": "Stra-Parla: documenting spoken Italian in plurilingual communities.",
-      "citation": "Forthcoming. “Stra-Parla: documenting spoken Italian in plurilingual communities.” Learner Corpus Research 2026.",
+      "citation": "“Stra-Parla: documenting spoken Italian in plurilingual communities.” Learner Corpus Research 2026.",
       "event": "Learner Corpus Research 2026",
-      "forthcoming": true,
+      "forthcoming": false,
       "themes": [
         "interaction",
         "data"

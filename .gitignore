@@ -1,5 +1,7 @@
 # Private CV sources and generated extended versions
 assets/*.docx
+!assets/Mauri_CV.docx
+!assets/Mauri_CV_IT.docx
 assets/*_extended.pdf
 
 # Private master data and source exports
