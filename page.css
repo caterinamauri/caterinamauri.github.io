@@ -42,7 +42,7 @@
 .question-grid p { color: var(--muted); font-size: 14px; line-height: 1.65; }
 .question-grid a, .network-list a, .compact-records a, .cv-note a { color: inherit; font: 500 12px var(--mono); letter-spacing: .04em; text-transform: uppercase; text-decoration: none; }
 .path-links { display: flex; flex-wrap: wrap; gap: 9px 18px; margin-top: 22px; }
-.path-links .path-label { flex-basis: 100%; color: var(--muted); font-size: 10px; line-height: 1.45; letter-spacing: .045em; text-transform: uppercase; }
+.path-links .path-label { flex-basis: 100%; color: var(--muted); font-size: 11px; line-height: 1.45; letter-spacing: .045em; text-transform: uppercase; }
 .path-links a { color: var(--blue); }
 .path-links a::after { content: " →"; }
 .question-grid.current-directions { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); }
@@ -55,7 +55,7 @@
 .current-directions article > p { margin: 0; font-size: 13px; line-height: 1.55; }
 .current-directions article > .path-links { margin-top: auto; padding-top: 17px; }
 .current-directions .path-links { gap: 7px 14px; }
-.current-directions .path-links a { font-size: 10px; }
+.current-directions .path-links a { font-size: 11px; }
 .research-groundwork { display: grid; grid-template-columns: minmax(260px,.75fr) 1.25fr; gap: clamp(45px,8vw,100px); margin-top: 22px; padding: 40px 0 44px; border-top: 2px solid var(--blue); border-bottom: 1px solid var(--line); }
 .research-groundwork h2 { margin: 8px 0 0; font: 400 28px/1.12 var(--serif); }
 .research-groundwork p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.65; }
@@ -111,8 +111,20 @@
 .service-reframed li { padding: 14px 0; border-top: 1px solid var(--line); }
 .page-hero + .service-list { border-top: 0; }
 .service-reframed li a { color: inherit; text-decoration: none; }
-.service-reframed li strong { display: block; color: var(--ink); font-weight: 500; }
+.service-reframed li strong { display: inline; color: var(--ink); font-weight: 500; }
 .service-reframed li span { display: block; margin-top: 5px; color: var(--muted); font: 12px/1.5 var(--sans); letter-spacing: 0; text-transform: none; }
+.service-reframed { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; grid-auto-rows: auto !important; }
+.service-reframed article { padding: 28px !important; border-right: 1px solid var(--line) !important; }
+.service-reframed article:nth-child(2) { grid-column: 1 / -1; grid-row: 1; border-right: 0 !important; }
+.service-reframed article:nth-child(2) ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 34px; }
+.service-reframed article:nth-child(4) { border-right: 0 !important; }
+.in-page-nav { display: flex; flex-wrap: wrap; gap: 10px 22px; margin: -22px 0 54px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.in-page-nav a { color: var(--blue); font: 500 12px/1.4 var(--mono); letter-spacing: .035em; text-decoration: none; text-transform: uppercase; }
+.in-page-nav a::after { content: " ↓"; }
+.archive-note { max-width: 72ch; }
+.projects-page .page-hero { margin-bottom: 22px; padding-bottom: 10px; border-bottom: 0; }
+.projects-page .in-page-nav { margin: 0 0 42px; padding: 8px 0; border-bottom: 0; }
+.projects-page .project-tier { margin-top: 28px; }
 .resource-browser { border-top: 1px solid var(--line); }
 .resource-tools { display: grid; grid-template-columns: 1fr 220px; gap: 18px; padding: 28px 0; border-bottom: 1px solid var(--line); }
 .resource-tools label { display: grid; gap: 9px; color: var(--muted); font: 500 12px var(--mono); letter-spacing: .055em; text-transform: uppercase; }
@@ -227,4 +239,9 @@
   .cv-overview { grid-template-columns: 1fr; }
   .cv-overview article, .cv-overview article + article { padding: 25px 0; border-left: 0; }
   .simple-list article { grid-template-columns: 1fr; gap: 10px; }
+  .service-reframed { grid-template-columns: 1fr !important; }
+  .service-reframed article:nth-child(2) { grid-column: auto; grid-row: auto; }
+  .service-reframed article:nth-child(2) ul { grid-template-columns: 1fr; }
+  .service-reframed article { padding: 26px 0 !important; border-right: 0 !important; }
+  .in-page-nav { margin-top: -12px; }
 }

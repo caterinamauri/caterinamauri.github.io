@@ -1,6 +1,53 @@
 const siteIsItalian = document.documentElement.lang === 'it';
 document.querySelectorAll('[data-current-year]').forEach((element) => { element.textContent = new Date().getFullYear(); });
 
+const canonicalOrigin = 'https://caterinamauri.github.io';
+const pagePath = window.location.pathname.replace(/\/index\.html$/, '/');
+const canonicalUrl = `${canonicalOrigin}${pagePath}`;
+const isIndexable = !document.querySelector('meta[name="robots"][content*="noindex"]');
+const alternatePath = siteIsItalian
+  ? pagePath.replace(/^\/it\//, '/')
+  : (pagePath === '/' ? '/it/' : `/it${pagePath}`);
+const headLink = (rel, href, hreflang = '') => {
+  const link = document.createElement('link');
+  link.rel = rel;
+  link.href = href;
+  if (hreflang) link.hreflang = hreflang;
+  document.head.appendChild(link);
+};
+if (isIndexable && !document.querySelector('link[rel="canonical"]')) headLink('canonical', canonicalUrl);
+if (isIndexable && !document.querySelector('link[rel="alternate"][hreflang="en"]')) {
+  headLink('alternate', siteIsItalian ? `${canonicalOrigin}${alternatePath}` : canonicalUrl, 'en');
+  headLink('alternate', siteIsItalian ? canonicalUrl : `${canonicalOrigin}${alternatePath}`, 'it');
+  headLink('alternate', siteIsItalian ? `${canonicalOrigin}${alternatePath}` : canonicalUrl, 'x-default');
+}
+const pageDescription = document.querySelector('meta[name="description"]')?.content;
+const socialMeta = [
+  ['property', 'og:type', 'website'],
+  ['property', 'og:title', document.title],
+  ['property', 'og:url', canonicalUrl],
+  ['property', 'og:locale', siteIsItalian ? 'it_IT' : 'en_GB'],
+  ['name', 'twitter:card', 'summary']
+];
+if (pageDescription) socialMeta.push(['property', 'og:description', pageDescription], ['name', 'twitter:description', pageDescription]);
+if (isIndexable) socialMeta.forEach(([attribute, key, content]) => {
+  if (document.querySelector(`meta[${attribute}="${key}"]`)) return;
+  const meta = document.createElement('meta');
+  meta.setAttribute(attribute, key);
+  meta.content = content;
+  document.head.appendChild(meta);
+});
+
+const mainContent = document.querySelector('main');
+if (mainContent && !mainContent.id) mainContent.id = 'main-content';
+if (mainContent && !document.querySelector('.skip-link')) {
+  const skipLink = document.createElement('a');
+  skipLink.className = 'skip-link';
+  skipLink.href = '#main-content';
+  skipLink.textContent = siteIsItalian ? 'Vai al contenuto' : 'Skip to content';
+  document.body.prepend(skipLink);
+}
+
 const siteHeader = document.querySelector('.site-header');
 if (siteHeader && !siteHeader.querySelector('.sidebar-profile')) {
   const profile = document.createElement('div');
@@ -23,6 +70,17 @@ if (siteHeader && !siteHeader.querySelector('.sidebar-profile')) {
 }
 
 const currentFile = window.location.pathname.split('/').pop() || 'index.html';
+if (['publications.html', 'talks.html', 'events.html'].includes(currentFile)) {
+  const heroText = document.querySelector('.page-hero > p');
+  if (heroText && !heroText.querySelector('.archive-context')) {
+    const context = document.createElement('span');
+    context.className = 'archive-context';
+    context.textContent = siteIsItalian
+      ? ' Le direzioni di ricerca nella home offrono selezioni tematiche trasversali a questo archivio completo.'
+      : ' The research directions on the home page provide thematic selections across this complete archive.';
+    heroText.appendChild(context);
+  }
+}
 if (siteHeader && !siteHeader.querySelector('.language-switch')) {
   const languageSwitch = document.createElement('div');
   languageSwitch.className = 'language-switch';

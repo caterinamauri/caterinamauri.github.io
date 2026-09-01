@@ -1,11 +1,11 @@
 .teaching-page main { max-width: 1260px; margin: 0 auto; padding: 64px max(4vw, 32px) 78px; }
 .teaching-hero, .teaching-section { margin: 0; }
-.teaching-hero { max-width: none; padding: 0 0 46px; border-bottom: 1px solid var(--line); }
+.teaching-hero { max-width: none; padding: 0 0 18px; border-bottom: 0; }
 .teaching-section { max-width: none; }
 .teaching-hero h1 { margin: 0 0 24px; font: 400 clamp(36px, 4vw, 44px)/1.05 var(--serif); letter-spacing: -.02em; color: var(--ink); }
 .teaching-hero > p:not(.section-index) { max-width: none; color: var(--muted); font: 17px/1.65 var(--sans); }
 .teaching-hero .arrow-link { max-width: 360px; margin-top: 35px; }
-.teaching-section { display: grid; grid-template-columns: 200px 1fr; gap: 36px; padding: 52px 0; border-bottom: 1px solid var(--line); }
+.teaching-section { display: grid; grid-template-columns: 200px 1fr; gap: 36px; padding: 52px 0; border-bottom: 0; }
 .section-label span { font: 12px var(--mono); color: var(--blue); }
 .section-label h2 { margin: 12px 0 0; font: 28px/1.05 var(--serif); }
 .course-list { border-top: 2px solid var(--blue); }
@@ -48,7 +48,10 @@
 .postdoc-list h3 a { color: inherit; text-decoration: none; }
 .postdoc-list h3 a:hover { color: var(--blue); }
 .postdoc-list h3 span { font: 13px var(--sans); }
-.postdoc-list p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
+.postdoc-list p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.55; }
+.teaching-page .in-page-nav { display: flex; flex-wrap: wrap; gap: 10px 22px; margin: 0 0 34px; padding: 8px 0; border-bottom: 0; }
+.teaching-page .in-page-nav a { color: var(--blue); font: 500 12px/1.4 var(--mono); letter-spacing: .035em; text-decoration: none; text-transform: uppercase; }
+.teaching-page .in-page-nav a::after { content: " ↓"; }
 .postdoc-meta { display: grid; gap: 6px; }
 .postdoc-meta span { display: block; }
 .postdoc-meta strong { display: inline; margin-right: .35em; color: var(--ink); font-weight: 600; }
