@@ -2,8 +2,8 @@ const engagementIsItalian = document.documentElement.lang === 'it';
 const engagementTheme = new URLSearchParams(window.location.search).get('theme') || '';
 const engagementThemeNames = {
   interaction: ['Grammar in use and interaction', 'Grammatica nell’uso e nell’interazione'],
-  typology: ['Diversity, variation and possibility', 'Diversità, variazione e possibilità'],
-  categories: ['Meaning and categories in interaction', 'Significati e categorie nell’interazione'],
+  typology: ['Linguistic diversity, typology and variation', 'Diversità linguistica, tipologia e variazione'],
+  categories: ['Categories, meaning and shared understanding', 'Categorie, significato e comprensione condivisa'],
   data: ['Data, resources and methods', 'Dati, risorse e metodi']
 };
 
