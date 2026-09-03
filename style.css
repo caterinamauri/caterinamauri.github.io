@@ -43,7 +43,7 @@ h1 em { padding-left: 9vw; font-weight: 400; color: var(--blue); }
 .topic { display: grid; grid-template-columns: 55px minmax(220px, 1.25fr) 1fr; gap: 28px; align-items: baseline; padding: 28px 0; border-bottom: 1px solid var(--line); }
 .topic > span, .project-meta, .year { font: 12px var(--mono); color: var(--muted); text-transform: uppercase; }
 .topic h3 { margin: 0; font: 400 clamp(30px, 3.2vw, 52px)/1 var(--serif); letter-spacing: -.035em; }
-.topic p { margin: 0; font-size: 14px; line-height: 1.5; color: var(--muted); }
+.topic p { margin: 0; font-size: 15px; line-height: 1.6; color: var(--muted); }
 
 .projects { background: #e5e0d5; }
 .projects-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--line); border: 1px solid var(--line); }
@@ -68,7 +68,7 @@ h1 em { padding-left: 9vw; font-weight: 400; color: var(--blue); }
 .activity { display: grid; grid-template-columns: 42px 1fr; gap: 15px; padding: 28px; border-bottom: 1px solid var(--line); }
 .activity > span { font: 12px var(--mono); color: var(--muted); }
 .activity h3 { margin: 0 0 10px; font: 400 27px/1.1 var(--serif); }
-.activity p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.6; }
+.activity p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.6; }
 .activity a { display: inline-block; margin-top: 12px; font: 12px var(--mono); text-transform: uppercase; text-decoration: none; }
 
 .publication-wrap { display: grid; grid-template-columns: 1fr 2fr; column-gap: 6vw; }
@@ -82,8 +82,8 @@ h1 em { padding-left: 9vw; font-weight: 400; color: var(--blue); }
 .publication-list { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--ink); }
 .publication-list li { padding: 24px 0; border-bottom: 1px solid var(--line); }
 .publication-list h3 { margin: 4px 0 7px; font: 400 21px/1.25 var(--serif); }
-.publication-list p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.55; }
-.publication-list .apa-authors { color: var(--ink); font-size: 13px; }
+.publication-list p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.6; }
+.publication-list .apa-authors { color: var(--ink); font-size: 15px; }
 .publication-list .apa-source { max-width: 74ch; }
 .publication-list a { color: inherit; text-decoration: none; }
 .publication-list a:hover { color: var(--blue); }

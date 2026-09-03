@@ -46,7 +46,7 @@ body.sober {
 .sober .resource-card > img { width: 72px; height: auto; justify-self: center; }
 .sober .resource-card h3 { margin: 0 0 12px; font: 400 34px/1.1 var(--serif); }
 .sober .kiparla-resource h3 { color: #d51f2b; font-family: var(--sans); font-weight: 600; }
-.sober .resource-card p { max-width: 750px; margin: 0; color: var(--muted); font-size: 14px; line-height: 1.65; }
+.sober .resource-card p { max-width: 750px; margin: 0; color: var(--muted); font-size: 15px; line-height: 1.65; }
 .sober .resource-monogram { display: grid; place-items: center; width: 72px; height: 72px; justify-self: center; border-radius: 50%; background: var(--blue); color: white; font: 500 21px var(--sans); }
 .sober .resource-links { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 18px; }
 .sober .resource-links a { color: var(--blue); font: 12px var(--sans); text-transform: uppercase; letter-spacing: .045em; text-decoration: none; }
@@ -56,8 +56,8 @@ body.sober {
 .sober .service-list article:nth-child(even) { padding-left: 30px; }
 .sober .service-list span { color: var(--blue); font: 12px var(--sans); text-transform: uppercase; letter-spacing: .06em; }
 .sober .service-list h3 { margin: 18px 0 12px; font: 400 28px/1.1 var(--serif); }
-.sober .service-list p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.6; }
-.sober .service-list ul { margin: 0; padding-left: 18px; color: var(--muted); font-size: 13px; line-height: 1.6; }
+.sober .service-list p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.6; }
+.sober .service-list ul { margin: 0; padding-left: 18px; color: var(--muted); font-size: 15px; line-height: 1.6; }
 .sober .preview-content h2 { margin: 0 0 22px; font: 400 clamp(40px, 5vw, 68px)/.98 var(--serif); letter-spacing: -.035em; }
 .sober .preview-content p { max-width: 820px; margin: 0 0 30px; color: var(--muted); font: 15px/1.7 var(--sans); }
 .sober .teaching-overview { background: #f3f2ee; }
@@ -69,7 +69,7 @@ body.sober {
 .sober .teaching-facts span { color: var(--muted); font-size: 12px; }
 .sober .postdoc-summary { display: grid; grid-template-columns: 220px 1fr; gap: 30px; margin-bottom: 30px; }
 .sober .postdoc-summary h3 { margin: 0; font: 400 25px/1.1 var(--serif); }
-.sober .postdoc-summary p { margin: 0; font: 14px/1.75 var(--sans); }
+.sober .postdoc-summary p { margin: 0; font: 15px/1.75 var(--sans); }
 .sober .home-courses { display: grid; grid-template-columns: 220px 1fr; gap: 30px; margin: 0 0 34px; padding: 28px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .sober .home-courses > h3 { margin: 0; font: 400 25px/1.1 var(--serif); }
 .sober #home-current-courses { display: grid; gap: 14px; }
