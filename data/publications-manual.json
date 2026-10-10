@@ -1,0 +1,20 @@
+{
+  "publications": [
+    {
+      "title": "Complexity in Joint Corpus Representations, Under-specified Simultaneity, and the Case of KIParla",
+      "authors": "Klotz, Martin; Krause, Thomas; Lüdeling, Anke; Mauri, Caterina; Pannitto, Ludovica",
+      "year": 2026,
+      "status": "in_press",
+      "citation": "Klotz, Martin; Krause, Thomas; Lüdeling, Anke; Mauri, Caterina; Pannitto, Ludovica, Complexity in Joint Corpus Representations, Under-specified Simultaneity, and the Case of KIParla, In Proceedings of KONVENS 2026, In press.",
+      "container_title": "Proceedings of KONVENS 2026",
+      "pages": "",
+      "url": "https://www.korpuslab.uni-hamburg.de/en/konvens2026/84.pdf",
+      "open_access": true,
+      "type": "proceedings",
+      "link_type": "official_publication",
+      "themes": [
+        "data"
+      ]
+    }
+  ]
+}

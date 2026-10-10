@@ -44,6 +44,9 @@ function chapterSource(item) {
   return `In ${editorText}${item.container_title}${publicationText ? `. ${publicationText}` : ''}${pages}.`;
 }
 function publicationSourceHtml(item) {
+  if (item.status === 'in_press' && item.container_title) {
+    return `In <em>${escapeHtml(item.container_title)}</em>.`;
+  }
   if (item.type === 'chapters' && item.container_title) {
     const editorText = item.editors?.length ? `${joinedNames(item.editors)} (${item.editors.length === 1 ? 'Ed.' : 'Eds.'}), ` : '';
     const publicationText = [item.publisher_place, item.publisher].filter(Boolean).join(': ');
@@ -89,7 +92,7 @@ function renderPublications() {
   const query = search.value.trim().toLowerCase();
   const matches = publications.filter((item) => (!year.value || String(item.year) === year.value) && (!activePublicationType || item.type === activePublicationType) && (!publicationThemeNames[activePublicationTheme] || item.themes?.includes(activePublicationTheme)) && (!query || `${item.title} ${item.authors} ${item.citation}`.toLowerCase().includes(query)));
   count.textContent = `${matches.length} ${publicationsAreItalian ? 'pubblicazioni' : 'publications'}`;
-  list.innerHTML = matches.slice(0, visiblePublications).map((item) => `<li><div class="apa-entry"><p class="apa-authors">${escapeHtml(apaAuthors(item.authors))} (${item.year || 'n.d.'}).</p><h3><a href="${item.url}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a>${item.open_access ? `<span class="oa">${publicationsAreItalian ? 'Accesso aperto' : 'Open access'}</span>` : ''}</h3><p class="apa-source">${publicationSourceHtml(item)}</p></div></li>`).join('') || `<li class="loading">${publicationsAreItalian ? 'Nessun risultato.' : 'No results.'}</li>`;
+  list.innerHTML = matches.slice(0, visiblePublications).map((item) => `<li><div class="apa-entry"><p class="apa-authors">${escapeHtml(apaAuthors(item.authors))} (${item.status === 'in_press' ? (publicationsAreItalian ? 'In stampa' : 'In press') : (item.year || 'n.d.')}).</p><h3><a href="${item.url}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a>${item.open_access ? `<span class="oa">${publicationsAreItalian ? 'Accesso aperto' : 'Open access'}</span>` : ''}</h3><p class="apa-source">${publicationSourceHtml(item)}</p></div></li>`).join('') || `<li class="loading">${publicationsAreItalian ? 'Nessun risultato.' : 'No results.'}</li>`;
   more.hidden = visiblePublications >= matches.length;
 }
 fetch(publicationsDataUrl, { cache: 'no-store' }).then((response) => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); }).then((data) => { publications = data.publications; [...new Set(publications.map((item) => item.year).filter(Boolean))].sort((a,b) => b-a).forEach((value) => year.add(new Option(value,value))); renderPublications(); }).catch(() => { list.innerHTML = `<li class="loading">${publicationsAreItalian ? 'Archivio delle pubblicazioni non disponibile.' : 'Publication archive unavailable.'}</li>`; more.hidden = true; });

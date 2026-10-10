@@ -352,6 +352,13 @@ def write_archives(publications, preserve_resources=False):
     publications = preserve_curated_metadata(publications, OUTPUT, "publications")
     publications = add_initial_themes(publications)
 
+    # Keep manually curated contributions until the institutional archive includes them.
+    manual_path = OUTPUT.with_name("publications-manual.json")
+    if manual_path.exists():
+        manual = json.loads(manual_path.read_text(encoding="utf-8"))["publications"]
+        existing_titles = {item["title"].casefold() for item in publications}
+        publications = [item for item in manual if item["title"].casefold() not in existing_titles] + publications
+
     iris_resources = [item for item in publications if item["type"] == "resources"]
     scholarly_publications = [item for item in publications if item["type"] != "resources"]
 
