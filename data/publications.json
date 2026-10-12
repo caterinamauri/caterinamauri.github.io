@@ -71,6 +71,7 @@
       ],
       "container_title": "Other: Ambiguity, Constraints, and Change",
       "publisher": "BRILL",
+      "publisher_place": "",
       "themes": [
         "typology",
         "categories",
@@ -154,8 +155,8 @@
       "title": "Temporal, aspectual, and modal evaluation in nominal reference: the case of Italian",
       "authors": "Mauri, Caterina; Pannitto, Ludovica",
       "year": 2026,
-      "citation": "Mauri, Caterina; Pannitto, Ludovica, Temporal, aspectual, and modal evaluation in nominal reference: the case of Italian, «FOLIA LINGUISTICA», 2026, 60(2), pp. 973 - 1003 [Scientific article]Open Access",
-      "pages": "973-1003",
+      "citation": "Mauri, Caterina; Pannitto, Ludovica, Temporal, aspectual, and modal evaluation in nominal reference: the case of Italian, «FOLIA LINGUISTICA», 2026, Ahead of Print, pp. 1 - 31 [Scientific article]Open Access",
+      "pages": "1-31",
       "url": "https://doi.org/10.1515/flin-2025-0142",
       "open_access": true,
       "type": "articles",
@@ -260,25 +261,6 @@
       ]
     },
     {
-      "title": "‘Or’ cycles",
-      "authors": "Ariel, Mira; Mauri, Caterina",
-      "year": 2025,
-      "citation": "Ariel, Mira; Mauri, Caterina, ‘Or’ cycles, in: Cyclic Change in Grammar and Discourse, Oxford, Oxford University Press, 2025, pp. 220 - 246 (OXFORD STUDIES IN DIACHRONIC AND HISTORICAL LINGUISTICS) [Chapter or essay]Open Access",
-      "pages": "220-246",
-      "url": "https://doi.org/10.1093/9780198940661.003.0010",
-      "open_access": true,
-      "type": "chapters",
-      "link_type": "doi",
-      "editors": [],
-      "container_title": "Cyclic Change in Grammar and Discourse",
-      "publisher": "Oxford University PressOxford",
-      "publisher_place": "",
-      "themes": [
-        "interaction",
-        "typology"
-      ]
-    },
-    {
       "title": "Presentazione",
       "authors": "Ballarè, Silvia; Mauri, Caterina",
       "year": 2025,
@@ -344,6 +326,25 @@
       "editors": [],
       "container_title": "Expanding the Boundaries of Epistemicity",
       "publisher": "De Gruyter",
+      "publisher_place": "",
+      "themes": [
+        "interaction",
+        "typology"
+      ]
+    },
+    {
+      "title": "‘Or’ cycles",
+      "authors": "Ariel, Mira; Mauri, Caterina",
+      "year": 2025,
+      "citation": "Ariel, Mira; Mauri, Caterina, ‘Or’ cycles, in: Cyclic Change in Grammar and Discourse, Oxford, Oxford University Press, 2025, pp. 220 - 246 (OXFORD STUDIES IN DIACHRONIC AND HISTORICAL LINGUISTICS) [Chapter or essay]Open Access",
+      "pages": "220-246",
+      "url": "https://doi.org/10.1093/9780198940661.003.0010",
+      "open_access": true,
+      "type": "chapters",
+      "link_type": "doi",
+      "editors": [],
+      "container_title": "Cyclic Change in Grammar and Discourse",
+      "publisher": "Oxford University PressOxford",
       "publisher_place": "",
       "themes": [
         "interaction",
@@ -448,21 +449,6 @@
       ]
     },
     {
-      "title": "Diversità e inclusione. Quando le parole sono importanti",
-      "authors": "Fusari, Sabrina; Ivancic, Barbara; Mauri, Caterina",
-      "year": 2022,
-      "citation": "Fusari, Sabrina; Ivancic, Barbara; Mauri, Caterina (a cura di): Elvira Mujcic, Giovanni Labriola, Caterina Mauri, Francesca Masini, Claudia Borghetti, Marianna Bolognesi, Ines Peta, Nahid Norozi, Jane Helen Johnson, Mariangela Picciuolo, Serena Baiesi, Marco Prandoni, Silvia Albertazzi, Lorenzo Mari, Michele Morselli, Carlotta Farese, Gilberta Golinelli, Claudia Roberta Combei, Antonella Luporini, Ana Pano Alaman, Monica Turci, Rita Monticelli, Paola Scrolavezza, Eva-Maria Thüne, Roberto Vecchi, Alessandro Zironi, Diversità e inclusione. Quando le parole sono importanti, Milano, Meltemi Press srl, 2022, pp. 260 . [Editorship]",
-      "pages": "260",
-      "url": "https://www.meltemieditore.it/catalogo/diversita-e-inclusione/",
-      "open_access": false,
-      "type": "edited",
-      "link_type": "official_publication",
-      "themes": [
-        "typology",
-        "categories"
-      ]
-    },
-    {
       "title": "Diversity, discourse, diachrony: A converging evidence methodology for grammar emergence",
       "authors": "Mauri Caterina; Masini Francesca",
       "year": 2022,
@@ -482,6 +468,21 @@
         "interaction",
         "typology",
         "data"
+      ]
+    },
+    {
+      "title": "Diversità e inclusione. Quando le parole sono importanti",
+      "authors": "Fusari, Sabrina; Ivancic, Barbara; Mauri, Caterina",
+      "year": 2022,
+      "citation": "Fusari, Sabrina; Ivancic, Barbara; Mauri, Caterina (a cura di): Elvira Mujcic, Giovanni Labriola, Caterina Mauri, Francesca Masini, Claudia Borghetti, Marianna Bolognesi, Ines Peta, Nahid Norozi, Jane Helen Johnson, Mariangela Picciuolo, Serena Baiesi, Marco Prandoni, Silvia Albertazzi, Lorenzo Mari, Michele Morselli, Carlotta Farese, Gilberta Golinelli, Claudia Roberta Combei, Antonella Luporini, Ana Pano Alaman, Monica Turci, Rita Monticelli, Paola Scrolavezza, Eva-Maria Thüne, Roberto Vecchi, Alessandro Zironi, Diversità e inclusione. Quando le parole sono importanti, Milano, Meltemi Press srl, 2022, pp. 260 . [Editorship]",
+      "pages": "260",
+      "url": "https://www.meltemieditore.it/catalogo/diversita-e-inclusione/",
+      "open_access": false,
+      "type": "edited",
+      "link_type": "official_publication",
+      "themes": [
+        "typology",
+        "categories"
       ]
     },
     {
