@@ -209,21 +209,19 @@
     },
     {
       "title": "Il progetto DiverSIta. Documentare la diversità nell’italiano parlato",
-      "authors": "Mauri, Caterina; Zucchini, Eleonora; Goria, Eugenio; Bernasconi, Beatrice",
+      "authors": "Mauri, Caterina; Goria, Eugenio; Bernasconi, Beatrice; Zucchini, Eleonora",
       "year": 2025,
-      "citation": "Mauri, Caterina; Zucchini, Eleonora; Goria, Eugenio; Bernasconi, Beatrice, Il progetto DiverSIta. Documentare la diversità nell’italiano parlato, in: CLUB Working Papers in Linguistics, VOL 9, Bologna, CLUB – CIRCOLO LINGUISTICO DELL’UNIVERSITÀ DI BOLOGNA, 2025, pp. 147 - 156 [Chapter or essay]",
+      "citation": "Mauri, Caterina; Goria, Eugenio; Bernasconi, Beatrice; Zucchini, Eleonora, Il progetto DiverSIta. Documentare la diversità nell’italiano parlato, in: CLUB Working Papers in Linguistics - Volume 9, Bologna, CLUB – CIRCOLO LINGUISTICO DELL’UNIVERSITÀ DI BOLOGNA, 2025, pp. 147 - 156 (CLUB WORKING PAPERS IN LINGUISTICS) [Chapter or essay]Open Access",
       "pages": "147-156",
       "url": "https://doi.org/10.6092/unibo/amsacta/8647",
-      "open_access": false,
+      "open_access": true,
       "type": "chapters",
       "link_type": "doi",
       "editors": [
         "Silvia Ballarè",
         "Caterina Mauri"
       ],
-      "container_title": "",
       "publisher": "CLUB – Circolo Linguistico dell'Università di Bologna",
-      "publisher_place": "",
       "themes": [
         "interaction",
         "data"
@@ -258,25 +256,6 @@
         "interaction",
         "typology",
         "data"
-      ]
-    },
-    {
-      "title": "‘Or’ cycles",
-      "authors": "Ariel, Mira; Mauri, Caterina",
-      "year": 2025,
-      "citation": "Ariel, Mira; Mauri, Caterina, ‘Or’ cycles, in: Cyclic Change in Grammar and Discourse, Oxford, Oxford University Press, 2025, pp. 220 - 246 (OXFORD STUDIES IN DIACHRONIC AND HISTORICAL LINGUISTICS) [Chapter or essay]Open Access",
-      "pages": "220-246",
-      "url": "https://doi.org/10.1093/9780198940661.003.0010",
-      "open_access": true,
-      "type": "chapters",
-      "link_type": "doi",
-      "editors": [],
-      "container_title": "Cyclic Change in Grammar and Discourse",
-      "publisher": "Oxford University PressOxford",
-      "publisher_place": "",
-      "themes": [
-        "interaction",
-        "typology"
       ]
     },
     {
@@ -345,6 +324,25 @@
       "editors": [],
       "container_title": "Expanding the Boundaries of Epistemicity",
       "publisher": "De Gruyter",
+      "publisher_place": "",
+      "themes": [
+        "interaction",
+        "typology"
+      ]
+    },
+    {
+      "title": "‘Or’ cycles",
+      "authors": "Ariel, Mira; Mauri, Caterina",
+      "year": 2025,
+      "citation": "Ariel, Mira; Mauri, Caterina, ‘Or’ cycles, in: Cyclic Change in Grammar and Discourse, Oxford, Oxford University Press, 2025, pp. 220 - 246 (OXFORD STUDIES IN DIACHRONIC AND HISTORICAL LINGUISTICS) [Chapter or essay]Open Access",
+      "pages": "220-246",
+      "url": "https://doi.org/10.1093/9780198940661.003.0010",
+      "open_access": true,
+      "type": "chapters",
+      "link_type": "doi",
+      "editors": [],
+      "container_title": "Cyclic Change in Grammar and Discourse",
+      "publisher": "Oxford University PressOxford",
       "publisher_place": "",
       "themes": [
         "interaction",
@@ -449,21 +447,6 @@
       ]
     },
     {
-      "title": "Diversità e inclusione. Quando le parole sono importanti",
-      "authors": "Fusari, Sabrina; Ivancic, Barbara; Mauri, Caterina",
-      "year": 2022,
-      "citation": "Fusari, Sabrina; Ivancic, Barbara; Mauri, Caterina (a cura di): Elvira Mujcic, Giovanni Labriola, Caterina Mauri, Francesca Masini, Claudia Borghetti, Marianna Bolognesi, Ines Peta, Nahid Norozi, Jane Helen Johnson, Mariangela Picciuolo, Serena Baiesi, Marco Prandoni, Silvia Albertazzi, Lorenzo Mari, Michele Morselli, Carlotta Farese, Gilberta Golinelli, Claudia Roberta Combei, Antonella Luporini, Ana Pano Alaman, Monica Turci, Rita Monticelli, Paola Scrolavezza, Eva-Maria Thüne, Roberto Vecchi, Alessandro Zironi, Diversità e inclusione. Quando le parole sono importanti, Milano, Meltemi Press srl, 2022, pp. 260 . [Editorship]",
-      "pages": "260",
-      "url": "https://www.meltemieditore.it/catalogo/diversita-e-inclusione/",
-      "open_access": false,
-      "type": "edited",
-      "link_type": "official_publication",
-      "themes": [
-        "typology",
-        "categories"
-      ]
-    },
-    {
       "title": "Diversity, discourse, diachrony: A converging evidence methodology for grammar emergence",
       "authors": "Mauri Caterina; Masini Francesca",
       "year": 2022,
@@ -483,6 +466,21 @@
         "interaction",
         "typology",
         "data"
+      ]
+    },
+    {
+      "title": "Diversità e inclusione. Quando le parole sono importanti",
+      "authors": "Fusari, Sabrina; Ivancic, Barbara; Mauri, Caterina",
+      "year": 2022,
+      "citation": "Fusari, Sabrina; Ivancic, Barbara; Mauri, Caterina (a cura di): Elvira Mujcic, Giovanni Labriola, Caterina Mauri, Francesca Masini, Claudia Borghetti, Marianna Bolognesi, Ines Peta, Nahid Norozi, Jane Helen Johnson, Mariangela Picciuolo, Serena Baiesi, Marco Prandoni, Silvia Albertazzi, Lorenzo Mari, Michele Morselli, Carlotta Farese, Gilberta Golinelli, Claudia Roberta Combei, Antonella Luporini, Ana Pano Alaman, Monica Turci, Rita Monticelli, Paola Scrolavezza, Eva-Maria Thüne, Roberto Vecchi, Alessandro Zironi, Diversità e inclusione. Quando le parole sono importanti, Milano, Meltemi Press srl, 2022, pp. 260 . [Editorship]",
+      "pages": "260",
+      "url": "https://www.meltemieditore.it/catalogo/diversita-e-inclusione/",
+      "open_access": false,
+      "type": "edited",
+      "link_type": "official_publication",
+      "themes": [
+        "typology",
+        "categories"
       ]
     },
     {
@@ -1597,20 +1595,6 @@
       ]
     },
     {
-      "title": "recensione di M. Haspelmath (ed.), Coordinating Constructions, Amsterdam, Philadeplhia: John Benjamins (2004)",
-      "authors": "Mauri Caterina",
-      "year": 2004,
-      "citation": "Mauri Caterina, Review of: recensione di M. Haspelmath (ed.), Coordinating Constructions, Amsterdam, Philadeplhia: John Benjamins (2004), «ARCHIVIO GLOTTOLOGICO ITALIANO», 2008, XCIII, pp. 110 - 123 [Review]",
-      "pages": "110-123",
-      "url": "",
-      "open_access": false,
-      "type": "other",
-      "link_type": "citation_only",
-      "themes": [
-        "typology"
-      ]
-    },
-    {
       "title": "The irreality of alternatives: towards a typology of disjunction",
       "authors": "Mauri Caterina",
       "year": 2008,
@@ -1634,6 +1618,20 @@
       "url": "",
       "open_access": false,
       "type": "articles",
+      "link_type": "citation_only",
+      "themes": [
+        "typology"
+      ]
+    },
+    {
+      "title": "recensione di M. Haspelmath (ed.), Coordinating Constructions, Amsterdam, Philadeplhia: John Benjamins (2004)",
+      "authors": "Mauri Caterina",
+      "year": 2004,
+      "citation": "Mauri Caterina, Review of: recensione di M. Haspelmath (ed.), Coordinating Constructions, Amsterdam, Philadeplhia: John Benjamins (2004), «ARCHIVIO GLOTTOLOGICO ITALIANO», 2008, XCIII, pp. 110 - 123 [Review]",
+      "pages": "110-123",
+      "url": "",
+      "open_access": false,
+      "type": "other",
       "link_type": "citation_only",
       "themes": [
         "typology"
